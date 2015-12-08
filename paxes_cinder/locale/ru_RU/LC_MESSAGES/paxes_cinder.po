@@ -1,0 +1,3885 @@
+# Translations template for paxes_cinder.
+# Copyright (C) 2014 NCO Corp.
+# This file is distributed under the same license as the paxes_cinder
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: paxes_cinder 1.2.1.0\n"
+"Report-Msgid-Bugs-To: nguyen1d@us.ibm.com\n"
+"POT-Creation-Date: 2014-04-24 16:04-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: paxes_cinder/k2aclient/openstack/common/gettextutils.py:255
+msgid "Message objects do not support addition."
+msgstr "NV-C33F89C Для объектов сообщений не поддерживается добавление."
+
+#: paxes_cinder/k2aclient/openstack/common/gettextutils.py:264
+msgid ""
+"Message objects do not support str() because they may contain non-ascii "
+"characters. Please use unicode() or translate() instead."
+msgstr ""
+"NV-64408AE str() не поддерживается для объектов сообщений, так как они "
+"могут содержать символы не из набора ASCII. Используйте unicode() или "
+"translate()."
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:129
+#, python-format
+msgid "Got unknown keyword args to utils.execute: %r"
+msgstr ""
+"NV-36AD129 В utils.execute переданы неизвестные аргументы - ключевые "
+"слова: %r"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:144
+#, python-format
+msgid "Running cmd (subprocess): %s"
+msgstr "NV-9F83237 Выполнение команды (подпроцесс): %s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:169
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:241
+#, python-format
+msgid "Result was %s"
+msgstr "NV-E91D667 Результат: %s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:181
+#, python-format
+msgid "%r failed. Retrying."
+msgstr "NV-E62FA94 Сбой %r. Повтор."
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:220
+#, python-format
+msgid "Running cmd (SSH): %s"
+msgstr "NV-F226973 Выполнение команды (SSH): %s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:222
+msgid "Environment not supported over SSH"
+msgstr "NV-5D0CD8B Среда не поддерживается поверх SSH"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:226
+msgid "process_input not supported over SSH"
+msgstr "NV-E78B011 process_input не поддерживается поверх SSH"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:512
+#, python-format
+msgid "DB error: %s"
+msgstr "NV-B907287 Ошибка базы данных: %s"
+
+#: paxes_cinder/k2aclient/shell.py:100
+msgid "Print debugging output"
+msgstr "Печать вывода отладки"
+
+#: paxes_cinder/api/plugins/__init__.py:31
+#, python-format
+msgid "Failed to load extension %(name)s: %(ex)s"
+msgstr "NV-E1E174C Не удалось загрузить расширение %(name)s: %(ex)s"
+
+#: paxes_cinder/volume/manager.py:1275
+#, python-format
+msgid "Driver %s does not implement Discover Driver"
+msgstr "NV-DA200A2 Драйвер %s не реализует Discover Driver"
+
+#: paxes_cinder/exception.py:16
+#, python-format
+msgid "Connection control failure: %(reason)s"
+msgstr "NV-BFC4353 Сбой управления соединением: %(reason)s"
+
+#: paxes_cinder/exception.py:20
+#, python-format
+msgid "Zone operation failed: %(reason)s"
+msgstr "NV-A619680 Операция с областью не выполнена: %(reason)s"
+
+#: paxes_cinder/exception.py:24
+#, python-format
+msgid "FC SAN Lookup failure: %(reason)s"
+msgstr "NV-1316051 Сбой преобразования FC SAN: %(reason)s"
+
+#: paxes_cinder/exception.py:32
+#, python-format
+msgid "Internal Misconfiguration detected: %(reason)s"
+msgstr "NV-C9F5A2A Обнаружена внутренняя ошибка конфигурации: %(reason)s"
+
+#: paxes_cinder/exception.py:58
+#, python-format
+msgid "Fabric '%(display_name)s' (%(username)s@%(ip)s:%(port)s)"
+msgstr "NV-097D384 Сеть '%(display_name)s' (%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:93
+#, python-format
+msgid "%(descriptor)s: %(message)s"
+msgstr "NV-12DC37C %(descriptor)s: %(message)s"
+
+#: paxes_cinder/exception.py:142
+#, python-format
+msgid "%(problem)s: %(err)s"
+msgstr "NV-7FA8022 %(problem)s: %(err)s"
+
+#: paxes_cinder/exception.py:164
+msgid "Could not authenticate with the specified credentials"
+msgstr ""
+"NV-BB4FAEC Не удалось пройти идентификацию с указанными "
+"идентификационными данными"
+
+#: paxes_cinder/exception.py:174
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when attempting to connect"
+msgstr "NV-3AB9750 Тайм-аут (%(timeout)s с.) при попытке установить соединение"
+
+#: paxes_cinder/exception.py:184
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when executing command %(cmd)s"
+msgstr "NV-17277CD Тайм-аут (%(timeout)s с.) при выполнении команды %(cmd)s"
+
+#: paxes_cinder/exception.py:193
+#, python-format
+msgid "Could not connect: %(error)s %(detail)s"
+msgstr "NV-2251927 Не удалось установить соединение: %(error)s %(detail)s"
+
+#: paxes_cinder/exception.py:201
+#, python-format
+msgid ""
+"Another transaction was already in progress when attempting to execute "
+"command '%(cmd)s'"
+msgstr ""
+"NV-B3EE2A1 В момент запуска команды '%(cmd)s' уже выполнялась другая "
+"транзакция"
+
+#: paxes_cinder/exception.py:209
+#, python-format
+msgid ""
+"Zone DB exceeded size limits when executing command '%(cmd)s', which "
+"returned '%(res)s'"
+msgstr ""
+"NV-3D73335 При выполнении команды '%(cmd)s' превышено ограничение на "
+"размер БД области, код возврата: '%(res)s'"
+
+#: paxes_cinder/exception.py:218
+#, python-format
+msgid "The CLI command '%(cmd)s' returned an unexpected response '%(res)s'"
+msgstr "NV-6BC3B8F От команды CLI '%(cmd)s' получен непредвиденный ответ '%(res)s'"
+
+#: paxes_cinder/exception.py:240
+#, python-format
+msgid "Storage %(display_name)s (%(username)s@%(ip)s:%(port)s)"
+msgstr ""
+"NV-FD8FAF8 Устройство хранения %(display_name)s "
+"(%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:272
+msgid "No more host definitions can be created"
+msgstr "NV-FAE0982 Больше нельзя создать ни одно определение хоста"
+
+#: paxes_cinder/exception.py:281
+msgid "No more flashcopy mappings can be created"
+msgstr "NV-5071C44 Больше нельзя создать ни одну связь flashcopy"
+
+#: paxes_cinder/exception.py:289
+msgid "Could not connect, possibly due to too many connections."
+msgstr ""
+"NV-16C6099 Не удалось установить соединение. Возможно, число соединений "
+"слишком велико"
+
+#: paxes_cinder/exception.py:297
+#, python-format
+msgid ""
+"Could not map vdisk %(vdisk_id)s to host %(host)s because it is already "
+"mapped to another host"
+msgstr ""
+"NV-4B128AE Не удалось связать vdisk %(vdisk_id)s с хостом %(host)s, так "
+"как он уже связан с другим хостом"
+
+#: paxes_cinder/exception.py:312
+#, python-format
+msgid "vdisk %(vdisk_id)s does not exist"
+msgstr "NV-8AE54C7 vdisk %(vdisk_id)s не существует"
+
+#: paxes_cinder/exception.py:322
+msgid "No common fabrics between virtual machine and storage"
+msgstr ""
+"NV-E5685D0 Нет общих сетей между виртуальной машиной и устройством "
+"хранения"
+
+#: paxes_cinder/exception.py:339
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s has been deleted and recreated. Expected UID is "
+"%(expected_uid)s, current UID is %(current_uid)s"
+msgstr ""
+"NV-78057E1 vdisk %(vdisk_id)s был удален и создан заново. Ожидаемый UID "
+"равен %(expected_uid)s, текущий UID равен %(current_uid)s"
+
+#: paxes_cinder/exception.py:350
+#, python-format
+msgid ""
+"Not enough space left on storage host %(host)s to extend the volume "
+"%(volume_id)s"
+msgstr ""
+"NV-EA431AC На хосте устройства хранения %(host)s недостаточно памяти для "
+"расширения тома %(volume_id)s"
+
+#: paxes_cinder/exception.py:360
+msgid ""
+"Flashcopy is in progress for boot volume, volume size didn't change. "
+"Please try again later."
+msgstr ""
+"NV-461A839 Для загрузочного тома выполняется операция Flashcopy, размер "
+"тома не изменен. Повторите попытку позже."
+
+#: paxes_cinder/exception.py:367
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s is source of snapshot flashcopy and fcmap %(fcmapid)s "
+"cannot be removed."
+msgstr ""
+"NV-CB3AB35 vdisk %(vdisk_id)s является исходным диском в операции "
+"flashcopy моментальной копии, и fcmap %(fcmapid)s невозможно удалить."
+
+#: paxes_cinder/db/sqlalchemy/migrate_repo/versions/001_ibm_paxes_v1r2.py:35
+#, python-format
+msgid "Exception creating table %(table)s: %(ex_str)s"
+msgstr "Исключительная ситуация при создании таблицы %(table)s: %(ex_str)s"
+
+#: paxes_cinder/db/sqlalchemy/migrate_repo/versions/001_ibm_paxes_v1r2.py:55
+#, python-format
+msgid "Exception dropping table %(table)s: %(ex_str)s"
+msgstr "Исключительная ситуация при удалении таблицы %(table)s: %(ex_str)s"
+
+#: paxes_cinder/fabric/map_initiators.py:70
+msgid ""
+"Could not obtain a fabric manager client. Fibre Channel switch fabrics "
+"may not be registered."
+msgstr ""
+"NV-6EF68AC Не удалось получить клиента администратора сети. Невозможно "
+"зарегистрировать коммутируемые сети Fibre Channel."
+
+#: paxes_cinder/fabric/map_initiators.py:85
+#, python-format
+msgid ""
+"Unable to retrieve WWPN initiator information from one or more fabric "
+"switches. Error: %(ex_str)s"
+msgstr ""
+"Не удалось получить информацию об инициаторе WWPN от одного или "
+"нескольких коммутаторов сети. Ошибка: %(ex_str)s"
+
+#: paxes_cinder/fabric/map_initiators.py:119
+msgid "No fabrics registered."
+msgstr "NV-0AA1511 Не зарегистрирована ни одна сеть."
+
+#: paxes_cinder/fabric/map_initiators.py:124
+msgid "No fabric names registered."
+msgstr "NV-A4978F0 Не зарегистрировано ни одно имя сети."
+
+#: paxes_cinder/k2aclient/client.py:104
+msgid ", during get"
+msgstr "NV-C758794 , во время получения"
+
+#: paxes_cinder/k2aclient/client.py:127
+msgid ", during refresh"
+msgstr "NV-A09A06D , во время обновления"
+
+#: paxes_cinder/k2aclient/client.py:148
+#: paxes_cinder/k2aclient/client.py:172
+msgid ", during create"
+msgstr "NV-16332E7 , во время создания"
+
+#: paxes_cinder/k2aclient/client.py:193
+msgid ", during delete"
+msgstr "NV-B5BE602 , во время удаления"
+
+#: paxes_cinder/k2aclient/client.py:207
+msgid ", during runJob"
+msgstr "NV-9A12874 , во время runJob"
+
+#: paxes_cinder/k2aclient/client.py:219
+msgid ", during readJob"
+msgstr "NV-EA9B845 , во время readJob"
+
+#: paxes_cinder/k2aclient/client.py:234
+msgid ", during authenticate"
+msgstr "NV-DD96084 , во время идентификации"
+
+#: paxes_cinder/k2aclient/client.py:247
+#, python-format
+msgid ""
+"k2aclient: while obtaining client, invalid client version >%(version)s<. "
+"must be one of: >%(versions)s<"
+msgstr ""
+"k2aclient: при получении клиента обнаружена недопустимая версия клиента: "
+">%(version)s<. Допустимые значения: >%(versions)s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:46
+#: paxes_cinder/k2aclient/exceptions.py:307
+#, python-format
+msgid ", exception diagnostics have been written to: >%s<"
+msgstr ", данные диагностики исключительной ситуации сохранены в: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:56
+#, python-format
+msgid "Other Exception off of K2: >%s<"
+msgstr "NV-92A2EB5 Другая исключительная ситуация вне K2: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:58
+#: paxes_cinder/k2aclient/exceptions.py:78
+#: paxes_cinder/k2aclient/exceptions.py:88
+#: paxes_cinder/k2aclient/exceptions.py:105
+#, python-format
+msgid ", during: >%s<"
+msgstr ", во время: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:66
+#, python-format
+msgid "SSL exception off of K2: >%s<"
+msgstr "NV-852F651 Исключительная ситуация SSL вне K2: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:76
+#, python-format
+msgid "Connection exception off of K2: >%s<"
+msgstr "NV-DE65980 Исключительная ситуация соединения вне K2: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:86
+#, python-format
+msgid "Timeout exception off of K2: >%s<"
+msgstr "NV-DC27602 Исключительная ситуация тайм-аута вне K2: >%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:100
+#, python-format
+msgid "K2Error off of K2: >%(msg)s<, Status: >%(status)d<, k2Error: >%(k2error)s<"
+msgstr "K2Error вне K2: >%(msg)s<, код: >%(status)d<, k2Error: >%(k2error)s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:122
+msgid "Bad Request"
+msgstr "Неверный запрос"
+
+#: paxes_cinder/k2aclient/exceptions.py:130
+msgid "Unauthorized"
+msgstr "Несанкционированное"
+
+#: paxes_cinder/k2aclient/exceptions.py:144
+msgid "Forbidden"
+msgstr "Запрещенное"
+
+#: paxes_cinder/k2aclient/exceptions.py:158
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: paxes_cinder/k2aclient/exceptions.py:167
+msgid "Method Not Allowed"
+msgstr "Метод недопустим"
+
+#: paxes_cinder/k2aclient/exceptions.py:177
+msgid "Not Acceptable"
+msgstr "Недопустимое"
+
+#: paxes_cinder/k2aclient/exceptions.py:189
+msgid "Conflict"
+msgstr "Конфликт"
+
+#: paxes_cinder/k2aclient/exceptions.py:197
+msgid "PreCondition failed"
+msgstr "Не выполнено предварительное условие"
+
+#: paxes_cinder/k2aclient/exceptions.py:206
+msgid "Request Body Too Large"
+msgstr "Слишком большое тело запроса"
+
+#: paxes_cinder/k2aclient/exceptions.py:216
+msgid "Unsupported Media Type"
+msgstr "Неподдерживаемый тип носителя"
+
+#: paxes_cinder/k2aclient/exceptions.py:225
+msgid "Internal Server Error"
+msgstr "Внутренняя ошибка сервера"
+
+#: paxes_cinder/k2aclient/exceptions.py:235
+msgid "Not Implemented"
+msgstr "Не реализовано"
+
+#: paxes_cinder/k2aclient/exceptions.py:245
+msgid "Service Unavailable"
+msgstr "Служба недоступна"
+
+#: paxes_cinder/k2aclient/exceptions.py:255
+msgid "HTTP Version Not Supported"
+msgstr "Неподдерживаемая версия HTTP"
+
+#: paxes_cinder/k2aclient/exceptions.py:263
+msgid "Not Classified"
+msgstr "Не классифицировано"
+
+#: paxes_cinder/k2aclient/k2exclogger.py:114
+#, python-format
+msgid ""
+"k2aclient: during FFDC, cant create k2 exception log directory: >%s<, "
+"will disable k2 exception logging .."
+msgstr ""
+"NV-ED6E0F0 k2aclient: во время FFDC не удалось создать каталог протокола "
+"исключительных ситуаций k2: >%s<, ведение протокола исключительных "
+"ситуаций k2 будет выключено..."
+
+#: paxes_cinder/k2aclient/k2exclogger.py:123
+#, python-format
+msgid ""
+"k2aclient: during FFDC, cant write to k2 exception log directory: >%s<, "
+"will disable k2 exception logging .."
+msgstr ""
+"NV-6373107 k2aclient: во время FFDC не удалось записать данные в каталог "
+"протокола исключительных ситуаций k2: >%s<, ведение протокола "
+"исключительных ситуаций k2 будет выключено..."
+
+#: paxes_cinder/k2aclient/k2exclogger.py:146
+#, python-format
+msgid ""
+"k2aclient: during FFDC,  caught an exception while writing to log "
+"directory: >%s<, will disable k2 exception logging .."
+msgstr ""
+"NV-3376E54 k2aclient: во время FFDC обработана исключительная ситуация "
+"при записи данных в каталог протокола: >%s<, ведение протокола "
+"исключительных ситуаций k2 будет выключено..."
+
+#: paxes_cinder/k2aclient/shell.py:59
+#, python-format
+msgid ""
+"k2aclient: error: %(errmsg)s\n"
+"Try '%(mainp)s help %(subp)s' for more information.\n"
+msgstr ""
+"k2aclient: ошибка: %(errmsg)s\n"
+"Вызовите '%(mainp)s help %(subp)s' для получения дополнительной "
+"информации.\n"
+
+#: paxes_cinder/k2aclient/shell.py:80
+msgid "See \"k2a help COMMAND\" for help on a specific command."
+msgstr "Для просмотра справки по отдельной команде вызовите \"k2a help КОМАНДА\"."
+
+#: paxes_cinder/k2aclient/shell.py:106
+msgid "Accepts 1,defaults to env[K2A_API_VERSION]."
+msgstr "Допустимо значение 1, по умолчанию равно env[K2A_API_VERSION]."
+
+#: paxes_cinder/k2aclient/shell.py:109
+msgid "Number of retries when attempting k2 operations."
+msgstr "Число повторов операций k2."
+
+#: paxes_cinder/k2aclient/shell.py:119
+msgid "url for k2 hmc, defaults to env[K2_URL]."
+msgstr "url консоли HMC k2, по умолчанию равен env[K2_URL]."
+
+#: paxes_cinder/k2aclient/shell.py:125
+msgid "k2 username, defaults to env[K2_USERNAME]."
+msgstr "имя пользователя k2, по умолчанию равно env[K2_USERNAME]."
+
+#: paxes_cinder/k2aclient/shell.py:131
+msgid "k2 password, defaults to env[K2_PASSWORD]."
+msgstr "пароль k2, по умолчанию равен env[K2_PASSWORD]."
+
+#: paxes_cinder/k2aclient/shell.py:138
+msgid ""
+"k2 auditmemento, defaults to, if set, env[K2_AUDITMEMENTO], otherwise to "
+"\"k2a\"."
+msgstr ""
+"напоминание k2 для контроля, по умолчанию равно env[K2_AUDITMEMENTO], "
+"если это значение задано, или \"k2a\" в противном случае."
+
+#: paxes_cinder/k2aclient/shell.py:145
+msgid "k2 certpath, defaults to, if set, env[K2_CERTPATH], otherwise to None."
+msgstr ""
+"путь к сертификату k2, по умолчанию равно env[K2_CERTPATH], если это "
+"значение задано, или None в противном случае."
+
+#: paxes_cinder/k2aclient/shell.py:152
+msgid ""
+"log directory, defaults to, if set, env[K2A_LOGDIR], otherwise to None. "
+"None turnsoff file logging"
+msgstr ""
+"каталог протокола, по умолчанию равно env[K2A_LOGDIR], если это значение "
+"задано, или None в противном случае. Значение None выключает ведение "
+"протокола файлов"
+
+#: paxes_cinder/k2aclient/shell.py:171
+msgid ""
+"directory where k2aexc subdirectorywill be placedie \"<excdir>/k2aexc\", "
+"defaults to, if set, env[K2A_EXCDIR], otherwise to /tmp"
+msgstr ""
+"каталог для размещения подкаталога k2aexc, например \"<excdir>/k2aexc\", "
+"по умолчанию равен env[K2A_EXCDIR], если это значение задано, или /tmp в "
+"противном случае"
+
+#: paxes_cinder/k2aclient/shell.py:309
+msgid ""
+"k2aclient: you must provide a url for a k2 hmc via either --k2-url or "
+"env[K2_URL]"
+msgstr ""
+"NV-D20F7FC k2aclient: необходимо указать URL-адрес консоли HMC k2 с "
+"помощью --k2-url или env[K2_URL]"
+
+#: paxes_cinder/k2aclient/shell.py:315
+msgid ""
+"k2aclient: you must provide a k2 username via either --k2-username or "
+"env[K2_USERNAME]"
+msgstr ""
+"NV-996BCEC k2aclient: необходимо указать имя пользователя k2 с помощью "
+"--k2-username или env[K2_USERNAME]"
+
+#: paxes_cinder/k2aclient/shell.py:321
+msgid ""
+"k2aclient: you must provide a k2 password via either --k2-password or via"
+" env[K2_PASSWORD]"
+msgstr ""
+"NV-EB948AA k2aclient: необходимо задать пароль k2 с помощью --k2-password"
+" или env[K2_PASSWORD]"
+
+#: paxes_cinder/k2aclient/shell.py:355
+#, python-format
+msgid "Display help for %s"
+msgstr "Показать справку для %s"
+
+#: paxes_cinder/k2aclient/shell.py:364
+#, python-format
+msgid "k2aclient:>%s< is not a valid subcommand"
+msgstr "NV-DAC982A k2aclient: подкоманда >%s< недопустима"
+
+#: paxes_cinder/k2aclient/shell.py:384
+msgid "... terminating k2a client"
+msgstr "NV-56344DF ... завершение работы клиента k2a"
+
+#: paxes_cinder/k2aclient/shell.py:389
+#, python-format
+msgid "ERROR: type: >%(type)s<, msg: >%(e)s<"
+msgstr "NV-9BF8F90 ОШИБКА: тип: >%(type)s<, сообщение: >%(e)s<"
+
+#: paxes_cinder/k2aclient/utils.py:101
+#, python-format
+msgid "k2aclient: no %(res)s with a name or ID of '%(name_or_id)s' exists."
+msgstr ""
+"NV-63A28A2 k2aclient: не существует %(res)s с именем или ИД, равным "
+"'%(name_or_id)s'."
+
+#: paxes_cinder/k2aclient/utils.py:108
+#, python-format
+msgid ""
+"k2aclient: multiple %(res)s matches found for '%(name_or_id)s', use an ID"
+" to be more specific."
+msgstr ""
+"NV-9ACDF38 k2aclient: найдено несколько %(res)s, соответствующих "
+"'%(name_or_id)s', укажите ИД для более точного определения"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:144
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:138
+#, python-format
+msgid "during directory preparation, cant create directory:  >%s<"
+msgstr "NV-64A449C при подготовке каталогов не удалось создать каталог:  >%s<"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:150
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:144
+#, python-format
+msgid "during directory preparation, cant write to directory:  >%s<"
+msgstr "NV-C96CB61 при подготовке каталогов не удалось записать каталог:  >%s<"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:181
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_etag_test.py:44
+#: paxes_cinder/k2aclient/k2asample/tool_ssp_simulation.py:228
+#, python-format
+msgid "Node: >%s<, has no virtual_io_server, continuing ..."
+msgstr "NV-60D657D Узел >%s< не имеет virtual_io_server, продолжение..."
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:192
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_etag_test.py:55
+#: paxes_cinder/k2aclient/k2asample/tool_ssp_simulation.py:239
+#, python-format
+msgid "Failed to retrieve node: >%s<, msg: >%s<, continuing ..."
+msgstr "NV-0B99A4D Не удалось получить узел: >%s<, сообщение: >%s<, продолжение..."
+
+#: paxes_cinder/k2aclient/openstack/common/lockutils.py:276
+#, python-format
+msgid "Released file lock \"%(lock)s\" at %(path)s for method \"%(method)s\"..."
+msgstr ""
+"NV-F6B31F1 Блокировка \"%(lock)s\" в %(path)s снята для метода "
+"\"%(method)s\"..."
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:98
+#, python-format
+msgid ""
+"k2aclient: during lu_linked_clone_of_lu, source_lu_udid: "
+">%(source_lu_udid)s<, not in sharedstoragepool: >%(ssp.id)s<"
+msgstr ""
+"NV-69F0ACE k2aclient: во время lu_linked_clone_of_lu обнаружено, что "
+"source_lu_udid: >%(source_lu_udid)s< отсутствует в sharedstoragepool: "
+">%(ssp.id)s<"
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:221
+#, python-format
+msgid ""
+"k2aclient: for cluster id : >%(cluster.id)s<,  during lu_linked_clone, "
+"for SourceUDID: >%(sourceUDID)s<, and DestinationUDID: "
+">%(destinationUDID)s<, experienced job failure, job_id: "
+">%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient: для ИД кластера >%(cluster.id)s< во время выполнения "
+"lu_linked_clone для SourceUDID >%(sourceUDID)s< и DestinationUDID "
+">%(destinationUDID)s< возник сбой задания, ИД задания "
+">%(jresponse.job_id)s<, состояние >%(jresponse.status)s<, диагностика "
+"ввода задания K2 сохранена в >%(diagfspeci)s<, диагностика ответа задания"
+" k2 сохранена в >%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:335
+#, python-format
+msgid ""
+"k2aclient: for cluster id : >%(cluster.id)s<,  during lu_create, for "
+"lu_unit_name: >%(lu_unit_name)s<, with lu_unit_capacity: "
+">%(lu_unit_capacity)s<, experienced job failure, job_id: "
+">%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient: для ИД кластера >%(cluster.id)s< во время выполнения lu_create"
+" для lu_unit_name >%(lu_unit_name)s< с lu_unit_capacity "
+">%(lu_unit_capacity)s< возник сбой задания, ИД задания "
+">%(jresponse.job_id)s<, состояние >%(jresponse.status)s<, диагностика "
+"ввода задания K2 сохранена в >%(diagfspeci)s<, диагностика ответа задания"
+" k2 сохранена в >%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/logicalpartition_manager.py:126
+#: paxes_cinder/k2aclient/v1/logicalpartition_manager.py:191
+#, python-format
+msgid ""
+"k2aclient: during power_on, for LogicalPartition: "
+">%(logicalpartition.id)s<, failed to power on due to job failure, job_id:"
+" >%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient: во время выполнения power_on для LogicalPartition "
+">%(logicalpartition.id)s< не удалось выполнить включение из-за сбоя "
+"задания, ИД задания >%(jresponse.job_id)s<, состояние "
+">%(jresponse.status)s<, диагностика ввода задания K2 сохранена в "
+">%(diagfspeci)s<, диагностика ответа задания k2 сохранена в "
+">%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/managementconsole_manager.py:77
+#, python-format
+msgid ""
+"CLIRunner: ManagementConsole: >%(mc.id)s<, failed to run cmd: >%(cmd)s< "
+"due to job failure, job_id: >%(jresponse.job_id)s<, status: "
+">%(jresponse.status)s<, input K2 job diagnostics have been written to: "
+">%(diagfspeci)s<,  response k2 job diagnostics have been written to: "
+">%(diagfspec)s<"
+msgstr ""
+"CLIRunner: ManagementConsole: >%(mc.id)s<, не удалось выполнить команду "
+">%(cmd)s< из-за сбоя задания, ИД задания >%(jresponse.job_id)s<, "
+"состояние >%(jresponse.status)s<, диагностика ввода задания K2 сохранена "
+"в >%(diagfspeci)s<, диагностика ответа задания k2 сохранена в "
+">%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:108
+#, python-format
+msgid ""
+"SharedStoragePool: While attempting to access Cluster: >%s<, unable to "
+"connect to HMC: >%s<"
+msgstr ""
+"SharedStoragePool: при попытке получить доступ к кластеру >%s< не удалось"
+" установить соединение с HMC: >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:110
+msgid "Check the HMC and its configuration."
+msgstr "Проверьте состояние консоли HMC и ее конфигурацию."
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:111
+#, python-format
+msgid "SharedStoragePool: Able to connect to HMC: >%s< for Cluster: >%s<"
+msgstr "SharedStoragePool: установлено соединение с HMC >%s< для кластера >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:113
+#, python-format
+msgid "SharedStoragePool: Couldn't access Cluster: >%s<"
+msgstr "SharedStoragePool: не удалось получить доступ к кластеру >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:114
+msgid "Check the PowerVC SharedStoragePool configuration"
+msgstr "Проверьте конфигурацию SharedStoragePool в PowerVC"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:115
+#, python-format
+msgid "SharedStoragePool: Couldn't access SharedStoragePool in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: не удалось получить доступ к SharedStoragePool в "
+"кластере >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:117
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:122
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:127
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:133
+msgid "Diagnose and repair Cluster"
+msgstr "Диагностируйте неполадку кластера и устраните ее"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:118
+#, python-format
+msgid ""
+"SharedStoragePool: Successfully accessed SharedStoragePool in Cluster: "
+">%s<"
+msgstr ""
+"SharedStoragePool: успешно получен доступ к SharedStoragePool в кластере "
+">%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:120
+#, python-format
+msgid "SharedStoragePool: Unable to create LogicalUnits in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: не удалось создать логические накопители в кластере "
+">%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:123
+#, python-format
+msgid "SharedStoragePool: LogicalUnit creation functional in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: создание логического накопителя работает в кластере "
+">%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:125
+#, python-format
+msgid "SharedStoragePool: Unable to clone LogicalUnits in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: не удалось дублировать логические накопители в "
+"кластере >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:128
+#, python-format
+msgid ""
+"SharedStoragePool: Unable to clone LogicalUnits in Cluster: >%s<, status:"
+" >%s<"
+msgstr ""
+"SharedStoragePool: не удалось дублировать логические накопители в "
+"кластере >%s<, код ошибки: >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:130
+#, python-format
+msgid "Clone functional in Cluster: >%s<"
+msgstr "Дублирование работает в кластере >%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:131
+#, python-format
+msgid "SharedStoragePool: Unable to delete LogicalUnits in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: не удалось удалить логические накопители в кластере "
+">%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:134
+#, python-format
+msgid "SharedStoragePool: LogicalUnit deletion functional in Cluster: >%s<"
+msgstr ""
+"SharedStoragePool: удаление логических накопителей работает в кластере "
+">%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:136
+msgid "SharedStoragePool: Not Attempted"
+msgstr "SharedStoragePool: не опробовано"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:143
+msgid "HMC connectivity"
+msgstr "Связь с HMC"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:144
+msgid "Test connection to an HMC managing the SharedStoragePool"
+msgstr "Проверить соединение с консолью HMC, управляющей работой SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:147
+msgid "Cluster and SharedStoragePool accessibility"
+msgstr "Доступность кластера и SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:148
+msgid "Test the accessibility of a SharedStoragePool"
+msgstr "Проверить доступность SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:151
+msgid "Create SharedStoragePool LogicalUnits"
+msgstr "Создать логические накопители в SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:152
+msgid "Test the capability to create SharedStoragePool LogicalUnits"
+msgstr "Проверить возможность создания логических накопителей в SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:155
+msgid "Clone LogicalUnits"
+msgstr "Дублировать логические накопители"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:156
+msgid "Test the capability to perform a clone"
+msgstr "Проверить возможность дублирования"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:159
+msgid "Delete SharedStoragePool LogicalUnits"
+msgstr "Удалить логические накопители в SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:160
+msgid "Test the capability to delete SharedStoragePool LogicalUnits"
+msgstr "Проверить возможность удаления логических накопителей в SharedStoragePool"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:112
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cannot update K2 object(s) obtained"
+" from a list operation, for ssp: >%s<"
+msgstr ""
+"NV-CEE080E k2aclient: во время updated_append_lus не удалось обновить "
+"объекты K2, полученные в операции просмотра, для ssp >%s<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:158
+#, python-format
+msgid "k2aclient: during updated_append_lus, wrong length of lu input tuple: >%d<"
+msgstr ""
+"NV-B8F5AF7 k2aclient: во время updated_append_lus обнаружена неверная "
+"длина входного кортежа lu: >%d<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:192
+#, python-format
+msgid ""
+"k2aclient:  during updated_append_lus, request to add LU unit_name: >%s< "
+"failed, name must be unique"
+msgstr ""
+"NV-F6B87FC k2aclient:  во время updated_append_lus не удалось выполнить "
+"запрос на добавление LU unit_name: >%s<, имя должно быть уникальным"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:224
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, while adding LUs named: "
+">%(lunames)s<,  # attempts due to HTTP 412 exceeded: "
+">%(self.api.retries)d<"
+msgstr ""
+"NV-01A9381 k2aclient: во время updated_append_lus при добавлении LU с "
+"именами: >%(lunames)s< было превышено число попыток из-за HTTP 412: "
+">%(self.api.retries)d<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:260
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cant handle K2 response, K2 "
+"reported successful creation of >%(lenlus)d<  lus named: >%(lunames)s<,  "
+"attempts: >%(attempts)d<  but only >%(lustoadd)d< LUs were found."
+msgstr ""
+"k2aclient: во время выполнения updated_append_lus не удалось обработать "
+"ответ K2, K2 сообщил об успешном создании >%(lenlus)d< логических "
+"накопителей с именами: >%(lunames)s< - за следующее число попыток: "
+">%(attempts)d<, однако найдено только >%(lustoadd)d< логических "
+"накопителей."
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:276
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cant handle K2 response, K2 "
+"reported successful creation of >%(lenlus)d< lus named: >%(lunames)s<, "
+"attempts: >%(attempts)d< but >%(lustoadd)d< extra LUs were returned."
+msgstr ""
+"k2aclient: во время updated_append_lus не удалось обработать ответ K2, K2"
+" сообщил об успешном создании >%(lenlus)d< логических накопителей с "
+"именами: >%(lunames)s< за следующее число попыток: >%(attempts)d<, однако"
+" было возвращено >%(lustoadd)d< лишних логических накопителей."
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:369
+#, python-format
+msgid ""
+"k2aclient: during update_append_lu, programming error, could not find "
+"lu_udid: >%(lu_udid)s<, in input ssp for: >%(pool)s<"
+msgstr ""
+"k2aclient: во время update_append_lu возникла ошибка в программе, не "
+"найден lu_udid: >%(lu_udid)s< во входном ssp для: >%(pool)s<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:390
+#, python-format
+msgid ""
+"k2aclient: during update_append_lu, while deleting LUs w/ udids: "
+">%(lu_udids)s<, # attempts due to HTTP 412 exceeded: >%(retries)d<"
+msgstr ""
+"NV-A3B2A22 k2aclient: во время выполнения update_append_lu при удалении "
+"логического накопителя с udid: >%(lu_udids)s< было превышено число "
+"попыток из-за ошибки HTTP 412: >%(retries)d<"
+
+#: paxes_cinder/k2aclient/v1/shell.py:55
+#, python-format
+msgid "k2aclient: during encoding unexpected type: >%s<"
+msgstr "NV-AA592CA k2aclient: неожиданный тип при кодировании: >%s<"
+
+#: paxes_cinder/k2aclient/v1/shell.py:205
+#: paxes_cinder/k2aclient/v1/shell.py:801
+#: paxes_cinder/k2aclient/v1/shell.py:812
+msgid "Id of the cluster."
+msgstr "ИД кластера."
+
+#: paxes_cinder/k2aclient/v1/shell.py:215
+msgid "UUID of the cluster containing the LUs."
+msgstr "UUID кластера, содержащего LU."
+
+#: paxes_cinder/k2aclient/v1/shell.py:218
+msgid "UDID of the source logicalunit."
+msgstr "UDID исходного логического накопителя."
+
+#: paxes_cinder/k2aclient/v1/shell.py:221
+msgid "UDID of the destination logicalunit."
+msgstr "UDID целевого логического накопителя."
+
+#: paxes_cinder/k2aclient/v1/shell.py:231
+msgid "Id of the managedsystem to list logicalpartitions"
+msgstr "ИД управляемой системы для просмотра списка логических разделов"
+
+#: paxes_cinder/k2aclient/v1/shell.py:246
+#: paxes_cinder/k2aclient/v1/shell.py:273
+#: paxes_cinder/k2aclient/v1/shell.py:295
+#: paxes_cinder/k2aclient/v1/shell.py:350
+#: paxes_cinder/k2aclient/v1/shell.py:486
+#: paxes_cinder/k2aclient/v1/shell.py:658
+#: paxes_cinder/k2aclient/v1/shell.py:674
+#: paxes_cinder/k2aclient/v1/shell.py:698
+#: paxes_cinder/k2aclient/v1/shell.py:714
+msgid "Id of the managedsystem."
+msgstr "ИД управляемой системы."
+
+#: paxes_cinder/k2aclient/v1/shell.py:249
+#: paxes_cinder/k2aclient/v1/shell.py:262
+#: paxes_cinder/k2aclient/v1/shell.py:617
+#: paxes_cinder/k2aclient/v1/shell.py:634
+msgid "Id of the logicalpartition."
+msgstr "ИД логического раздела."
+
+#: paxes_cinder/k2aclient/v1/shell.py:276
+msgid "UDIDs of the logicalpartition."
+msgstr "Значения UDID логического раздела."
+
+#: paxes_cinder/k2aclient/v1/shell.py:313
+#: paxes_cinder/k2aclient/v1/shell.py:324
+#: paxes_cinder/k2aclient/v1/shell.py:347
+msgid "Id of the managementconsole."
+msgstr "ИД консоли управления."
+
+#: paxes_cinder/k2aclient/v1/shell.py:327
+#: paxes_cinder/k2aclient/v1/shell.py:356
+msgid "Command to run."
+msgstr "Команда для выполнения."
+
+#: paxes_cinder/k2aclient/v1/shell.py:353
+msgid "UUID of the virtualioserver."
+msgstr "UUID сервера VIOS."
+
+#: paxes_cinder/k2aclient/v1/shell.py:394
+msgid "Id of the sharedstoragepool."
+msgstr "ИД общего пула памяти."
+
+#: paxes_cinder/k2aclient/v1/shell.py:405
+#: paxes_cinder/k2aclient/v1/shell.py:443
+#: paxes_cinder/k2aclient/v1/shell.py:456
+msgid "UUID of the sharedstoragepool."
+msgstr "UUID общего пула памяти."
+
+#: paxes_cinder/k2aclient/v1/shell.py:408
+msgid "Name of the new logicalunit."
+msgstr "Имя нового логического накопителя."
+
+#: paxes_cinder/k2aclient/v1/shell.py:411
+msgid "Capacity of the new logicalunit."
+msgstr "Емкость нового логического накопителя."
+
+#: paxes_cinder/k2aclient/v1/shell.py:414
+msgid "Optional flag to control whether the new logicalunit will be thick or thin"
+msgstr ""
+"Необязательный флаг, указывающий тип нового логического накопителя: с "
+"оперативным или неоперативным выделением ресурсов"
+
+#: paxes_cinder/k2aclient/v1/shell.py:419
+msgid "LogicalUnitType: VirtualIO_Disk | VirtualIO_Image"
+msgstr "LogicalUnitType: VirtualIO_Disk | VirtualIO_Image"
+
+#: paxes_cinder/k2aclient/v1/shell.py:423
+msgid "Optional udid of LU to clone from, new if omitted"
+msgstr ""
+"Необязательный udid исходного логического накопителя для дублирования, "
+"если не задано, то используется новый накопитель"
+
+#: paxes_cinder/k2aclient/v1/shell.py:446
+msgid "UDIDs of the logicalunit."
+msgstr "UDID логического накопителя."
+
+#: paxes_cinder/k2aclient/v1/shell.py:459
+msgid "Optional flag to control whether full details should be output"
+msgstr "Необязательный флаг, указывающий, следуют ли показать полные сведения"
+
+#: paxes_cinder/k2aclient/v1/shell.py:471
+msgid "Id of the managedsystem to list virtualioservers"
+msgstr "ИД управляемой системы для просмотра серверов VIOS"
+
+#: paxes_cinder/k2aclient/v1/shell.py:489
+#: paxes_cinder/k2aclient/v1/shell.py:513
+msgid "Id of the virtualioserver."
+msgstr "ИД сервера VIOS."
+
+#: paxes_cinder/k2aclient/v1/shell.py:493
+msgid ""
+"Optional extended attributes Valid values include: All, Advanced, "
+"Hypervisor, SystemNetwork, ViosStorage, ViosNetwork, ViosFCMapping, "
+"ViosSCSIMapping, and None May be used multiple times. \"All\" if omitted"
+msgstr ""
+"Необязательные расширенные атрибуты, допустимые значения: All, Advanced, "
+"Hypervisor, SystemNetwork, ViosStorage, ViosNetwork, ViosFCMapping, "
+"ViosSCSIMapping и None. Можно указывать по несколько раз. Если не задано,"
+" используется значение \"All\""
+
+#: paxes_cinder/k2aclient/v1/shell.py:608
+msgid "Id of the logicalpartition to list clientnetworkadapters"
+msgstr "ИД логического раздела для просмотра сетевых адаптеров клиента"
+
+#: paxes_cinder/k2aclient/v1/shell.py:620
+msgid "Id of the clientnetworkadapter."
+msgstr "ИД сетевого адаптера клиента."
+
+#: paxes_cinder/k2aclient/v1/shell.py:637
+msgid "UDIDs of the clientnetworkadapter."
+msgstr "UDID сетевого адаптера клиента."
+
+#: paxes_cinder/k2aclient/v1/shell.py:649
+msgid "Id of the managedsystem to list virtualnetworks"
+msgstr "ИД управляемой системы для просмотра виртуальных сетей"
+
+#: paxes_cinder/k2aclient/v1/shell.py:661
+msgid "Id of the virtualnetwork."
+msgstr "ИД виртуальной сети."
+
+#: paxes_cinder/k2aclient/v1/shell.py:677
+msgid "UDIDs of the virtualnetwork."
+msgstr "UDID виртуальной сети."
+
+#: paxes_cinder/k2aclient/v1/shell.py:689
+msgid "Id of the managedsystem to list virtualswitchs"
+msgstr "ИД управляемой системы для просмотра виртуальных коммутаторов"
+
+#: paxes_cinder/k2aclient/v1/shell.py:701
+msgid "Id of the virtualswitch."
+msgstr "ИД виртуального коммутатора."
+
+#: paxes_cinder/k2aclient/v1/shell.py:717
+msgid "UDIDs of the virtualswitch."
+msgstr "UDID виртуального коммутатора."
+
+#: paxes_cinder/k2aclient/v1/shell.py:740
+msgid "Id of the file."
+msgstr "ИД файла."
+
+#: paxes_cinder/k2aclient/v1/shell.py:750
+msgid "Ids of the files."
+msgstr "ИД файлов."
+
+#: paxes_cinder/k2aclient/v1/shell.py:761
+msgid "/rest/api/uom<uomresource>."
+msgstr "/rest/api/uom<ресурс-uom>."
+
+#: paxes_cinder/k2aclient/v1/shell.py:766
+msgid "Send output to file"
+msgstr "Отправить вывод в файл"
+
+#: paxes_cinder/k2aclient/v1/shell.py:782
+msgid "Read cinder ssp conf files and report on health"
+msgstr "Прочитать файлы конфигурации cinder ssp и сообщить о состоянии"
+
+#: paxes_cinder/k2aclient/v1/shell.py:815
+#: paxes_cinder/k2aclient/v1/shell.py:843
+msgid "VIOS password for all VIOS defaults to \"padmin\""
+msgstr "Пароль по умолчанию для всех VIOS - \"padmin\""
+
+#: paxes_cinder/k2aclient/v1/shell.py:820
+#: paxes_cinder/k2aclient/v1/shell.py:848
+msgid "Target directory for snapsdefaults to \"/tmp/vios-snap\""
+msgstr ""
+"Используется целевой каталог для моментальных копий по умолчанию - \"/tmp"
+"/vios-snap\""
+
+#: paxes_cinder/k2aclient/v1/shell.py:839
+msgid "list of vios ips expressed as jsoneg '[\"9.47.161.157\"]'"
+msgstr "список IP-адресов VIOS в формате JSON, пример: '[\"9.47.161.157\"]'"
+
+#: paxes_cinder/k2aclient/v1/v1k2creater.py:170
+#, python-format
+msgid "k2aclient: during process_root, unrecognized service: >%s<"
+msgstr ""
+"NV-1FC12D8 k2aclient: во время process_root обнаружена неизвестная "
+"служба: >%s<"
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:61
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, for type: >%(pcname)s<, k2 gave "
+"unknown attr: >%(us_tag)s<, is there a schema mismatch?, will skip ..."
+msgstr ""
+"NV-A18BFC5 k2aclient: во время десериализации k2 для типа >%(pcname)s< k2"
+" передал неизвестный атрибут >%(us_tag)s<, возможно несоответствие схеме,"
+" пропущено..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:77
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, for type: >%(pcname)s<, k2 attr: "
+">%(us_tag)s<: is listed as scalar, but maybe its not?, is there a schema "
+"mismatch?, will replace existing scalar w/ next value ..."
+msgstr ""
+"k2aclient: во время десериализации k2 для типа >%(pcname)s< обнаружен "
+"атрибут k2 >%(us_tag)s<: он задан как скалярный, но, возможно, не "
+"является таковым, возможно несоответствие схеме, существующее скалярное "
+"значение будет заменено на следующее значение..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:131
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, while processing: k2 type: "
+">%(parent_tag)s<, there is no definition for k2 type: >%(k2type)s<, is "
+"there a schema mismatch?, will skip ..."
+msgstr ""
+"k2aclient: во время десериализации k2 при обработке типа k2 "
+">%(parent_tag)s< не найдено определение типа k2 >%(k2type)s<, возможно "
+"несоответствие схеме, будет пропущено..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:190
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:199
+msgid "k2aclient:"
+msgstr "NV-E561712 k2aclient:"
+
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:280
+#, python-format
+msgid ""
+"k2aclient: during lua_recovery, for device_id: >%(device_id)s<, "
+"experienced job failure, job_id: >%(jresponse.job_id)s<, status: "
+">%(jresponse.status)s<, input K2 job diagnostics have been written to: "
+">%(diagfspeci)s<, response k2 job diagnostics have been written to: "
+">%(diagfspec)s<"
+msgstr ""
+"k2aclient: во время выполнения lua_recovery для ИД устройства "
+">%(device_id)s< возник сбой задания, ИД задания >%(jresponse.job_id)s<, "
+"состояние %(jresponse.status)s<, данные о диагностике ввода задания K2 "
+"сохранены в >%(diagfspeci)s<, данные о диагностике ответа задания k2 "
+"сохранены в >%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/web_file_manager.py:83
+msgid ""
+"k2aclient: during file upload, filename: >%(wf.filename)s<, id: "
+">%(wf.id)s<, file_uuid: >%(wf.file_uuid)s<, file_enum_type: "
+">%(wf.file_enum_type)s<"
+msgstr ""
+"k2aclient: во время передачи файла, имя файла: >%(wf.filename)s<, ИД: "
+">%(wf.id)s<, file_uuid: >%(wf.file_uuid)s<, file_enum_type: "
+">%(wf.file_enum_type)s<"
+
+#: paxes_cinder/k2aclient/v1/web_job_manager.py:65
+#, python-format
+msgid ""
+"k2aclient: during %(jobtype)s, retry job, job_id: >%(job_id)s<, status: "
+">%(status)s<,"
+msgstr ""
+"NV-FBECCFD k2aclient: во время %(jobtype)s повтор задания, ИД задания "
+">%(job_id)s<, состояние >%(status)s<,"
+
+#: paxes_cinder/k2aclient/v1/web_job_manager.py:77
+#, python-format
+msgid ""
+"k2aclient: during %(jobtype)s, too many retries, maximum number of "
+"retries: >%(maxretries)d<, job_id: >%(job_id)s<, status: >%(status)s<,"
+msgstr ""
+"k2aclient: во время %(jobtype)s слишком много повторов, максимальное "
+"число повторов >%(maxretries)d<, ИД задания >%(job_id)s<, состояние "
+">%(status)s<,"
+
+#: paxes_cinder/scheduler/host_manager.py:59
+#, python-format
+msgid "clean up host_state_map: %(host)shost"
+msgstr "NV-F9D1534 очистить host_state_map: %(host)shost"
+
+#: paxes_cinder/scheduler/sched_drv.py:56
+#, python-format
+msgid "volume request: requested size: %(size)s. "
+msgstr "запрос тома: запрошенный размер: %(size)s. "
+
+#: paxes_cinder/scheduler/sched_drv.py:62
+#, python-format
+msgid ""
+"{host: %(hostname)s, free_capacity: %(free_cap)s, total_capacity: "
+"%(total)s, reserved_percentage: %(reserved)s, last update: "
+"%(time_updated)s}"
+msgstr ""
+"{хост: %(hostname)s, свободно: %(free_cap)s, всего: %(total)s, "
+"зарезервировано: %(reserved)s, последнее обновление: %(time_updated)s}"
+
+#: paxes_cinder/scheduler/sched_drv.py:72
+msgid "request exceeds capacity: info"
+msgstr "NV-DBCC600 запрошенное значение превышает емкость: информация"
+
+#: paxes_cinder/scheduler/sched_drv.py:75
+msgid "No storage has been registered. "
+msgstr "NV-96E101B Не зарегистрировано ни одно устройство хранения. "
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:67
+msgid ""
+"Free capacity not set: Volume node is either still under initialization "
+"or the node info collection is broken."
+msgstr ""
+"NV-872554F Не задан объем свободной памяти: узел тома находится в "
+"процессе инициализации или произошел сбой при сборе информации на узле."
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:99
+msgid "missing default_volume_type"
+msgstr "NV-404930C отсутствует default_volume_type"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:106
+#, python-format
+msgid ""
+"missing valid rsize on                                 "
+"%(default)svolume_type: %(vol_type)s"
+msgstr ""
+"NV-B717E15 не задан допустимый rsize в                           "
+"%(default)svolume_type: %(vol_type)s"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:117
+#, python-format
+msgid ""
+"Insufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-5CC98A1 Недостаточно свободной памяти для создания тома "
+"(запрошено/свободно/rsize): %(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:124
+#, python-format
+msgid ""
+"Sufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-D0E32D8 Свободной памяти достаточно для создания тома "
+"(запрошено/свободно/rsize): %(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scohack/scohack_http.py:150
+#, python-format
+msgid "BadStoreUri: credentials '%(creds)s' not well-formatted."
+msgstr ""
+"NV-5991AD7 BadStoreUri: идентификационные данные '%(creds)s' имеют "
+"неверный формат"
+
+#: paxes_cinder/scohack/scohack_http.py:160
+msgid "BadStoreUri: no address specified in HTTP URL"
+msgstr "NV-2A5D3E2 BadStoreUri: в HTTP URL не задан адрес"
+
+#: paxes_cinder/scohack/scohack_http.py:295
+#, python-format
+msgid "MaxRedirectsExceeded: redirects: >%(max)d<"
+msgstr "NV-30617DF MaxRedirectsExceeded: число перенаправлений: >%(max)d<"
+
+#: paxes_cinder/scohack/scohack_http.py:308
+#, python-format
+msgid "HTTP URL returned a %(status)s status code."
+msgstr "HTTP URL вернул код ошибки %(status)s."
+
+#: paxes_cinder/scohack/scohack_http.py:310
+#: paxes_cinder/scohack/scohack_http.py:322
+#, python-format
+msgid "BadStoreUri: loc.path: >%(path)s<, reason: >%(reason)s<"
+msgstr "NV-0E3AB46 BadStoreUri: путь: >%(path)s<, причина: >%(reason)s<"
+
+#: paxes_cinder/scohack/scohack_location.py:50
+#, python-format
+msgid "exception.UnknownScheme: scheme: >%(scheme)s<"
+msgstr "NV-B8DA628 exception.UnknownScheme: схема: >%(scheme)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:77
+msgid "URI must start with scohack://"
+msgstr "NV-DF4522D URI должен начинаться с scohack://"
+
+#: paxes_cinder/scohack/scohack_scohack.py:79
+#, python-format
+msgid "BadStore: uri: >%(uri)s<, reason: >%(reason)s<"
+msgstr "NV-7D2A4E2 BadStore: uri: >%(uri)s<, причина: >%(reason)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:93
+#, python-format
+msgid "x-scg-vios-id: >%(id)s< not of form 'ttttmmm_sssssssnnn'"
+msgstr ""
+"NV-9CCE26B x-scg-vios-id: >%(id)s< имеет формат, отличный от "
+"'ttttmmm_sssssssnnn'"
+
+#: paxes_cinder/scohack/scohack_scohack.py:106
+#, python-format
+msgid "scohack: x-scg-vios-id: cant list ManagedSystem: >%(ex)s<"
+msgstr ""
+"NV-405AA27 scohack: x-scg-vios-id: не удалось показать управляемую "
+"систему: >%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:121
+#, python-format
+msgid "scohack: x-scg-vios-id: cant find ManagedSystem for: >%(id)s<"
+msgstr ""
+"NV-708F8BE scohack: x-scg-vios-id: не найдена управляемая система для "
+">%(id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:129
+#, python-format
+msgid "scohack: x-scg-vios-id: cant list VirtualIoServer: >%(ex)s<"
+msgstr ""
+"NV-2D6AE0A scohack: x-scg-vios-id: не удалось показать сервер VIOS: "
+">%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:139
+#, python-format
+msgid "scohack: x-scg-vios-id: cant find VirtualIOServer for: >%(id)s<"
+msgstr "NV-081426D scohack: x-scg-vios-id: не найден сервер VIOS для >%(id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:162
+msgid "scohack: cant list vios"
+msgstr "NV-D40CA86 scohack: не удалось показать VIOS"
+
+#: paxes_cinder/scohack/scohack_scohack.py:168
+msgid "scohack: no vios found"
+msgstr "NV-ABFCCCD scohack: VIOS не найден"
+
+#: paxes_cinder/scohack/scohack_scohack.py:177
+#, python-format
+msgid "scohack: cant list vios for ms: >%(id)s<"
+msgstr ""
+"NV-D6ED6BF scohack: не удалось показать VIOS для управляемой системы "
+">%(id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:184
+#, python-format
+msgid "scohack: no vios found for ms: >%(id)s<"
+msgstr "NV-0FD0B8A scohack: не найден VIOS для управляемой системы >%(id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:195
+#, python-format
+msgid "scohack: for ms: >%(mid)s<, cant find vios: >%(vid)s<"
+msgstr ""
+"NV-AD83B35 scohack: для управляемой системы >%(mid)s< не найден VIOS "
+">%(vid)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:204
+#, python-format
+msgid "scohack: cant find vios: >%(vid)s<"
+msgstr "NV-3704F44 scohack: не найден VIOS >%(vid)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:328
+#, python-format
+msgid ""
+"scohack: only single hmc is supported: prev: >%(prev_id)s<, new: "
+">%(new_id)s<"
+msgstr ""
+"NV-185C13E scohack: поддерживается только одна консоль hmc: старая: "
+">%(prev_id)s<, новая: >%(new_id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:339
+#, python-format
+msgid "scohack: no HMC for id: >%(id)s<"
+msgstr "NV-628D2F6 scohack: нет HMC с ИД >%(id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:352
+#, python-format
+msgid ""
+"scohack: managemenconsole: >%(mc)s< could not be retrieved, hdisks will "
+"not be cleaned up, msg: >%(msg)s<"
+msgstr ""
+"scohack: не удалось получить консоль управления >%(mc)s<, очистка hdisk "
+"не будет выполнена, сообщение: >%(msg)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:383
+#, python-format
+msgid "scohack: vios: >%(vios)s<, volume: >%(vol)s<"
+msgstr "NV-22A4C11 scohack: vios: >%(vios)s<, том: >%(vol)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:400
+#, python-format
+msgid "scohack: image upload: hdisk: >%(hdisk)s<, vios: >%(vios)s<"
+msgstr "NV-B86BF01 scohack: передача образа: hdisk: >%(hdisk)s<, vios: >%(vios)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:417
+#, python-format
+msgid "scohack: volume not found: >%(volume)s<"
+msgstr "NV-CDC6DBB scohack: том не найден: >%(volume)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:428
+#, python-format
+msgid "scohack: volume: invalid status: >%(status)s<"
+msgstr "NV-D365509 scohack: том: недопустимое состояние: >%(status)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:445
+#, python-format
+msgid "scohack: no ports for vios: >%(vios)s<"
+msgstr "NV-230F42F scohack: отсутствуют порты для vios: >%(vios)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:461
+#, python-format
+msgid "scohack: failed to connect to volume >%(volume_id)s< "
+msgstr "NV-E7095A2 scohack: не удалось подключиться к тому >%(volume_id)s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:471
+#, python-format
+msgid ""
+"scohack: for target volume: >%(volume)s<, bad connection: >%(info)s<, no "
+"target_lun"
+msgstr ""
+"NV-79C5617 scohack: целевой том: >%(volume)s<, неверное соединение: "
+">%(info)s<, отсутствует target_lun"
+
+#: paxes_cinder/scohack/scohack_scohack.py:487
+#, python-format
+msgid ""
+"scohack: for target volume: >%(volume)s<, no target wwpn found in "
+"connection: >%(info)s< "
+msgstr ""
+"NV-5C2B384 scohack: для целевого тома >%(volume)s< не найден целевой wwpn"
+" в соединении >%(info)s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:506
+#, python-format
+msgid "scohack: target volume: >%(volume)s<, does not have page83 data"
+msgstr "NV-33E8084 scohack: на целевом томе >%(volume)s< нет данных page83"
+
+#: paxes_cinder/scohack/scohack_scohack.py:514
+#, python-format
+msgid "scohack: start luarecovery: deviceid: >%(id)s< , itls: >%(itls)s<"
+msgstr ""
+"NV-0A59DDD scohack: начато luarecovery: deviceid: >%(id)s< , itls: "
+">%(itls)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:525
+#, python-format
+msgid "scohack: lua_recovery job failed for target volume: >%(volume)s<"
+msgstr ""
+"NV-D94C9A2 scohack: задание lua_recovery не удалось выполнить для "
+"целевого тома >%(volume)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:538
+#, python-format
+msgid "scohack: luarcovery job status: >%(status)s<, result: >%(res)s<"
+msgstr ""
+"NV-FC7E239 scohack: состояние задания luarcovery: >%(status)s<, "
+"результат: >%(res)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:544
+#, python-format
+msgid ""
+"scohack: lua_recovery job internal error, device_list is invalid device "
+"list: >%(lua_list)s<"
+msgstr ""
+"NV-610160F scohack: внутренняя ошибка задания lua_recovery, device_list "
+"содержит недопустимый список устройств: >%(lua_list)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:552
+#, python-format
+msgid ""
+"scohack: lua_recovery job returned multiple devices device list: "
+">%(lua_list)s<, will select first ..."
+msgstr ""
+"NV-3A4481D scohack: задание lua_recovery вернуло список из нескольких "
+"устройств: >%(lua_list)s<, будет выбрано первое..."
+
+#: paxes_cinder/scohack/scohack_scohack.py:562
+#, python-format
+msgid ""
+"This means that a device was found from an ITL nexus and it was "
+"determined to be in use by the VIOS. The most likely cause is that a "
+"virtual device was not removed from a previous deploy. The VIOS took no "
+"action in this case. device: >%(dev)s<"
+msgstr ""
+"Это означает, что устройство не найдено в соединении ITL и используется "
+"сервером VIOS. Скорее всего, виртуальное устройство не было удалено после"
+" предыдущего развертывания. В этом случае VIOS не выполняет никаких "
+"действий. Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:572
+#, python-format
+msgid ""
+"This means that the ITL nexus is not consider reliable and some error "
+"occurred that prevents the VIOS from determining making a decision on "
+"safely removing a device. The VIOS took no action in this case. Perhaps "
+"try to remove the offending hdisk from the VIOS, with rmdev -d -l hdiskx."
+" device: >%(dev)s<"
+msgstr ""
+"NV-DC7D321 Это означает, что соединение ITL не считается надежным, и "
+"из-за ошибки сервер VIOS не смог принять решение о безопасном удалении "
+"устройства. В этом случае VIOS не выполняет никаких действий. Попробуйте "
+"удалить неисправный hdisk с сервера VIOS, используя команду rmdev -d -l "
+"hdiskx. Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:585
+#, python-format
+msgid ""
+"This means the information provided and action taken by the VIOS was "
+"sufficient to find the storage. pvName, and uniqueID elements will follow"
+" in the data stream. device: >%(dev)s<"
+msgstr ""
+"NV-8DB8D33 Это означает, что указанной информации и выполненных сервером "
+"VIOS действий оказалось достаточно для обнаружения устройства хранения "
+"pvName, и элементы uniqueID будут передаваться далее в потоке данных. "
+"Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:593
+#, python-format
+msgid ""
+"This means some new storage element was found at the ITL nexus but VIOS "
+"could not determine if it is the storage of interest to the management "
+"tool. device: >%(dev)s<"
+msgstr ""
+"NV-36ADD00 Это означает, что в соединении ITL обнаружено новое устройство"
+" хранения, однако серверу VIOS не удалось определить, тот ли это элемент,"
+" который нужен инструменту управления. Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:602
+#, python-format
+msgid ""
+"The VIOS could not determine if this is logical unit of interest to the "
+"management tool however did find a device from the ITL nexus list. "
+"device: >%(dev)s<"
+msgstr ""
+"NV-6761BFF Серверу VIOS не удалось определить, тот ли это логический "
+"накопитель, который нужен инструменту управления, однако он обнаружил "
+"устройство в списке соединения ITL. Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:611
+#, python-format
+msgid ""
+"The VIOS could not find a device from the itl nexus list. It could be "
+"some SCSI or transport error occurred during configuration or the ITL "
+"nexus list was incorrect. device: >%(dev)s<"
+msgstr ""
+"NV-2479600 Серверу VIOS не удалось найти устройство в списке соединения "
+"ITL. Возможно, во время настройки возникла ошибка SCSI или транспортного "
+"протокола, либо список соединения ITL содержит неверные данные. "
+"Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:622
+#, python-format
+msgid ""
+"Unknown device status. Severe internal error contact NCO. device: "
+">%(dev)s<"
+msgstr ""
+"NV-2EF1D11 Неизвестное состояние устройства. Возникла серьезная "
+"внутренняя ошибка. Обратитесь в NCO. Устройство: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:638
+#, python-format
+msgid "scohack: failed to find device name: >%(dev)s<"
+msgstr "NV-B6E8402 scohack: не найдено имя устройства: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:643
+#, python-format
+msgid "scohack: found device name: >%(dev)s<"
+msgstr "NV-32CF4C2 scohack: найдено имя устройства: >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:665
+#, python-format
+msgid "scohack: hdisk_uuid: >%(hdisk)s<, checksum not specified"
+msgstr "NV-D85ABDC scohack: hdisk_uuid: >%(hdisk)s<, не задана контрольная сумма"
+
+#: paxes_cinder/scohack/scohack_scohack.py:672
+#, python-format
+msgid "scohack: hdisk_uuid: >%(hdisk)s<, size not specified"
+msgstr "NV-9783CB3 scohack: hdisk_uuid: >%(hdisk)s<, не задан размер"
+
+#: paxes_cinder/scohack/scohack_scohack.py:694
+#, python-format
+msgid ""
+"scohack: image upload complete for hdisk_uuid: >%(hdisk)s<, webfile id: "
+">%(wid)s<, actual size: >%(size)s< bytes, elapsed time: >%(time)d< "
+"seconds, rate: >%(rate)f< minutes/GB"
+msgstr ""
+"scohack: передача образа выполнена для hdisk_uuid: >%(hdisk)s<, ИД "
+"веб-файла: >%(wid)s<, фактический размер: >%(size)s< байт, прошедшее "
+"время: >%(time)d< с, скорость: >%(rate)f< мин/ГБ"
+
+#: paxes_cinder/scohack/scohack_scohack.py:709
+#, python-format
+msgid ""
+"scohack:  mismatch: expected_file_size_in_bytes: >%e_size)d<, "
+"current_file_size_in_bytes: >%(c_size)d<"
+msgstr ""
+"NV-E2ACA08 scohack:  несоответствие: expected_file_size_in_bytes: "
+">%e_size)d<, current_file_size_in_bytes: >%(c_size)d<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:740
+#, python-format
+msgid ""
+"scohack: cleanup failure for: >%(hdisk)s<, job status: >%(status)s<, "
+"response: >%(res)s< continuing ..."
+msgstr ""
+"NV-C9A426B scohack: очистка сбоя для >%(hdisk)s<, состояние задания "
+">%(status)s<, ответ >%(res)s<, продолжение..."
+
+#: paxes_cinder/scohack/scohack_scohack.py:752
+#, python-format
+msgid ""
+"scohack: for hdisk_uuid: >%(hdisk)s<  no managementconsole, hisks will "
+"not be cleaned up"
+msgstr ""
+"NV-508BE83 scohack: нет консоли управления для hdisk_uuid: >%(hdisk)s<, "
+"очистка дисков hdisk не будет выполнена"
+
+#: paxes_cinder/scohack/scohack_scohack.py:758
+#: paxes_cinder/scohack/scohack_scohack.py:768
+#, python-format
+msgid "scohack: for hdisk_uuid: >%(hdisk)s< cleanup failed, msg: >%(ex)s<"
+msgstr ""
+"NV-B37BCB5 scohack: очистка не выполнена для hdisk_uuid: >%(hdisk)s<, "
+"сообщение: >%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:772
+#, python-format
+msgid "scohack: upload failed for hdisk_uuid: >%(dsk)s<"
+msgstr "NV-D7A600C scohack: передача не выполнена для hdisk_uuid: >%(dsk)s<"
+
+#: paxes_cinder/scohack/scohack_utils.py:47
+#, python-format
+msgid "Error: cooperative_iter exception %(error)s"
+msgstr "NV-23E8986 Ошибка: cooperative_iter exception %(error)s"
+
+#: paxes_cinder/volume/__init__.py:46
+#, python-format
+msgid ""
+"cinder volume_create interface has been changed. PowerVC monkey patch for"
+" volume clone won't work. function: %(fx)s, arguments: %(args)s"
+msgstr ""
+"NV-7A6F9A4 Интерфейс cinder volume_create был изменен. Monkey patch "
+"продукта PowerVC для дубликата тома не работает. Функция: %(fx)s, "
+"аргументы: %(args)s"
+
+#: paxes_cinder/volume/__init__.py:61
+#, python-format
+msgid ""
+"Monkey patched volume clone by paxes volume_create_decorator(). Source "
+"Volume ID: %(svol)s, volume type name: %(voltpnm)s, volume type ID: "
+"%(voltpid)s"
+msgstr ""
+"NV-D17192A К дубликату тома применен Monkey patch с помощью paxes "
+"volume_create_decorator(). ИД исходного тома: %(svol)s, имя типа тома: "
+"%(voltpnm)s, ИД типа тома: %(voltpid)s"
+
+#: paxes_cinder/volume/__init__.py:94
+#, python-format
+msgid ""
+"Failed to get the parameters from function "
+"cinder.volume.volume_types.create(). Default quota didn't set for the "
+"storage template. Error: %(err)s"
+msgstr ""
+"NV-A4934EA Не удалось получить параметры функции "
+"cinder.volume.volume_types.create(). Квота по умолчанию не задана для "
+"шаблона хранения данных. Ошибка: %(err)s"
+
+#: paxes_cinder/volume/__init__.py:114
+#, python-format
+msgid "Successfully set default quota for storage template %(vol_type)s"
+msgstr ""
+"NV-71868FF Квота по умолчанию успешно задана для шаблона хранения данных "
+"%(vol_type)s"
+
+#: paxes_cinder/volume/__init__.py:118
+#, python-format
+msgid ""
+"Failed to set default quota for storage template %(vol_type)s, error: "
+"%(err)s"
+msgstr ""
+"NV-D86E5F7 Не удалось задать квоту по умолчанию для шаблона хранения "
+"данных %(vol_type)s, ошибка: %(err)s"
+
+#: paxes_cinder/volume/__init__.py:122
+#, python-format
+msgid ""
+"Cannot set default quota for storage template %(vol_type) due to invalid "
+"Parameters from volume type create."
+msgstr ""
+"NV-D9BA448 Не удалось задать квоту по умолчанию для шаблона хранения "
+"данных %(vol_type) из-за недопустимых параметров при создании типа тома."
+
+#: paxes_cinder/volume/__init__.py:175
+#, python-format
+msgid "Error getting data volumes: %s "
+msgstr "NV-7627301 Ошибка при получении томов данных: %s "
+
+#: paxes_cinder/volume/manager.py:89
+#, python-format
+msgid "Cannot perform direct SAN operation on disk with prefix %(prefix)s"
+msgstr ""
+"NV-1701BDD Не удалось выполнить прямую операцию SAN для диска с префиксом"
+" %(prefix)s"
+
+#: paxes_cinder/volume/manager.py:100
+msgid "Driver still initializing, wait..."
+msgstr "NV-C6CA9E0 Драйвер еще инициализируется. Пожалуйста, подождите..."
+
+#: paxes_cinder/volume/manager.py:102
+#, python-format
+msgid "Try again: %s"
+msgstr "NV-FEE7BD0 Повторите попытку: %s"
+
+#: paxes_cinder/volume/manager.py:172
+#, python-format
+msgid "Fabric {fabric_name} ({user}@{ip}:{port}): %(message)s"
+msgstr "NV-0A01336 Сеть {fabric_name} ({user}@{ip}:{port}): %(message)s"
+
+#: paxes_cinder/volume/manager.py:188
+#, python-format
+msgid ""
+"Storage Provider {storage_provider_hostname} ({user}@{ip}:{port}) "
+"{volume_id}: %(message)s"
+msgstr ""
+"NV-E1A972C Поставщик устройств хранения {storage_provider_hostname} "
+"({user}@{ip}:{port}) {volume_id}: %(message)s"
+
+#: paxes_cinder/volume/manager.py:223
+msgid ""
+"The volume is already attached to another virtual server, possibly one "
+"that is not managed by PowerVC."
+msgstr ""
+"Том уже подключен к другому виртуальному серверу, который, возможно, не "
+"находится под управлением PowerVC."
+
+#: paxes_cinder/volume/manager.py:227
+msgid ""
+"The volume cannot be deleted because it is either mapped to a host or "
+"part of a flashcopy or remote copy operation."
+msgstr ""
+"Невозможно удалить тома, так как он связан с хостом или участвует в "
+"операции flashcopy или удаленного копирования."
+
+#: paxes_cinder/volume/manager.py:239
+#, python-format
+msgid "%(error_prefix)s failure for volume {volume_id}: %(error)s"
+msgstr "Сбой %(error_prefix)s для тома {volume_id}: %(error)s"
+
+#: paxes_cinder/volume/manager.py:244
+#, python-format
+msgid ""
+"%(error_prefix)s failure for volume {volume_id}.Command %(cmd)s, error "
+"%(error)s"
+msgstr ""
+"Сбой %(error_prefix)s для тома {volume_id}. Команда %(cmd)s, ошибка "
+"%(error)s"
+
+#: paxes_cinder/volume/manager.py:393
+#, python-format
+msgid "Resuming deletion of volume %s"
+msgstr "NV-E253654 Продолжено удаление тома %s"
+
+#: paxes_cinder/volume/manager.py:396
+#, python-format
+msgid ""
+"Failed to delete volume %(volid)s during volume service startup. Error: "
+"%(error)s"
+msgstr ""
+"NV-CCA27AC Не удалось удалить том %(volid)s при запуске службы томов. "
+"Ошибка: %(error)s"
+
+#: paxes_cinder/volume/manager.py:410
+#, python-format
+msgid "Processing volume that was left in the attaching state. Volume id: %(id)s"
+msgstr ""
+"NV-89FC9B0 Обработка тома, который был оставлен в состоянии подключения. "
+"ИД тома: %(id)s"
+
+#: paxes_cinder/volume/manager.py:483
+#, python-format
+msgid ""
+"_volume_attach_rollback: Volume %(id)s is missing restricted metadata to "
+"recover the attaching state."
+msgstr ""
+"NV-C8F1D06 _volume_attach_rollback: на томе %(id)s отсутствуют защищенные"
+" метаданные для восстановления в состояния подключения."
+
+#: paxes_cinder/volume/manager.py:487
+#, python-format
+msgid ""
+"_volume_attach_rollback: No attach operation  to rollback for volume "
+"%(id)s"
+msgstr ""
+"NV-77AEEA1 _volume_attach_rollback: для тома %(id)s нет операции "
+"подключения, доступной для отката"
+
+#: paxes_cinder/volume/manager.py:493
+#, python-format
+msgid ""
+"_volume_attach_rollback: Invalid connector %(conn)s in volume %(id)s "
+"restrict metadata. Rollback without termination"
+msgstr ""
+"NV-4096184 _volume_attach_rollback: недопустимый коннектор %(conn)s в "
+"защищенных метаданных тома %(id)s. Откат без завершения работы"
+
+#: paxes_cinder/volume/manager.py:498
+#, python-format
+msgid "_volume_attach_rollback: Roll back attaching state for volume %(id)s."
+msgstr ""
+"NV-1EB0444 _volume_attach_rollback: выполняется откат состояния "
+"подключения для тома %(id)s."
+
+#: paxes_cinder/volume/manager.py:518
+#, python-format
+msgid ""
+"_volume_attach_rollback: Finished. Volume %(id)s has rolled back to "
+"available state."
+msgstr ""
+"NV-1E08B26 _volume_attach_rollback: Готово. Для тома %(id)s выполнен "
+"откат в состояние Доступен."
+
+#: paxes_cinder/volume/manager.py:600
+#, python-format
+msgid ""
+"The volume detach didn't finish successfully before cinder service was "
+"restarted. volume id: %(id)s"
+msgstr ""
+"NV-333B81A Отключение тома не выполнено, так как была перезапущена служба"
+" cinder. ИД тома: %(id)s"
+
+#: paxes_cinder/volume/manager.py:633
+msgid "Unable to initialize host, driver is uninitialized"
+msgstr "NV-7F33CBC Не удалось инициализировать хост, драйвер не инициализирован"
+
+#: paxes_cinder/volume/manager.py:650
+msgid "update default quota class..."
+msgstr "NV-392B903 обновить класс квоты по умолчанию..."
+
+#: paxes_cinder/volume/manager.py:652
+msgid "Post init_host processing and update volume status."
+msgstr ""
+"NV-6EC3032 Заключительные действия после init_host и обновление состояния"
+" тома."
+
+#: paxes_cinder/volume/manager.py:656
+#, python-format
+msgid "Error happened during post init_host volume processing. Error: %s"
+msgstr ""
+"NV-B263BC8 При выполнении заключительных действий с томом после init_host"
+" возникла ошибка: %s"
+
+#: paxes_cinder/volume/manager.py:660
+#, python-format
+msgid "Rollback volume still attaching during init_host: %d volumes"
+msgstr ""
+"NV-BDEAFA8 Выполнить откат тома в состоянии подключения во время "
+"init_host: %d томов"
+
+#: paxes_cinder/volume/manager.py:665
+#, python-format
+msgid "Resume volume deletion during init_host: %d volumes"
+msgstr "NV-6BC64FF Возобновить удаление тома во время init_host: %d томов"
+
+#: paxes_cinder/volume/manager.py:719
+msgid "Caught Exception Refreshing Driver Status "
+msgstr "Обработана исключительная ситуация при обновлении состояния драйвера "
+
+#: paxes_cinder/volume/manager.py:755
+msgid "Caught Exception trying to update Storage Node in DB"
+msgstr ""
+"NV-36093B5 Обработана исключительная ситуация при попытке обновить узел "
+"хранения в БД"
+
+#: paxes_cinder/volume/manager.py:793
+msgid "Unable to retrieve Default Volume Type"
+msgstr "NV-544BC4C Не удалось получить тип тома по умолчанию"
+
+#: paxes_cinder/volume/manager.py:850
+#, python-format
+msgid "volume %s: removing export"
+msgstr "NV-BAF02FC том %s: удаление экспорта"
+
+#: paxes_cinder/volume/manager.py:852
+#, python-format
+msgid "volume %s: deleting"
+msgstr "NV-4F406DE том %s: удаление"
+
+#: paxes_cinder/volume/manager.py:855
+#, python-format
+msgid "volume %s: volume is busy"
+msgstr "NV-3431BA6 том %s: том занят"
+
+#: paxes_cinder/volume/manager.py:858
+#, python-format
+msgid "Fail to remove_export or delete_volume: %sname"
+msgstr "NV-E98201D Сбой операции remove_export или delete_volume: %sname"
+
+#: paxes_cinder/volume/manager.py:862
+#, python-format
+msgid "Volume %s: deletion failed with exception "
+msgstr ""
+"NV-137591B Том %s: удаление не выполнено, возникла исключительная "
+"ситуация "
+
+#: paxes_cinder/volume/manager.py:954
+#, python-format
+msgid ""
+"failed checking whether                              volume %(vol_id)s "
+"backs an image, metadata=%(mdata)s"
+msgstr ""
+"NV-BE4D3EE Не удалось проверить, выполнено ли резервное копирование "
+"образа в томе %(vol_id)s, метаданные=%(mdata)s"
+
+#: paxes_cinder/volume/manager.py:991
+#, python-format
+msgid ""
+"volume %(volid)s has unfinished attach transaction. Rolling back before "
+"deleting the volume."
+msgstr ""
+"NV-331CBBA для тома %(volid)s не завершена транзакция подключения. Перед "
+"удалением тома выполняется откат."
+
+#: paxes_cinder/volume/manager.py:1035
+#, python-format
+msgid ""
+"Quota exceeded for %(s_pid)s, tried to extend volume by %(s_size)sG, "
+"(%(d_consumed)dG of %(d_quota)dG already consumed)"
+msgstr ""
+"NV-521C07E Для %(s_pid)s превышена квота, сделана попытка увеличить том "
+"на %(s_size)s Гб, (%(d_consumed)d ГБ из %(d_quota)d ГБ уже использовано)"
+
+#: paxes_cinder/volume/manager.py:1091
+#, python-format
+msgid ""
+"The host %(hostid)s for boot volume %(volid)s  does not support extend "
+"volume."
+msgstr ""
+"NV-37CDE0F Хост %(hostid)s загрузочного тома %(volid)s  не поддерживает "
+"расширение тома."
+
+#: paxes_cinder/volume/manager.py:1145
+#, python-format
+msgid "Start attach transaction for volume %(id)s."
+msgstr "NV-1CBB13C Начата транзакция подключения для тома %(id)s."
+
+#: paxes_cinder/volume/manager.py:1175
+#, python-format
+msgid "Driver returned %s"
+msgstr "NV-B695526 Драйвер вернул %s"
+
+#: paxes_cinder/volume/manager.py:1208
+#, python-format
+msgid "Successfully attached the volume %(id)s. Clean up transaction."
+msgstr "NV-F606087 Том %(id)s успешно подключен. Очистка транзакции."
+
+#: paxes_cinder/volume/drivers/paxes_san.py:162
+#, python-format
+msgid "Waiting %(seconds)d seconds before next attempt..."
+msgstr "NV-0553DA5 Ожидание в течение %(seconds)d с перед следующей попыткой..."
+
+#: paxes_cinder/volume/drivers/paxes_san.py:182
+#, python-format
+msgid "Error running SSH command: %s"
+msgstr "NV-052C0AB Ошибка при выполнении команды SSH: %s"
+
+#: paxes_cinder/volume/drivers/emc/emc_common_product.py:35
+msgid "Updating volume status"
+msgstr "NV-A56DF8D Обновление состояния тома"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:89
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1374
+msgid "protocol must be specified as '<in> iSCSI' or '<in> FC'"
+msgstr "протокол должен быть задан как '<in> iSCSI' или '<in> FC'"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:123
+msgid "Entering create_volume."
+msgstr "NV-4C5AEEB Вход в create_volume."
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:127
+#, python-format
+msgid "Create Volume: %(volume)s  Size: %(size)lu"
+msgstr "NV-403E8FC Создать том: %(volume)s  Размер: %(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:157
+#, python-format
+msgid ""
+"Unsupported element_type value %(element_type)s.  Specify a supported "
+"element_type value and resubmit the request."
+msgstr ""
+"NV-AC11F99 Неподдерживаемое значение element_type: %(element_type)s.  "
+"Укажите поддерживаемое значение element_type и повторите запрос."
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:164
+#, python-format
+msgid "Create Volume: %(volume)s  Storage type: %(storage_type)s"
+msgstr ""
+"NV-4E4E2BB Создать том: %(volume)s  Тип устройства хранения: "
+"%(storage_type)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:171
+#, python-format
+msgid ""
+"Create Volume: %(volume)s  Pool: %(pool)s,  Element Type: "
+"%(element_type)s, Storage System: %(storage_system)s"
+msgstr ""
+"NV-723484A Создать том: %(volume)s  Пул: %(pool)s,  тип элемента: "
+"%(element_type)s, система хранения: %(storage_system)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:182
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s. Storage Configuration Service not "
+"found for pool %(storage_type)s."
+msgstr ""
+"NV-0EFA73A Ошибка при создании тома: %(volumename)s. Служба настройки "
+"устройств хранения не найдена для пула %(storage_type)s."
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:190
+#, python-format
+msgid ""
+"Create Volume: %(name)s  Method: CreateOrModifyElementFromStoragePool  "
+"ConfigServicie: %(service)s  ElementName: %(name)s  InPool: %(pool)s  "
+"ElementType: %(element_type)s  Size: %(size)lu"
+msgstr ""
+"NV-6E312B4 Создать том: %(name)s  Метод: "
+"CreateOrModifyElementFromStoragePool  Служба настройки: %(service)s  Имя "
+"элемента: %(name)s  Целевой пул: %(pool)s  Тип элемента: %(element_type)s"
+"  Размер: %(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:206
+#, python-format
+msgid "Create Volume: %(volumename)s  Return code: %(rc)lu"
+msgstr "NV-0214C49 Создать том: %(volumename)s  Код возврата: %(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:213
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s.  Return code: %(rc)lu.  Error: "
+"%(error)s"
+msgstr ""
+"NV-227D3AC Ошибка при создании тома %(volumename)s.  Код возврата: "
+"%(rc)lu.  Ошибка: %(error)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:220
+#, python-format
+msgid "Leaving create_volume: %(volumename)s  Return code: %(rc)lu"
+msgstr "NV-C5C5CCC Выход из create_volume: %(volumename)s  Код возврата: %(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:235
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:259
+msgid "Could not establish ecom connection"
+msgstr "NV-930992B Не удалось установить соединение ecom"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:177
+#, python-format
+msgid "ssp:  no matching HMC was found in the DB for host: >%s<"
+msgstr ""
+"NV-BFBE123 ssp: не найдена соответствующая консоль аппаратного "
+"обеспечения в базе данных для хоста: >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:248
+#, python-format
+msgid "ssp: during create default volume type, DB error: >%s<"
+msgstr ""
+"NV-FA1BBE8 ssp: во время создания типа тома по умолчанию возникла ошибка "
+"базы данных: %s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:279
+#, python-format
+msgid ""
+"ssp: during _create_lu for LU: (name: >%(name)s<, size: >%(size)s<, thin:"
+" >%(thin)s<), ssp_udid: >%(ssp_udid)s< is not same as extra_spec "
+"shared_storage_pool: >%(extra_spec_ssp_id)s<"
+msgstr ""
+"ssp: во время _create_lu для LU: (имя: >%(name)s<, размер: >%(size)s<, "
+"оперативное выделение: >%(thin)s<) обнаружено, что ssp_udid: "
+">%(ssp_udid)s< не совпадает с extra_spec shared_storage_pool: "
+">%(extra_spec_ssp_id)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:299
+#, python-format
+msgid ""
+"ssp: failed during _create_lu for LU: (name: >%(name)s<, size: "
+">%(size)s<, thin: >%(thin)s<), message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой во время выполнения _create_lu для LU (имя: >%(name)s<, размер:"
+" >%(size)s<, оперативное выделение: >%(thin)s<), сообщение: >%(e)s<, "
+"k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:329
+#, python-format
+msgid ""
+"ssp: during _create_lu job for LU: (name: >%(name)s<, size: >%(size)s<, "
+"thin: >%(thin)s<), ssp_udid: >%(ssp_udid)s< is not same as extra_spec "
+"shared_storage_pool: >%(extra_spec_ssp_id)s<"
+msgstr ""
+"ssp: во время выполнения задания _create_lu для LU: (имя: >%(name)s<, "
+"размер: >%(size)s<, оперативное выделение: >%(thin)s<) обнаружено, что "
+"ssp_udid: >%(ssp_udid)s< не совпадает с extra_spec shared_storage_pool: "
+">%(extra_spec_ssp_id)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:351
+#, python-format
+msgid ""
+"ssp: failure during _create_lu, create parameters: name: >%(name)s<, "
+"size: >%(size)s<, thin: >%(thin)s<, logicalunittype: "
+">%(logicalunittype)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _create_lu, параметры создания: имя: >%(name)s<,"
+" размер: >%(size)s<, оперативное выделение: >%(thin)s<, тип логического "
+"накопителя: >%(logicalunittype)s<, сообщение: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:366
+#, python-format
+msgid ""
+"ssp: failure during _create_lu job, expecting COMPLETED_OK, but for "
+"job_id: >%(job_id)s< got status: >%(status)s< create parameters: name: "
+">%(name)s<, size: >%(size)s<, thin: >%(thin)s<, logicalunittype: "
+">%(logicalunittype)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-76A9409 ssp: сбой при выполнении задания _create_lu, ожидалось "
+"состояние COMPLETED_OK, а для ИД задания >%(job_id)s< получено состояние "
+">%(status)s<, параметры создания: имя: >%(name)s<, размер: >%(size)s<, "
+"оперативное выделение: >%(thin)s<, тип логического накопителя: "
+">%(logicalunittype)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:382
+#, python-format
+msgid ""
+"ssp: create complete, job_id: >%(job_id)s<, name: >%(name)s<, size: "
+">%(size)s<, thin: >%(thin)s<, logicalunittype: >%(logicalunittype)s<, "
+"k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-9FEEE64 ssp: создание завершено, ИД задания: >%(job_id)s<, имя: "
+">%(name)s<, размер: >%(size)s<, оперативное выделение: >%(thin)s<, тип "
+"логического накопителя: >%(logicalunittype)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:416
+#, python-format
+msgid ""
+"ssp: failed during _delete_lu of LU w/ with unique_device_id: "
+">%(lu_udid)s<,  message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _delete_lu для LU с уникальным ИД устройства "
+">%(lu_udid)s<, сообщение: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:431
+#, python-format
+msgid ""
+"ssp: during _clone_lu_by_name, couldnt find lu with src_lu_name: "
+">%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+msgstr ""
+"ssp: во время _clone_lu_by_name не удалось найти lu с src_lu_name: "
+">%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:439
+#, python-format
+msgid ""
+"ssp: during _clone_lu_by_name, found too many lus with src_lu_name: "
+">%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+msgstr ""
+"NV-8FDE368 ssp: во время _clone_lu_by_name найдено слишком много lu с "
+"src_lu_name: >%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:469
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, clone parameters: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s< msg: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _clone_lu_bj, параметры создания копии: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< msg: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:485
+#: paxes_cinder/volume/drivers/ssp/ssp.py:547
+#, python-format
+msgid ""
+"ssp: apparent failure during _clone_lu_bj, expecting COMPLETED_OK, but "
+"for job_id: >%(job_id)s< got status: >%(status)s< clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-64234D9 ssp: возможный сбой во время выполнения _clone_lu_bj, "
+"ожидалось состояние COMPLETED_OK, но для ИД задания >%(job_id)s< получено"
+" состояние >%(status)s<, параметры создания копии: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:509
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, during create, clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _clone_lu_bj, во время создания, параметры "
+"создания копии: src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: "
+">%(tgt_lu_name)s< tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: "
+">%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:530
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, during clone, clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _clone_lu_bj, во время создания копии, параметры"
+" создания копии: src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: "
+">%(tgt_lu_name)s< tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: "
+">%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:576
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bp, clone parameters: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: сбой при выполнении _clone_lu_bp, параметры создания копии: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:591
+#, python-format
+msgid ""
+"ssp: apparent failure during _clone_lu_bp, expecting COMPLETED_OK, but "
+"for job_id: >%(job_id)s< got status: >%(status)s< clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-21DAFDD ssp: возможный сбой во время выполнения _clone_lu_bp, "
+"ожидалось состояние COMPLETED_OK, но для ИД задания >%(job_id)s< получено"
+" состояние >%(status)s<, параметры создания копии: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:606
+#, python-format
+msgid ""
+"ssp: clone complete, job_id: >%(job_id)s<, src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-330DF39 ssp: создание копии завершено, ИД задания >%(job_id)s<, "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:625
+msgid "ssp: driver not yet initialized"
+msgstr "NV-767C35B ssp: драйвер еще не инициализирован"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:634
+#, python-format
+msgid ""
+"K2 GET SharedStoragePool time: >%(delta)f< is bigger or equal to "
+"update_stats periodic interval: >%(periodic_interval)d<"
+msgstr ""
+"NV-BB646A1 K2 GET SharedStoragePool время >%(delta)f< не меньше "
+"периодического интервала update_stats >%(periodic_interval)d<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:641
+#, python-format
+msgid ""
+"ssp: during get_volume_stats, failed to refresh shared storage pool with "
+"ssp_id: >%(self._ssp.id)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время выполнения get_volume_stats не удалось обновить общий пул "
+"памяти с ssp_id >%(self._ssp.id)s<, сообщение: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:680
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, while performing vios cluster check, "
+"failed to refresh cluster id: >%(self._cluster.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-AC40CF2 ssp: во время %(duringwhatstage)s, при выполнении проверки "
+"кластера vios, не удалось обновить ИД кластера >%(self._cluster.id)s<, "
+"k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:707
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, for vios id: >%(vios.id)s<, "
+"OperatingSystemVersion: >%(os_version)s<"
+msgstr ""
+"ssp: во время %(duringwhatstage)s для ИД VIOS >%(vios.id)s<, версия "
+"операционной системы: >%(os_version)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:719
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, vios id: >%(vios.id)s<, running and "
+"active"
+msgstr ""
+"ssp: во время %(duringwhatstage)s, ИД vios: >%(vios.id)s<, работает и "
+"активен"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:727
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, for cluster id: >%(self._cluster.id)s<, "
+"vios state issue, vios id: >%(vios.id)s<: PartitionState: "
+">%(vios.partition_state)s< ResourceMonitoringControlState: "
+">%(vios.rmc_state)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время %(duringwhatstage)s для ИД кластера >%(self._cluster.id)s< "
+"ошибка состояния vios, ИД vios: >%(vios.id)s<, PartitionState: "
+">%(vios.partition_state)s<, ResourceMonitoringControlState: "
+">%(vios.rmc_state)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:751
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, could not find restricted metadata for "
+"volume id: >%(volume_id)s<"
+msgstr ""
+"ssp: во время %(duringwhatstage)s не найдены защищенные метаданные для ИД"
+" тома >%(volume_id)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:767
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, failed to refresh shared storage pool "
+"with ssp_id: >%(self._ssp.id)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время %(duringwhatstage)s не удалось обновить общий пул памяти с "
+"ssp_id: >%(self._ssp.id)s<, сообщение: >%(e)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:780
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, couldnt find lu for volume_id: "
+">%(volume_id)s< with: unique_device_id: >%(lu_udid)s< and unit_name: "
+">%(lu_name)s<"
+msgstr ""
+"ssp: во время %(duringwhatstage)s не найден LU для ИД тома %(volume_id)s<"
+" с уникальным ИД устройства >%(lu_udid)s< и именем накопителя "
+">%(lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:791
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, found too many lus for volume_id: "
+">%(volume_id)s< with: unique_device_id: >%(lu_udid)s< and unit_name: "
+">%(lu_name)s<"
+msgstr ""
+"NV-338EFD0 ssp: во время %(duringwhatstage)s найдено слишком много LU для"
+" ИД тома %(volume_id)s< с уникальным ИД устройства >%(lu_udid)s< и именем"
+" накопителя >%(lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:805
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:342
+msgid "enter: do_setup"
+msgstr "NV-9097266 вход: do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:825
+msgid "ssp: failure during do_setup, cant find hmc."
+msgstr "NV-AE8B2E2 ssp: сбой во время do_setup, не найдена консоль hmc."
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:853
+#, python-format
+msgid ""
+"ssp: during do_setup, failed to obtain k2client, k2_url: >%(k2_url)s<, "
+"k2_username: >%(k2_username)s<"
+msgstr ""
+"ssp: во время do_setup не удалось получить k2client, k2_url: "
+">%(k2_url)s<, k2_username: >%(k2_username)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:866
+#, python-format
+msgid ""
+"ssp: during do_setup, using hmc_uuid: >%(hmc_uuid)s<, failed to retrieve "
+"managementconsole, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время выполнения do_setup с hmc_uuid >%(hmc_uuid)s< не удалось "
+"получить консоль управления, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:875
+#, python-format
+msgid "ssp: during do_setup, hmc version: >%s<"
+msgstr "NV-3F31730 ssp: во время do_setup, версия hmc: >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:885
+#, python-format
+msgid ""
+"ssp: during do_setup, using k2_url: >%(k2_url)s<, failed to retrieve "
+"cluster, cluster_id: >%(cluster_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время выполнения do_setup с k2_url >%(k2_url)s< не удалось "
+"получить кластер, ИД кластера: >%(cluster_id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:904
+#, python-format
+msgid ""
+"ssp: during do_setup, using k2_url: >%(k2_url)s< and cluster_id: "
+">%(cluster_id)s< failed to retrieve shared storage pool with ssp_ip: "
+">%(ssp_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: во время выполнения do_setup с k2_url: >%(k2_url)s< и ИД кластера "
+">%(cluster_id)s< не удалось получить общий пул памяти с ssp_ip: "
+">%(ssp_id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:923
+#, python-format
+msgid "ssp: during do_setup, creating default volume type: >%s<"
+msgstr ""
+"NV-379E7B0 ssp: во время do_setup выполняется создание типа тома по "
+"умолчанию: >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:928
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:487
+msgid "leave: do_setup"
+msgstr "NV-F492AE8 выход: do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:931
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:580
+msgid "leave: check_for_setup_error"
+msgstr "NV-1C79D46 выход: check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:981
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1009
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1050
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1149
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:48
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:73
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:145
+#, python-format
+msgid "ssp: exception: >%s<"
+msgstr "NV-31FED69 ssp: исключительная ситуация: >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:982
+msgid "ssp: failed during create_volume"
+msgstr "NV-E4EE3DB ssp: сбой во время create_volume"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1010
+#, python-format
+msgid ""
+"ssp: failed during delete_volume, lu_udid: >%(lu_udid)s< lu_name: "
+">%(lu_name)s< volume id: >%(volume_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-41060EC ssp: сбой во время выполнения delete_volume, lu_udid: "
+">%(lu_udid)s<, lu_name: >%(lu_name)s<, ИД тома: >%(volume_id)s<, k2xa: "
+">%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1029
+#, python-format
+msgid "ssp: during create_snapshot, cant find volume_id: >%s<"
+msgstr "NV-FDA9D85 ssp: во время выполнения create_snapshot не найден ИД тома >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1051
+#, python-format
+msgid ""
+"ssp: failure during create_snapshot: lu_udid: >%(src_lu_udid)s< lu_name: "
+">%(src_lu_name)s< volume id: >%(source_vol_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-ACF24A1 ssp: сбой create_snapshot: lu_udid: >%(src_lu_udid)s<, "
+"lu_name: >%(src_lu_name)s<, ИД тома: >%(source_vol_id)s<, k2xa: "
+">%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1070
+#, python-format
+msgid "ssp: during delete_snapshot, couldnt find lu with unit_name: >%s<"
+msgstr ""
+"NV-FCB5EA8 ssp: во время выполнения delete_snapshot не найден LU с именем"
+" >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1077
+#, python-format
+msgid "ssp: during delete_snapshot, found too many lus with unit_name: >%s<"
+msgstr ""
+"NV-66B083E ssp: во время выполнения delete_snapshot найдено слишком много"
+" LU с именем >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1105
+#, python-format
+msgid ""
+"ssp: error during create_volume_from_snapshot: snapshot with name: "
+">%(snapshot_name)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-F6CFF00 ssp: ошибка выполнения create_volume_from_snapshot: "
+"моментальная копия с именем >%(snapshot_name)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1150
+#, python-format
+msgid ""
+"ssp:  error during create_cloned_volume: src_lu_udid: >%(src_lu_udid)s< "
+"src_lu_name: >%(src_lu_name)s< volume id: >%(src_volume_id)s<, k2xa: "
+">%(k2xa)s<"
+msgstr ""
+"NV-24854A9 ssp: ошибка выполнения during create_cloned_volume: "
+"src_lu_udid: >%(src_lu_udid)s<, src_lu_name: >%(src_lu_name)s<, ИД тома: "
+">%(src_volume_id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1211
+#, python-format
+msgid "stats = %(stats)s"
+msgstr "NV-898A2AA stats = %(stats)s"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:49
+#, python-format
+msgid ""
+"ssp: while discovering mapped LUs, failed to refresh cluster with "
+"cluster_id: >%(self._cluster.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-347194B ssp: при поиске связанных LU не удалось обновить кластер с ИД "
+">%(self._cluster.id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:59
+#, python-format
+msgid "Node >%s< has no virtual_io_server. Skipping."
+msgstr "NV-C3FDDFD Узел >%s< не имеет virtual_io_server. Пропущен."
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:74
+#, python-format
+msgid ""
+"ssp: while discovering mapped LUs, in cluster with cluster_id: "
+">%(self._cluster.id)s< failed to retrieve vios with managedsystem_id: "
+">%(ms_id)s< and virtualioserver_id: >%(vios_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-F12DD40 ssp: при поиске связанных LU в кластере с ИД "
+">%(self._cluster.id)s< не удалось получить VIOS с managedsystem_id: "
+">%(ms_id)s< и virtualioserver_id: >%(vios_id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:115
+msgid ""
+"No volume statistics available, either driver has not been initialized or"
+" there is a problem w/ the driver, check cinder logs."
+msgstr ""
+"NV-A8A5D70 Нет статистики тома: драйвер не инициализирован или неполадка "
+"в драйвере. Проверьте протоколы cinder."
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:146
+#, python-format
+msgid ""
+"ssp: while discovering volumes, failed to refresh shared storage pool "
+"with ssp_id: >%(self._ssp.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-7BF09DB ssp: при поиске томов не удалось обновить общий пул памяти с "
+"ssp_id: >%(self._ssp.id)s<, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:173
+msgid ""
+"This volume is not a candidate for management because it is already "
+"attached to a virtual machine.  To manage this volume with PowerVC, you "
+"must bring the virtual machine under management.  Select to manage the "
+"virtual machine that has the volume attached.  The attached volume will "
+"be automatically included for management."
+msgstr ""
+"Этот том не является кандидатом для управления, поскольку он уже "
+"подключен к виртуальной машине. Для управления этим томом с помощью "
+"PowerVC необходимо добавить виртуальную машину в управление. Включите "
+"режим управления виртуальной машиной, к которой подключен том. "
+"Подключенный том автоматически будет добавлен в управление."
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:184
+#, python-format
+msgid ""
+"ssp: during Logical Unit discovery, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, volume is in use and not available for management, "
+"k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: при поиске логического накопителя, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, том занят и недоступен для управления, k2xa: "
+">%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:200
+msgid ""
+"Because it is of type VirtualIO_Image, this volume is not a candidate for"
+" management. Perhaps, while deleting a PowerVC image, someone chose not "
+"to delete the backing storage? If you wish to work with the underlying "
+"Shared Storage Pool Logical Unit please use the HMC or VIOS commands."
+msgstr ""
+"Поскольку тип тома - VirtualIO_Image, этот том не является кандидатом для"
+" управления. Возможно, при удалении образа PowerVC кто-то предпочел не "
+"удалять резервный образ? Если нужно работать с логическим накопителем "
+"общего пула памяти, где находится том, используйте команды консоли "
+"аппаратного обеспечения или VIOS."
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:210
+#, python-format
+msgid ""
+"ssp: during Logical Unit discovery, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, volume is of type VirtualIO_Image and not available  "
+"for management, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp: при поиске логического накопителя, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, том имеет тип VirtualIO_Image и недоступен для "
+"управления, k2xa: >%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:240
+#, python-format
+msgid "WWPN on node %(node)s: %(wwpn)s"
+msgstr "NV-D154765 WWPN на узле %(node)s: %(wwpn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:299
+#, python-format
+msgid "Required keys %(required)s not found in vdisk dictionary %(dictionary)r"
+msgstr "Не найдены необходимые ключи %(required)s в словаре vdisk %(dictionary)r"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:349
+msgid "do_setup: Could not get system name"
+msgstr "NV-5732B20 do_setup: не удалось получить имя системы"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:361
+#, python-format
+msgid "do_setup: Pool %s does not exist"
+msgstr "NV-1B3A18D do_setup: пул %s не существует"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:412
+#, python-format
+msgid ""
+"Expected integers for node_count and vdisk_count, svcinfo lsiogrp "
+"returned: %(node)s and %(vdisk)s"
+msgstr ""
+"NV-D7E5D72 Ожидались целочисленные значения node_count и vdisk_count, "
+"svcinfo lsiogrp вернуло значения %(node)s и %(vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:475
+msgid "do_setup: No configured nodes"
+msgstr "do_setup: нет настроенных узлов"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:484
+#, python-format
+msgid "Creating default volume type '%s'"
+msgstr "NV-5FF13AA Создание типа тома по умолчанию '%s'"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:541
+msgid "enter: check_for_setup_error"
+msgstr "вход: check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:545
+msgid "Unable to determine system name"
+msgstr "NV-82D9304 Не удалось определить имя системы"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:548
+msgid "Unable to determine system id"
+msgstr "NV-3C12EE7 Не удалось определить ИД системы"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:551
+msgid "Unable to determine pool extent size"
+msgstr "NV-D455E3E Не удалось определить размер области пула"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:558
+#, python-format
+msgid "%s is not set"
+msgstr "NV-6919A40 %s не задано"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:564
+msgid ""
+"Password or SSH private key is required for authentication: set either "
+"san_password or san_private_key option"
+msgstr ""
+"NV-6FE00A0 Для идентификации необходим пароль или личный ключ SSH: "
+"задайте either san_password или san_private_key option"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:572
+#, python-format
+msgid ""
+"Illegal value %d specified for storwize_svc_flashcopy_timeout: valid "
+"values are between 0 and 600"
+msgstr ""
+"NV-F2E38D9 Значение %d недопустимо для storwize_svc_flashcopy_timeout: "
+"допустимы значения в диапазоне от 0 до 600"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:594
+#, python-format
+msgid "ensure_export: Volume %(volume_id)s does not reference a vdisk"
+msgstr "NV-EF2904A ensure_export: том %(volume_id)s не ссылается на vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:601
+#, python-format
+msgid ""
+"ensure_export: Volume %(volume_id)s references vdisk %(vdisk)s, which was"
+" not found on storage"
+msgstr ""
+"NV-C3410C4 ensure_export: том %(volume_id)s ссылается на vdisk %(vdisk)s,"
+" который не найден в хранилище"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:627
+#, python-format
+msgid "enter: _get_chap_secret_for_host: host name %s"
+msgstr "вход: _get_chap_secret_for_host: имя хоста %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:663
+#, python-format
+msgid ""
+"leave: _get_chap_secret_for_host: host name %(host_name)s with secret "
+"%(chap_secret)s"
+msgstr ""
+"выход: _get_chap_secret_for_host: имя хоста %(host_name)s с паролем "
+"%(chap_secret)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:686
+msgid "_create_host: Cannot clean host name. Host name is not unicode or string"
+msgstr ""
+"NV-ED84213 _create_host: не удалось очистить имя хоста. Имя хоста не "
+"является строкой или данными в кодировке unicode"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:837
+#, python-format
+msgid "enter: _get_host_from_connector: prefix %s"
+msgstr "вход: _get_host_from_connector: префикс %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:865
+#, python-format
+msgid ""
+"Continue to fall back processing after initial failure to make a host on "
+"the SAN controller: %s"
+msgstr ""
+"NV-41DBBAB Продолжение резервной обработки после первоначального сбоя "
+"создания хоста на контроллере SAN: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:909
+#, python-format
+msgid "leave: _get_host_from_connector: host %s"
+msgstr "выход: _get_host_from_connector: хост %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:921
+#, python-format
+msgid "enter: _create_host: host %s"
+msgstr "вход: _create_host: хост %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:936
+msgid "_create_host: No connector ports"
+msgstr "_create_host: нет портов коннектора"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:969
+#, python-format
+msgid "leave: _create_host: host %(host)s - %(host_name)s"
+msgstr "выход: _create_host: хост %(host)s - %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:992
+#, python-format
+msgid "enter: _map_vol_to_host: vdisk %(vdisk_id)s to host %(host_name)s"
+msgstr "вход: _map_vol_to_host: vdisk %(vdisk_id)s с хостом %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1022
+msgid ""
+"storwize_svc_multihostmap_enabled is set to False, Not allow multi host "
+"mapping"
+msgstr ""
+"NV-ABB7D85 storwize_svc_multihostmap_enabled равно False, связи с "
+"несколькими хостами недопустимы"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1034
+#, python-format
+msgid "vdisk %s mapping to multi host"
+msgstr "NV-45393AC связь vdisk %s с несколькими хостами"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1040
+#, python-format
+msgid ""
+"leave: _map_vol_to_host: LUN %(result_lun)s, vdisk %(vdisk_id)s, host "
+"%(host_name)s"
+msgstr ""
+"выход: _map_vol_to_host: LUN %(result_lun)s, vdisk %(vdisk_id)s, хост "
+"%(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1050
+#, python-format
+msgid "enter: _delete_host: host %s "
+msgstr "вход: _delete_host: хост %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1058
+#, python-format
+msgid "leave: _delete_host: host %s "
+msgstr "выход: _delete_host: хост %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1084
+#, python-format
+msgid ""
+"The connector does not contain the required information: %(connector)s, "
+"protocols %(protos)s"
+msgstr ""
+"NV-6A00D73 Коннектор не содержит необходимую информацию: %(connector)s, "
+"протоколы %(protos)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1105
+#, python-format
+msgid "Enter: initialize_connection: %s"
+msgstr "NV-4DB79BA Вход: initialize_connection: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1128
+#, python-format
+msgid "Did not find expected column name in lsvdisk: %s"
+msgstr "NV-5EFF8EA Не найдено ожидаемое имя столбца в lsvdisk: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1130
+#, python-format
+msgid "initialize_connection: Missing volume attribute for vdisk %s"
+msgstr "NV-4FE8A8D initialize_connection: не задан атрибут тома для vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1142
+msgid "_create_host failed to return the host name."
+msgstr "_create_host не возвратило имя хоста."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1164
+#, python-format
+msgid ""
+"initialize_connection: No node found in I/O group %(gid)s for vdisk "
+"%(vdisk_id)s"
+msgstr ""
+"NV-8182517 initialize_connection: в группе ввода-вывода %(gid)s не найден"
+" узел для vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1173
+#, python-format
+msgid "initialize_connection: Did not find a preferred node for vdisk %s"
+msgstr ""
+"NV-1DB16EC initialize_connection: не найден предпочитаемый узел для vdisk"
+" %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1195
+msgid ""
+"Could not get FC connection information for the host-volume connection. "
+"Is the host configured properly for FC connections?"
+msgstr ""
+"NV-D8556EE Не удалось получить информацию о соединении FC для соединения "
+"между томом и хостом. Проверьте, правильно ли настроен хост для "
+"соединений FC"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1210
+#, python-format
+msgid ""
+"initialize_connection: Failed to collect return properties for volume "
+"%(vol)s and connector %(conn)s.\n"
+msgstr ""
+"NV-0A9D0F9 initialize_connection: не удалось собрать возвращаемые "
+"свойства для тома %(vol)s и коннектора %(conn)s.\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1215
+#, python-format
+msgid ""
+"leave: initialize_connection:\n"
+" volume: %(vol)s\n"
+" connector %(conn)s\n"
+" properties: %(prop)s"
+msgstr ""
+"выход: initialize_connection:\n"
+" том: %(vol)s\n"
+" коннектор %(conn)s\n"
+" свойства: %(prop)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1233
+#, python-format
+msgid "enter: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "вход: terminate_connection: том %(vol)s с коннектором %(conn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1246
+#, python-format
+msgid ""
+"terminate_connection: vdisk mismatch: %(err)s. Performing no operation on"
+" the storage controller"
+msgstr ""
+"NV-78DEE4C terminate_connection: несоответствие vdisk: %(err)s. Для "
+"контроллера памяти не выполняется никакая операция"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1252
+#, python-format
+msgid ""
+"terminate_connection: vdisk deleted: %(err)s. Performing no operation on "
+"the storage controller"
+msgstr ""
+"NV-0E7CDF3 terminate_connection: vdisk удален: %(err)s. Для контроллера "
+"памяти не выполняется никакая операция"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1265
+#, python-format
+msgid "Detach volume: failed to lookup host name for vdisk ID: %(vdisk)s"
+msgstr ""
+"NV-5D2DC5C Отключение тома: не найдено имя хоста для ИД виртуального "
+"диска %(vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1291
+#, python-format
+msgid ""
+"There was an error when attempting to remove the host disk mappings for "
+"volume ID %(vol)s and vdsik ID %(vdisk)s: %(err)s"
+msgstr ""
+"NV-07BAF93 Возникла ошибка при удалении связей дисков хоста для ИД тома "
+"%(vol)s и ИД виртуального диска %(vdisk)s: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1303
+#, python-format
+msgid ""
+"terminate_connection: No mapping of vdisk %(vdisk_id)s to host "
+"%(host_name)s found"
+msgstr ""
+"NV-0CD2F25 terminate_connection: нет найдена связь vdisk %(vdisk_id)s с "
+"хостом %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1314
+#, python-format
+msgid "leave: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "выход: terminate_connection: том %(vol)s с коннектором %(conn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1414
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:118
+#, python-format
+msgid "enter: _create_vdisk: candidate names %s "
+msgstr "NV-2D6FE98 вход: _create_vdisk: имена кандидатов %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1470
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:218
+#, python-format
+msgid ""
+"_create_vdisk %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"_create_vdisk %(name)s - не найдено сообщение об успешном выполнении в "
+"выводе CLI.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1477
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:225
+#, python-format
+msgid "leave: _create_vdisk: volume %(name)s ID %(id)s "
+msgstr "NV-3A4E903 выход: _create_vdisk: том %(name)s ИД %(id)s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1499
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1513
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find success "
+"message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"создать связь FC между %(source)s и %(target)s - не найдено сообщение об "
+"успешном выполнении в выводе CLI.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1525
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1535
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find mapping id"
+" in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"создать связь FC между %(source)s и %(target)s - не найден ИД связи в "
+"выводе CLI.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1550
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to prepare FlashCopy from %(source)s to "
+"%(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-AD077CD _prepare_fc_map: не удалось подготовить операцию FlashCopy из "
+"%(source)s в %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1578
+#, python-format
+msgid ""
+"Unexecpted mapping status %(status)s for mapping %(id)s. Attributes: "
+"%(attr)s"
+msgstr "Непредвиденное состояние %(status)s у связи %(id)s. Атрибуты: %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1590
+#, python-format
+msgid ""
+"Mapping %(id)s prepare failed to complete within the allotted %(to)d "
+"seconds timeout. Terminating."
+msgstr ""
+"NV-46B21B5 Не удалось подготовить связь %(id)s за отведенное время, "
+"составляющее %(to)d с. Выполняется завершение работы."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1595
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to start FlashCopy from %(source)s to %(target)s "
+"with exception %(ex)s"
+msgstr ""
+"NV-B48FD34 _prepare_fc_map: не удалось запустить FlashCopy из %(source)s "
+"в %(target)s, исключительная ситуация: %(ex)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1602
+#, python-format
+msgid "_prepare_fc_map: %s"
+msgstr "NV-956CB6C _prepare_fc_map: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1609
+#, python-format
+msgid ""
+"_start_fc_map: Failed to start FlashCopy from %(source)s to %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-FCBE987 _start_fc_map: не удалось запустить FlashCopy из %(source)s в "
+"%(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1620
+#, python-format
+msgid ""
+"enter: _run_flashcopy: execute FlashCopy from source %(source)s to target"
+" %(target)s"
+msgstr ""
+"вход: _run_flashcopy: выполнить FlashCopy из источника %(source)s в "
+"целевой объект %(target)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1633
+#, python-format
+msgid "leave: _run_flashcopy: FlashCopy started from %(source)s to %(target)s"
+msgstr ""
+"выход: _run_flashcopy: операция FlashCopy из %(source)s в %(target)s "
+"запущена"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1642
+#, python-format
+msgid ""
+"enter: _create_copy: snapshot with possible names %(names)s from vdisk "
+"%(src_vdisk)s"
+msgstr ""
+"вход: _create_copy: создать моментальную копию с возможными именами "
+"%(names)s для vdisk %(src_vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1650
+#, python-format
+msgid "_create_copy: Source vdisk %s does not exist"
+msgstr "NV-8A48F71 _create_copy: исходный vdisk %s не существует"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1662
+#, python-format
+msgid ""
+"_create_copy: cannot get source vdisk %(src)s capacity from vdisk "
+"attributes %(attr)s"
+msgstr ""
+"_create_copy: не удалось получить емкость исходного vdisk %(src)s из "
+"атрибутов vdisk %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1681
+#, python-format
+msgid "leave: _create_copy: snapshot vdisk %(tgt_vdisk)s from vdisk %(src_vdisk)s"
+msgstr ""
+"выход: _create_copy: моментальная копия vdisk %(tgt_vdisk)s для vdisk "
+"%(src_vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1688
+#, python-format
+msgid "enter: _get_flashcopy_mapping_attributes: mapping %s"
+msgstr "вход: _get_flashcopy_mapping_attributes: связь %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1711
+#, python-format
+msgid ""
+"leave: _get_flashcopy_mapping_attributes: mapping %(fc_map_id)s, "
+"attributes %(attributes)s"
+msgstr ""
+"выход: _get_flashcopy_mapping_attributes: связь %(fc_map_id)s, атрибуты "
+"%(attributes)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1719
+#, python-format
+msgid "enter: _is_vdisk_defined: vdisk %s "
+msgstr "вход: _is_vdisk_defined: vdisk %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1721
+#, python-format
+msgid "leave: _is_vdisk_defined: vdisk %(vdisk)s with %(str)s "
+msgstr "выход: _is_vdisk_defined: vdisk %(vdisk)s с %(str)s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1764
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1228
+#, python-format
+msgid "%(map_id)s [vdisk %(src)s to vdisk %(tgt)s]"
+msgstr "%(map_id)s [vdisk %(src)s с vdisk %(tgt)s]"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1777
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, increasing copyrate of flashcopy mapping "
+"%(map)s from 0 to %(copyrate)s and waiting for completion."
+msgstr ""
+"NV-0B06E40 Для удаления vdisk %(vdisk_id)s скорость копирования связи "
+"flashcopy %(map)s увеличивается с 0 до %(copyrate)s, после чего ожидается"
+" завершение операции."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1791
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1261
+#, python-format
+msgid "Vdisk %(id)s not involved in mapping %(src)s -> %(tgt)s"
+msgstr "Vdisk %(id)s не участвует в связи %(src)s -> %(tgt)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1798
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1268
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, flashcopy mapping %(map)s with "
+"status '%(status)s' was removed."
+msgstr ""
+"NV-4CA8ED6 Для удаления vdisk %(vdisk_id)s была удалена связь flashcopy "
+"%(map)s с состоянием '%(status)s'."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1806
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1276
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, waiting for flashcopy mapping "
+"%(map)s with status '%(status)s' to complete."
+msgstr ""
+"NV-E66FA4E Для того чтобы стало возможно удаление vdisk %(vdisk_id)s, "
+"ожидается завершение связи flashcopy %(map)s с состоянием '%(status)s'."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1816
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1286
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, forcing removal of flashcopy "
+"mapping %(map)s with status '%(status)s'"
+msgstr ""
+"NV-824284E Для того чтобы стало возможным удаление vdisk %(vdisk_id)s, "
+"выполняется принудительное удаление связи flashcopy %(map)s с состоянием "
+"'%(status)s'"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1827
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1300
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, prepared flashcopy mapping "
+"%(map)s was removed."
+msgstr ""
+"NV-211FA49 Для того чтобы стало возможным удаление vdisk %(vdisk_id)s, "
+"была удалена подготовленная связь flashcopy %(map)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1835
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1310
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, flashcopy mapping %(map)s with status "
+"'idle_or_copied' was removed."
+msgstr ""
+"NV-DA08F03 Для удаления vdisk %(vdisk_id)s была удалена связь flashcopy "
+"%(map)s с состоянием 'idle_or_copied'."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1841
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1318
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, waiting for completion of flashcopy mapping"
+" %(map)s, which is currently %(progress)s%% complete and has status "
+"'%(status)s'."
+msgstr ""
+"NV-CE3069A Для того чтобы удалить vdisk %(vdisk_id)s, ожидается "
+"завершение связи flashcopy %(map)s, которая сейчас выполнена на "
+"%(progress)s%% и имеет состояние '%(status)s'."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1881
+msgid ""
+"Flashcopy mapping copy rate is 0. Copy is not in progress. Return to "
+"caller."
+msgstr ""
+"NV-45B5480 Скорость копирования связи Flashcopy равна 0. Копирование не "
+"выполняется. Возврат в инициатор вызова."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1944
+#, python-format
+msgid "enter: _delete_vdisk: vdisk %s"
+msgstr "вход: _delete_vdisk: vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1949
+#, python-format
+msgid "warning: Tried to delete vdisk %s but it does not exist."
+msgstr ""
+"NV-E47B663 предупреждение: сделана попытка удалить несуществующий vdisk "
+"%s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1955
+#, python-format
+msgid "Removing vdisk %(vdisk_id)s"
+msgstr "NV-E18AA05 Удаление vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1968
+#, python-format
+msgid ""
+"Hosts mapped to vdisk %(vdisk)s:\n"
+"%(out)s"
+msgstr ""
+"NV-4159ED7 Хосты, связанные с vdisk %(vdisk)s:\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1974
+#, python-format
+msgid ""
+"Existing FlashCopy mappings:\n"
+"%(out)s"
+msgstr ""
+"NV-A345C87 Существующие связи FlashCopy:\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1982
+#, python-format
+msgid "leave: _delete_vdisk: vdisk %s"
+msgstr "выход: _delete_vdisk: vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1992
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2086
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2135
+#, python-format
+msgid "adding volume_type_id to volume=%s"
+msgstr "NV-86F0410 добавление volume_type_id для volume=%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2014
+#, python-format
+msgid ""
+"Starting deletion of volume %(volume_id)s.  There is no associated vdisk,"
+" so no operation will be performed on the storage controller."
+msgstr ""
+"NV-04391FA Начато удаление тома %(volume_id)s.  С ним не связан vdisk, "
+"поэтому на контроллере памяти не требуется выполнять никакую операцию."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2020
+#, python-format
+msgid "Starting deletion of volume %(volume_id)s, backed by vdisk %(vdisk_id)s"
+msgstr ""
+"NV-0C0C004 Начато удаление тома %(volume_id)s, для резервного копирования"
+" которого используется vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2032
+#, python-format
+msgid ""
+"delete_volume: vdisk mismatch: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr ""
+"NV-D258084 delete_volume: несовпадение vdisk: %(err)s. Для контроллера "
+"памяти не выполняется никакая операция"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2038
+#, python-format
+msgid ""
+"delete_volume: vdisk deleted: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr ""
+"NV-FC2A0B0 delete_volume: vdisk удален: %(err)s. Для контроллера памяти "
+"не выполняется никакая операция"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2075
+msgid "create_volume_from_snapshot: Source and destination size differ."
+msgstr ""
+"NV-5A82296 create_volume_from_snapshot: размеры исходного и целевого "
+"носителя не совпадают."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2096
+#, python-format
+msgid "create_volume_from_snapshot:  Source vdisk %s does not exist"
+msgstr "NV-4729BC4 create_volume_from_snapshot:  исходный vdisk %s не существует"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2123
+msgid "create_cloned_volume: Source and destination size differ."
+msgstr ""
+"NV-4DD8AF7 create_cloned_volume: размеры исходного и целевого носителя не"
+" совпадают."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2164
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1025
+#, python-format
+msgid "enter: extend_volume: volume %s"
+msgstr "NV-826757D вход: extend_volume: том %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2174
+msgid "extend_volume: Extending a volume with snapshots is not supported."
+msgstr ""
+"NV-E7C02C3 extend_volume: расширение тома с моментальными копиями не "
+"поддерживается."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2186
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1051
+#, python-format
+msgid "leave: extend_volume: volume %s"
+msgstr "NV-0CDE488 выход: extend_volume: том %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2202
+#, python-format
+msgid "enter: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "вход: migrate_volume: ИД=%(id)s, хост=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2234
+msgid "migrate_volume started with more than one vdisk copy"
+msgstr "Начата операция migrate_volume для нескольких копий vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2252
+#, python-format
+msgid ""
+"migrate_volume %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"migrate_volume %(name)s - не найдено сообщение об успешном выполнении в "
+"выводе CLI.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2264
+msgid "migrate_volume: Could not get vdisk copy data"
+msgstr "NV-E8B0820 migrate_volume: не удалось получить данные копии vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2279
+#, python-format
+msgid "leave: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "выход: migrate_volume: ИД=%(id)s, хост=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2301
+msgid "Updating volume stats"
+msgstr "Обновление состояния тома"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2324
+msgid "Could not get pool data from the storage"
+msgstr "NV-675559D Не удалось получить данные пула из памяти"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2325
+msgid "_update_volume_stats: Could not get storage pool data"
+msgstr "NV-F6BB258 _update_volume_stats: не удалось получить данные пула памяти"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2412
+msgid ""
+"Illegal value specified for storwize_svc_vol_rsize: set to either a "
+"percentage (0-100) or -1"
+msgstr ""
+"NV-8977C50 Для storwize_svc_vol_rsize задано недопустимое значение: "
+"должны быть заданы проценты (0-100) или значение -1"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2418
+msgid ""
+"Illegal value specified for storwize_svc_vol_warning: set to a percentage"
+" (0-100)"
+msgstr ""
+"NV-80C1898 Для storwize_svc_vol_warning задано недопустимое значение: "
+"укажите значение в процентах (0-100)"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2425
+msgid ""
+"Illegal value specified for storwize_svc_vol_grainsize: set to either 32,"
+" 64, 128, or 256"
+msgstr ""
+"NV-8A90F92 Для storwize_svc_vol_grainsize задано недопустимое значение: "
+"укажите значение 32, 64, 128 или 256"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2432
+msgid "System does not support compression"
+msgstr "NV-90F35C9 Система не поддерживает сжатие"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2437
+msgid "If compression is set to True, rsize must also be set (not equal to -1)"
+msgstr ""
+"NV-102C98D Если сжатие включено, то должен быть задан rsize (отличный от "
+"-1)"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2443
+#, python-format
+msgid ""
+"Illegal value %(prot)s specified for storwize_svc_connection_protocol: "
+"valid values are %(enabled)s"
+msgstr ""
+"NV-5EBEB51 Значение %(prot)s недопустимо для "
+"storwize_svc_connection_protocol: допустимы значения %(enabled)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2451
+#, python-format
+msgid "I/O group %(iogrp)d is not valid; available I/O groups are %(avail)s"
+msgstr ""
+"NV-9E31DDB Группа ввода-вывода %(iogrp)d недопустима; доступны следующие "
+"группы ввода-вывода: %(avail)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2465
+#, python-format
+msgid "enter: _execute_command_and_parse_attributes:  command %s"
+msgstr "вход: _execute_command_and_parse_attributes:  команда %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2477
+#, python-format
+msgid ""
+"CLI Exception output:\n"
+" command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-A3B1CA4 Вывод исключительной ситуации CLI:\n"
+" команда: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2494
+#, python-format
+msgid ""
+"leave: _execute_command_and_parse_attributes:\n"
+"command: %(cmd)s\n"
+"attributes: %(attr)s"
+msgstr ""
+"выход: _execute_command_and_parse_attributes:\n"
+"команда: %(cmd)s\n"
+"атрибуты: %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2513
+#, python-format
+msgid ""
+"_get_hdr_dic: attribute headers and values do not match.\n"
+" Headers: %(header)s\n"
+" Values: %(row)s"
+msgstr ""
+"_get_hdr_dic: заголовки и значения атрибутов не соответствуют друг другу."
+"\n"
+" Заголовки: %(header)s\n"
+" Значения: %(row)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2521
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+"stdout: %(out)s\n"
+"stderr: %(err)s\n"
+msgstr ""
+"NV-39015B6 %(fun)s: Сбой с непредвиденным выводом CLI.\n"
+" Команда: %(cmd)s\n"
+"stdout: %(out)s\n"
+"stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2535
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"%(fun)s: Сбой с непредвиденным выводом CLI.\n"
+" Команда: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2543
+#, python-format
+msgid "Did not find expected column in %(fun)s: %(hdr)s"
+msgstr "NV-BEC3CF8 В %(fun)s не найден ожидаемый столбец: %(hdr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:103
+#, python-format
+msgid ""
+"StorwizeSVCProductDriver: start flashcopy mapping polling timer, polling "
+"interval: %(intval)s seconds"
+msgstr ""
+"NV-796256C StorwizeSVCProductDriver: запущен таймер опроса связи "
+"flashcopy, интервал опроса составляет %(intval)s с"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:328
+#, python-format
+msgid ""
+"The volume %(name)s is in the error state and not a candidate for "
+"management.  vdisk status: %(status)s  vdisk id: %(vdisk_id)s  vdisk uid:"
+" %(vdisk_uid)s  "
+msgstr ""
+"Том %(name)s находится в состоянии ошибки и не является кандидатом для "
+"управления. Состояние vdisk: %(status)s  ИД vdisk: %(vdisk_id)s  uid "
+"vdisk: %(vdisk_uid)s  "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:592
+#, python-format
+msgid ""
+"The connector %(connector)s does not contain the required keys, which are"
+" %(expected_fc_keys)s.or %(expected_iscsi_keys)s"
+msgstr ""
+"Коннектор %(connector)s не содержит необходимые ключи, то есть "
+"%(expected_fc_keys)s или %(expected_iscsi_keys)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:647
+#, python-format
+msgid "Incorporating WWPNS for Node %(node_id)s: %(wwpns)s"
+msgstr "NV-365ED6F Добавление WWPNS для узла %(node_id)s: %(wwpns)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:659
+#, python-format
+msgid ""
+"Attachment for host '%(host)s' to %(storage)s for volume %(volume)s "
+"expects zoning between initiator WWPNs %(initiators)s and target WWPNs "
+"%(targets)s"
+msgstr ""
+"NV-0F22247 Прикрепление хоста '%(host)s' к %(storage)s для тома "
+"%(volume)s возможно при наличии зонирования между WWPN инициаторов "
+"%(initiators)s и WWPN целевых объектов %(targets)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:721
+#, python-format
+msgid "Mapping initiator %(phy)s to node %(node)s"
+msgstr "NV-5DC7B55 Инициатор связи %(phy)s для узла %(node)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:766
+#, python-format
+msgid ""
+"Fabric %(fabric)s does not have visibility to any WWPNs in node %(node)s,"
+" part of iogrp %(iogrp)s of storage controller %(name)s. WWPNs visible on"
+" the fabric are %(visible)s. WWPNs on the controller are %(available)s."
+msgstr ""
+"В сети %(fabric)s не видны никакие WWPN узла %(node)s, входящего в состав"
+" группы ввода-вывода %(iogrp)s контроллера памяти %(name)s. В сети видны "
+"следующие WWPN: %(visible)s. WWPN контроллера: %(available)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:811
+msgid "Zoning for single fabric, one initiator."
+msgstr "NV-6E5D37F Распределение по зонам: одна сеть, один инициатор."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:821
+msgid "Zoning for single fabric, two initiators."
+msgstr "NV-2E0EF21 Распределение по зонам: одна сеть, два инициатора."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:835
+#, python-format
+msgid ""
+"Zoning for single fabric, general case due to %(count)s initiators on "
+"fabric."
+msgstr ""
+"NV-D9A5CD2 Распределение по зонам для одной сети, стандартный случай "
+"из-за наличия %(count)s инициаторов в сети."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:845
+msgid "Zoning for dual fabric, one initiator per fabric."
+msgstr ""
+"NV-EE35C79 Распределение по зонам: две сети, по одному инициатору в "
+"каждой."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:864
+msgid "Zoning for dual fabric, two initiators per fabric."
+msgstr "NV-C638EFA Распределение по зонам: две сети, по два инициатора в каждой."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:884
+#, python-format
+msgid ""
+"Zoning for dual fabric, general case due to %(count1)s initiators on "
+"first fabric and %(count2)s initiators on second fabric."
+msgstr ""
+"NV-4351BA7 Распределение по зонам для двух сетей, стандартный случай "
+"из-за наличия %(count1)s инициаторов в первой сети и %(count2)s "
+"инициаторов во второй сети."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:894
+#, python-format
+msgid "Zoning for general case due to %(count)s fabrics."
+msgstr ""
+"NV-0733A1E Распределение по зонам для стандартного случая, число сетей: "
+"%(count)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:911
+#, python-format
+msgid "Creating zones: %r"
+msgstr "NV-70BDC4D Создание зон: %r"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:923
+#, python-format
+msgid "Requested mapping for initiators  %(initiators)s and targets %(targets)s"
+msgstr ""
+"NV-35F3CC8 Запрошено создание связей для инициаторов %(initiators)s и "
+"целевых объектов %(targets)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:941
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:950
+#, python-format
+msgid "Returned mapping is %(mapping)s"
+msgstr "NV-10E28B0 Возвращена следующая связь: %(mapping)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:976
+#, python-format
+msgid "Terminating connection with parameters %(connector)sconnector"
+msgstr "NV-4EFE246 Закрытие соединения с параметрами %(connector)sconnector"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:986
+#, python-format
+msgid "Removing zones for initiators: %(initiator_list)s"
+msgstr "NV-CC588B5 Удаление зон для инициаторов %(initiator_list)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:996
+#, python-format
+msgid ""
+"There was a failure when the zone manager attempted to remove zones "
+"created for WWPNs %(wwpns)s during detach of volume %(vol)s."
+msgstr ""
+"NV-AA064A4 Возник сбой при удалении зон, созданных для WWPN %(wwpns)s, во"
+" время отключения тома %(vol)s администратором зон."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1083
+#, python-format
+msgid "SSH Pool: %d free, %d waiting, in-flight commands:"
+msgstr "NV-F9DD698 Пул SSH: свободно %d, ожидает %d, текущие команды:"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1087
+#, python-format
+msgid " %(duration).2f %(commands)s"
+msgstr "NV-98D8DC3  %(duration).2f %(commands)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1141
+#, python-format
+msgid ""
+"vdisk %(vdsk)s has been added to the flashcopy mapping delete queue with "
+"priority %(pri)s."
+msgstr ""
+"NV-38E83B6 vdisk %(vdsk)s добавлен в очередь удаления связи flashcopy с "
+"приоритетом %(pri)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1149
+#, python-format
+msgid ""
+"Successfully returned from flashcopy mapping waiter for vdisk %(vdsk)s, "
+"returned value: %(ret)s, total wait time: %(wt)s seconds."
+msgstr ""
+"NV-62F28E6 Успешно выполнен выход из функции ожидания связи flashcopy для"
+" vdisk %(vdsk)s, возвращено значение: %(ret)s, общее время ожидания: "
+"%(wt)s с."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1166
+#, python-format
+msgid ""
+"Exception happened when waiting for flashcopy mapping handling for vdisk "
+"%(vdsk)s, total wait time: %(wt)s seconds."
+msgstr ""
+"NV-71EC636 При ожидании операции связи flashcopy для vdisk %(vdsk)s "
+"возникла исключительная ситуация, общее время ожидания: %(wt)s с."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1172
+#, python-format
+msgid ""
+"Removed flashcopy mappings waiter from waiting queue for vdisk %(vdsk)s "
+"deletion."
+msgstr ""
+"NV-46703B0 Из очереди ожидания удалена функция ожидания связей flashcopy "
+"для удаления vdisk %(vdsk)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1183
+#, python-format
+msgid "Flashcopy mapping delete queue: %(vdsks)s"
+msgstr "NV-CA4A211 Очередь удаления связи Flashcopy: %(vdsks)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1193
+#, python-format
+msgid ""
+"Flashcopy mapping delete queue: %(cnt)s vdisks pending delete, average "
+"wait time: %(avg)s seconds"
+msgstr ""
+"NV-91BB641 Очередь удаления связи Flashcopy: ожидающих удаления дисков "
+"vdisk: %(cnt)s, среднее время ожидания: %(avg)s с"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1242
+#, python-format
+msgid "fcmapping_handler: %(err)s"
+msgstr "fcmapping_handler: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1245
+#, python-format
+msgid ""
+"fcmapping_handler: to delete vdisk %(vdisk_id)s, increasing copyrate of "
+"flashcopy mapping %(map)s from 0 to %(copyrate)s and waiting for "
+"completion."
+msgstr ""
+"NV-EE5BEB1 fcmapping_handler: для удаления vdisk %(vdisk_id)s скорость "
+"копирования связи flashcopy %(map)s увеличивается с 0 до %(copyrate)s, "
+"после чего ожидается завершение операции."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1357
+#, python-format
+msgid ""
+"Exception happened during processing flashcopy mapping per vdisk %(vdsk)s"
+" deletion: %(err)s"
+msgstr ""
+"NV-71C30D1 Исключительная ситуация при обработке связи flashcopy перед "
+"удалением vdisk %(vdsk)s: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1387
+#, python-format
+msgid ""
+"Duration of fcmapping_handler timer: %(runtime)s seconds, %(pct)s%% of "
+"fixed polling interval."
+msgstr ""
+"NV-80870AC Продолжительность таймера fcmapping_handler: %(runtime)s с, "
+"%(pct)s%% от фиксированного интервала опроса."
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:93
+#, python-format
+msgid "Fabric names are not unique: %(fabric_names)s"
+msgstr "NV-2ED2D0B Имена сетей не уникальны: %(fabric_names)s"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:261
+#, python-format
+msgid "Connection established to fabric %(f_name)s"
+msgstr "NV-41B567C Установлено соединение с сетью %(f_name)s"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:376
+#, python-format
+msgid "Zones to be created for %(fabric)s are %(zones)r"
+msgstr "NV-2E6EE4A Для %(fabric)s будут созданы следующие зоны: %(zones)r"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:410
+#, python-format
+msgid "%(fabric_descriptor)s: deleting zones %(zone_list)s"
+msgstr "NV-C3FDFEA %(fabric_descriptor)s: удаление зон %(zone_list)s"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:449
+#, python-format
+msgid "Returned data from get_nameserver_info() is %(info)r"
+msgstr "NV-7863F08 Из get_nameserver_info() возвращены следующие данные: %(info)r"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:122
+msgid "Could not connect"
+msgstr "NV-07C9AAF Не удалось установить соединение"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:124
+#, python-format
+msgid "SSH Client created for %s"
+msgstr "NV-08C2923 Создан клиент SSH для %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:187
+#, python-format
+msgid "Failed getting active zone set from %s"
+msgstr "NV-373682A Не удалось получить набор активных зон из %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:218
+msgid "Malformed zone configuration"
+msgstr "NV-9BF2FBF Неверная конфигурация зон"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:220
+#, python-format
+msgid "Failed getting active zone set from fabric %s"
+msgstr "NV-A5B77A2 Не удалось получить набор активных зон из сети %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:259
+#, python-format
+msgid "Add Zones - Zones passed: %s"
+msgstr "NV-8A18A84 Добавить зоны - переданные зоны: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:267
+#, python-format
+msgid "Adding zone failed. Error in getting active zone set from fabric %s"
+msgstr ""
+"NV-C692314 Не удалось добавить зоны. Ошибка при получении набора активных"
+" зон из сети %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:276
+#, python-format
+msgid "Zone %(zoneName)s already contains required members"
+msgstr "NV-EADDEDC Зона %(zoneName)s уже содержит необходимые элементы"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:282
+#, python-format
+msgid "Deleted Zone before insert : %s"
+msgstr "NV-4C9797D Зона, удаленная перед вставкой: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:286
+#, python-format
+msgid "Deleting zone failed %s"
+msgstr "NV-C1A773E Не удалось удалить зону %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:294
+#, python-format
+msgid "Adding zone, cmd to run %s"
+msgstr "NV-D2B3DDC Добавление зоны, выполняемая команда: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:301
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:304
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:338
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:341
+#, python-format
+msgid "Adding zone failed, cmd %s"
+msgstr "NV-3F8FCCF Не удалось добавить зону, команда %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:312
+msgid "No new zones created"
+msgstr "NV-145C307 Не создана ни одна зона"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:322
+#, python-format
+msgid "Zoneset create operation failed with output %s"
+msgstr "NV-0645570 Операция создания набора зон не выполнена, вывод: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:330
+#, python-format
+msgid "cfgAdd operation failed : %s"
+msgstr "NV-C8F3EB6 Операция cfgAdd не выполнена: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:343
+msgid "Zoning completed"
+msgstr "NV-BC5301E Распределение по зонам выполнено"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:373
+#, python-format
+msgid "Failed getting active zones from fabric %s"
+msgstr "NV-21CE132 Не удалось получить активные зоны из сети %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:395
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:398
+#, python-format
+msgid "Deleting zones failed, cmd %s"
+msgstr "NV-AFACFBC Не удалось удалить зоны, команда %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:414
+#, python-format
+msgid "Failed collecting nsshow info for fabric %s"
+msgstr "NV-6039569 Не удалось собрать информацию nsshow для сети %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:421
+#, python-format
+msgid "Failed collecting nscamshow info for fabric %s"
+msgstr "NV-A1992B9 Не удалось собрать информацию nscamshow для сети %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:453
+#, python-format
+msgid "Problem: %(problem)s"
+msgstr "NV-D20CB78 Неполадка: %(problem)s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:471
+#, python-format
+msgid "Will retry after %(seconds)s seconds..."
+msgstr "NV-A7C85C7 Повтор через %(seconds)s с..."
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:490
+#, python-format
+msgid "Failed closing SSH connection %s"
+msgstr "NV-3EA57B2 Не удалось закрыть соединение SSH %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:512
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:561
+#, python-format
+msgid "running: '%s'"
+msgstr "NV-081F69F выполняется: '%s'"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:521
+#, python-format
+msgid "Returned data was %r"
+msgstr "NV-93F16B7 Возвращенные данные: %r"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:535
+#, python-format
+msgid "Error running command via ssh: %s"
+msgstr "NV-20D0255 Ошибка при запуске команды через ssh: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:587
+#, python-format
+msgid "Error while checking zoning txn status: %s"
+msgstr "NV-2D4C6DF Ошибка при проверке состояния txn распределения по зонам: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:599
+#, python-format
+msgid "Executing: %s"
+msgstr "NV-4EBB354 Выполняется: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:609
+#, python-format
+msgid "CLI execution returned: %s"
+msgstr "NV-538FB7E Возвращено после выполнения в CLI: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:633
+#, python-format
+msgid "Error executing command %(cmd)s: %s"
+msgstr "Ошибка при выполнении команды %(cmd)s: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:648
+#, python-format
+msgid "Failed when executing command '%(cmd)s': %(err)s"
+msgstr "NV-B5BA5A5 Сбой при выполнении команды '%(cmd)s': %(err)s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:670
+#, python-format
+msgid "Malformed nameserver output is: %s"
+msgstr "NV-07E23F0 Вывод сервера имен в неверном формате: %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:672
+msgid "Malformed nameserver info"
+msgstr "NV-4331BBF Неверный формат информации сервера имен"
+

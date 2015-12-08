@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+#coding: utf-8
+
+from __future__ import print_function
+
+import os
+import sys
+import traceback
+from migrate.versioning.repository import Repository
+
+from cinder.openstack.common import gettextutils
+
+
+from oslo.config import cfg
+
+from cinder import version
+from cinder.db.sqlalchemy import migration
+from paxes_cinder.db.sqlalchemy import migrate_repo
+from cinder.openstack.common import log as logging
+
+gettextutils.install('cinder')
+cfg.CONF(sys.argv[1:], project='cinder', version=version.version_string())
+
+logging.setup('cinder')
+
+def main():
+    try:
+        #First run the DB Synchronization on the Base OpenStack Repository
+        #migration.db_sync()
+
+        #Now we want to update the Repository to match our Paxes Repository
+        path = os.path.dirname(migrate_repo.__file__)
+        migration._REPOSITORY = Repository(path)
+
+        #We need to create our repository in the DB if it doesn't exist yet
+        try:
+            migration.db_version()
+        except Exception:
+            migration.db_version_control()
+
+        #Now we can run the DB Synchronization on the Paxes Repository
+        migration.db_sync()
+
+    except Exception as exc:
+        traceback.print_exc(exc)
+        sys.exit(2)
+
+if __name__ == '__main__':
+    main()

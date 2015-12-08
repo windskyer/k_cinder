@@ -1,0 +1,3482 @@
+# Translations template for paxes_cinder.
+# Copyright (C) 2014 NCO Corp.
+# This file is distributed under the same license as the paxes_cinder
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: paxes_cinder 1.2.1.0\n"
+"Report-Msgid-Bugs-To: nguyen1d@us.ibm.com\n"
+"POT-Creation-Date: 2014-04-24 16:04-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: paxes_cinder/k2aclient/openstack/common/gettextutils.py:255
+msgid "Message objects do not support addition."
+msgstr "NV-C33F89C 消息对象不支持添加。"
+
+#: paxes_cinder/k2aclient/openstack/common/gettextutils.py:264
+msgid ""
+"Message objects do not support str() because they may contain non-ascii "
+"characters. Please use unicode() or translate() instead."
+msgstr "NV-64408AE 消息对象不支持 str()，因为它们可能包含非 ASCII 字符。请改为使用 unicode() 或 translate()。"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:129
+#, python-format
+msgid "Got unknown keyword args to utils.execute: %r"
+msgstr "NV-36AD129 对于 utils.execute，已获取的关键字自变量未知：%r"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:144
+#, python-format
+msgid "Running cmd (subprocess): %s"
+msgstr "NV-9F83237 正在运行命令（子进程）：%s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:169
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:241
+#, python-format
+msgid "Result was %s"
+msgstr "NV-E91D667 结果为 %s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:181
+#, python-format
+msgid "%r failed. Retrying."
+msgstr "NV-E62FA94 %r 失败。正在重试。"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:220
+#, python-format
+msgid "Running cmd (SSH): %s"
+msgstr "NV-F226973 正在运行命令 (SSH)：%s"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:222
+msgid "Environment not supported over SSH"
+msgstr "NV-5D0CD8B 无法通过 SSH 支持环境"
+
+#: paxes_cinder/k2aclient/openstack/common/procutils.py:226
+msgid "process_input not supported over SSH"
+msgstr "NV-E78B011 无法通过 SSH 支持 process_input"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:512
+#, python-format
+msgid "DB error: %s"
+msgstr "NV-B907287 数据库错误：%s"
+
+#: paxes_cinder/k2aclient/shell.py:100
+msgid "Print debugging output"
+msgstr "打印调试输出"
+
+#: paxes_cinder/api/plugins/__init__.py:31
+#, python-format
+msgid "Failed to load extension %(name)s: %(ex)s"
+msgstr "NV-E1E174C 未能装入扩展 %(name)s：%(ex)s"
+
+#: paxes_cinder/volume/manager.py:1275
+#, python-format
+msgid "Driver %s does not implement Discover Driver"
+msgstr "NV-DA200A2 驱动程序 %s 未实现发现驱动程序"
+
+#: paxes_cinder/exception.py:16
+#, python-format
+msgid "Connection control failure: %(reason)s"
+msgstr "NV-BFC4353 连接控制故障：%(reason)s"
+
+#: paxes_cinder/exception.py:20
+#, python-format
+msgid "Zone operation failed: %(reason)s"
+msgstr "NV-A619680 区域操作失败：%(reason)s"
+
+#: paxes_cinder/exception.py:24
+#, python-format
+msgid "FC SAN Lookup failure: %(reason)s"
+msgstr "NV-1316051 FC SAN 查询故障：%(reason)s"
+
+#: paxes_cinder/exception.py:32
+#, python-format
+msgid "Internal Misconfiguration detected: %(reason)s"
+msgstr "NV-C9F5A2A 检测到内部配置错误：%(reason)s"
+
+#: paxes_cinder/exception.py:58
+#, python-format
+msgid "Fabric '%(display_name)s' (%(username)s@%(ip)s:%(port)s)"
+msgstr "NV-097D384 光纤网“%(display_name)s”(%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:93
+#, python-format
+msgid "%(descriptor)s: %(message)s"
+msgstr "NV-12DC37C %(descriptor)s:%(message)s"
+
+#: paxes_cinder/exception.py:142
+#, python-format
+msgid "%(problem)s: %(err)s"
+msgstr "NV-7FA8022 %(problem)s:%(err)s"
+
+#: paxes_cinder/exception.py:164
+msgid "Could not authenticate with the specified credentials"
+msgstr "NV-BB4FAEC 未能使用所指定的凭证进行认证"
+
+#: paxes_cinder/exception.py:174
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when attempting to connect"
+msgstr "NV-3AB9750 尝试连接时超时（%(timeout)s 秒）"
+
+#: paxes_cinder/exception.py:184
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when executing command %(cmd)s"
+msgstr "NV-17277CD 执行命令 %(cmd)s 时超时（%(timeout)s 秒）"
+
+#: paxes_cinder/exception.py:193
+#, python-format
+msgid "Could not connect: %(error)s %(detail)s"
+msgstr "NV-2251927 未能连接：%(error)s %(detail)s"
+
+#: paxes_cinder/exception.py:201
+#, python-format
+msgid ""
+"Another transaction was already in progress when attempting to execute "
+"command '%(cmd)s'"
+msgstr "NV-B3EE2A1 尝试执行命令“%(cmd)s”时已经在执行另一项事务"
+
+#: paxes_cinder/exception.py:209
+#, python-format
+msgid ""
+"Zone DB exceeded size limits when executing command '%(cmd)s', which "
+"returned '%(res)s'"
+msgstr "NV-3D73335 执行命令“%(cmd)s”时，区域数据库超过了大小限制，该命令返回了“%(res)s”"
+
+#: paxes_cinder/exception.py:218
+#, python-format
+msgid "The CLI command '%(cmd)s' returned an unexpected response '%(res)s'"
+msgstr "NV-6BC3B8F CLI 命令“%(cmd)s”返回了意外响应“%(res)s”"
+
+#: paxes_cinder/exception.py:240
+#, python-format
+msgid "Storage %(display_name)s (%(username)s@%(ip)s:%(port)s)"
+msgstr "NV-FD8FAF8 存储器 %(display_name)s (%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:272
+msgid "No more host definitions can be created"
+msgstr "NV-FAE0982 无法创建更多主机定义"
+
+#: paxes_cinder/exception.py:281
+msgid "No more flashcopy mappings can be created"
+msgstr "NV-5071C44 无法创建更多瞬间复制映射"
+
+#: paxes_cinder/exception.py:289
+msgid "Could not connect, possibly due to too many connections."
+msgstr "NV-16C6099 未能连接，可能是由于连接太多。"
+
+#: paxes_cinder/exception.py:297
+#, python-format
+msgid ""
+"Could not map vdisk %(vdisk_id)s to host %(host)s because it is already "
+"mapped to another host"
+msgstr "NV-4B128AE 未能将 vdisk %(vdisk_id)s 映射至主机 %(host)s，因为它已经映射至另一个主机"
+
+#: paxes_cinder/exception.py:312
+#, python-format
+msgid "vdisk %(vdisk_id)s does not exist"
+msgstr "NV-8AE54C7 vdisk %(vdisk_id)s 不存在"
+
+#: paxes_cinder/exception.py:322
+msgid "No common fabrics between virtual machine and storage"
+msgstr "NV-E5685D0 虚拟机与存储器之间没有公共光纤网"
+
+#: paxes_cinder/exception.py:339
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s has been deleted and recreated. Expected UID is "
+"%(expected_uid)s, current UID is %(current_uid)s"
+msgstr ""
+"NV-78057E1 已删除，然后又重新创建了 vdisk %(vdisk_id)s。期望 UID 是 %(expected_uid)s，而当前 "
+"UID 为 %(current_uid)s"
+
+#: paxes_cinder/exception.py:350
+#, python-format
+msgid ""
+"Not enough space left on storage host %(host)s to extend the volume "
+"%(volume_id)s"
+msgstr "NV-EA431AC 存储主机 %(host)s 上没有剩余足够的空间来扩充卷 %(volume_id)s"
+
+#: paxes_cinder/exception.py:360
+msgid ""
+"Flashcopy is in progress for boot volume, volume size didn't change. "
+"Please try again later."
+msgstr "NV-461A839 正在对引导卷进行瞬间复制，卷大小未更改。请稍后重试。"
+
+#: paxes_cinder/exception.py:367
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s is source of snapshot flashcopy and fcmap %(fcmapid)s "
+"cannot be removed."
+msgstr "NV-CB3AB35 vdisk %(vdisk_id)s 是快照瞬间复制的源，无法除去 fcmap %(fcmapid)s。"
+
+#: paxes_cinder/db/sqlalchemy/migrate_repo/versions/001_ibm_paxes_v1r2.py:35
+#, python-format
+msgid "Exception creating table %(table)s: %(ex_str)s"
+msgstr "创建表 %(table)s 时发生异常：%(ex_str)s"
+
+#: paxes_cinder/db/sqlalchemy/migrate_repo/versions/001_ibm_paxes_v1r2.py:55
+#, python-format
+msgid "Exception dropping table %(table)s: %(ex_str)s"
+msgstr "废弃表 %(table)s 时发生异常：%(ex_str)s"
+
+#: paxes_cinder/fabric/map_initiators.py:70
+msgid ""
+"Could not obtain a fabric manager client. Fibre Channel switch fabrics "
+"may not be registered."
+msgstr "NV-6EF68AC 未能获得 Fabric Manager 客户机。光纤通道交换机光纤网可能未注册。"
+
+#: paxes_cinder/fabric/map_initiators.py:85
+#, python-format
+msgid ""
+"Unable to retrieve WWPN initiator information from one or more fabric "
+"switches. Error: %(ex_str)s"
+msgstr "无法从一个或多个光纤网交换机中检索 WWPN 发起方信息。错误：%(ex_str)s"
+
+#: paxes_cinder/fabric/map_initiators.py:119
+msgid "No fabrics registered."
+msgstr "NV-0AA1511 未注册任何光纤网。"
+
+#: paxes_cinder/fabric/map_initiators.py:124
+msgid "No fabric names registered."
+msgstr "NV-A4978F0 未注册任何光纤网名称。"
+
+#: paxes_cinder/k2aclient/client.py:104
+msgid ", during get"
+msgstr "NV-C758794 ，在获取期间"
+
+#: paxes_cinder/k2aclient/client.py:127
+msgid ", during refresh"
+msgstr "NV-A09A06D ，在刷新期间"
+
+#: paxes_cinder/k2aclient/client.py:148
+#: paxes_cinder/k2aclient/client.py:172
+msgid ", during create"
+msgstr "NV-16332E7 ，在创建期间"
+
+#: paxes_cinder/k2aclient/client.py:193
+msgid ", during delete"
+msgstr "NV-B5BE602 ，在删除期间"
+
+#: paxes_cinder/k2aclient/client.py:207
+msgid ", during runJob"
+msgstr "NV-9A12874 ，在运行作业期间"
+
+#: paxes_cinder/k2aclient/client.py:219
+msgid ", during readJob"
+msgstr "NV-EA9B845 ，在读取作业期间"
+
+#: paxes_cinder/k2aclient/client.py:234
+msgid ", during authenticate"
+msgstr "NV-DD96084 ，在认证期间"
+
+#: paxes_cinder/k2aclient/client.py:247
+#, python-format
+msgid ""
+"k2aclient: while obtaining client, invalid client version >%(version)s<. "
+"must be one of: >%(versions)s<"
+msgstr "k2aclient：获取客户机时，客户机版本 >%(version)s< 无效。必须为下列其中一个版本：>%(versions)s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:46
+#: paxes_cinder/k2aclient/exceptions.py:307
+#, python-format
+msgid ", exception diagnostics have been written to: >%s<"
+msgstr "，已将异常诊断写入：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:56
+#, python-format
+msgid "Other Exception off of K2: >%s<"
+msgstr "NV-92A2EB5 K2 的其他异常：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:58
+#: paxes_cinder/k2aclient/exceptions.py:78
+#: paxes_cinder/k2aclient/exceptions.py:88
+#: paxes_cinder/k2aclient/exceptions.py:105
+#, python-format
+msgid ", during: >%s<"
+msgstr "，在此期间：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:66
+#, python-format
+msgid "SSL exception off of K2: >%s<"
+msgstr "NV-852F651 K2 的 SSL 异常：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:76
+#, python-format
+msgid "Connection exception off of K2: >%s<"
+msgstr "NV-DE65980 K2 的连接异常：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:86
+#, python-format
+msgid "Timeout exception off of K2: >%s<"
+msgstr "NV-DC27602 K2 的超时异常：>%s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:100
+#, python-format
+msgid "K2Error off of K2: >%(msg)s<, Status: >%(status)d<, k2Error: >%(k2error)s<"
+msgstr "K2 的 K2Error：>%(msg)s<，状态：>%(status)d<，k2Error：>%(k2error)s<"
+
+#: paxes_cinder/k2aclient/exceptions.py:122
+msgid "Bad Request"
+msgstr "错误请求"
+
+#: paxes_cinder/k2aclient/exceptions.py:130
+msgid "Unauthorized"
+msgstr "未授权"
+
+#: paxes_cinder/k2aclient/exceptions.py:144
+msgid "Forbidden"
+msgstr "已禁止"
+
+#: paxes_cinder/k2aclient/exceptions.py:158
+msgid "Not Found"
+msgstr "找不到"
+
+#: paxes_cinder/k2aclient/exceptions.py:167
+msgid "Method Not Allowed"
+msgstr "不允许使用此方法"
+
+#: paxes_cinder/k2aclient/exceptions.py:177
+msgid "Not Acceptable"
+msgstr "不可接受"
+
+#: paxes_cinder/k2aclient/exceptions.py:189
+msgid "Conflict"
+msgstr "冲突"
+
+#: paxes_cinder/k2aclient/exceptions.py:197
+msgid "PreCondition failed"
+msgstr "前置条件失败"
+
+#: paxes_cinder/k2aclient/exceptions.py:206
+msgid "Request Body Too Large"
+msgstr "请求主体太大"
+
+#: paxes_cinder/k2aclient/exceptions.py:216
+msgid "Unsupported Media Type"
+msgstr "介质类型不受支持"
+
+#: paxes_cinder/k2aclient/exceptions.py:225
+msgid "Internal Server Error"
+msgstr "内部服务器错误"
+
+#: paxes_cinder/k2aclient/exceptions.py:235
+msgid "Not Implemented"
+msgstr "未实现"
+
+#: paxes_cinder/k2aclient/exceptions.py:245
+msgid "Service Unavailable"
+msgstr "服务不可用"
+
+#: paxes_cinder/k2aclient/exceptions.py:255
+msgid "HTTP Version Not Supported"
+msgstr "HTTP 版本不受支持"
+
+#: paxes_cinder/k2aclient/exceptions.py:263
+msgid "Not Classified"
+msgstr "未分类"
+
+#: paxes_cinder/k2aclient/k2exclogger.py:114
+#, python-format
+msgid ""
+"k2aclient: during FFDC, cant create k2 exception log directory: >%s<, "
+"will disable k2 exception logging .."
+msgstr "NV-ED6E0F0 k2aclient：在 FFDC 期间，无法创建 K2 异常日志目录：>%s<，将禁用 K2 异常日志记录..."
+
+#: paxes_cinder/k2aclient/k2exclogger.py:123
+#, python-format
+msgid ""
+"k2aclient: during FFDC, cant write to k2 exception log directory: >%s<, "
+"will disable k2 exception logging .."
+msgstr "NV-6373107 k2aclient：在 FFDC 期间，无法写入 K2 异常日志目录：>%s<，将禁用 K2 异常日志记录..."
+
+#: paxes_cinder/k2aclient/k2exclogger.py:146
+#, python-format
+msgid ""
+"k2aclient: during FFDC,  caught an exception while writing to log "
+"directory: >%s<, will disable k2 exception logging .."
+msgstr "NV-3376E54 k2aclient：在 FFDC 期间，写入日志目录时捕获到异常：>%s<，将禁用 K2 异常日志记录..."
+
+#: paxes_cinder/k2aclient/shell.py:59
+#, python-format
+msgid ""
+"k2aclient: error: %(errmsg)s\n"
+"Try '%(mainp)s help %(subp)s' for more information.\n"
+msgstr ""
+"k2aclient：错误：%(errmsg)s\n"
+"尝试“%(mainp)s help %(subp)s”以了解更多信息。\n"
+
+#: paxes_cinder/k2aclient/shell.py:80
+msgid "See \"k2a help COMMAND\" for help on a specific command."
+msgstr "请参阅“k2a 帮助命令”以了解有关特定命令的帮助。"
+
+#: paxes_cinder/k2aclient/shell.py:106
+msgid "Accepts 1,defaults to env[K2A_API_VERSION]."
+msgstr "接受 1，缺省设置为 env[K2A_API_VERSION]。"
+
+#: paxes_cinder/k2aclient/shell.py:109
+msgid "Number of retries when attempting k2 operations."
+msgstr "尝试 K2 操作的重试次数。"
+
+#: paxes_cinder/k2aclient/shell.py:119
+msgid "url for k2 hmc, defaults to env[K2_URL]."
+msgstr "K2 HMC 的 URL，缺省设置为 env[K2_URL]。"
+
+#: paxes_cinder/k2aclient/shell.py:125
+msgid "k2 username, defaults to env[K2_USERNAME]."
+msgstr "K2 用户名，缺省设置为 env[K2_USERNAME]。"
+
+#: paxes_cinder/k2aclient/shell.py:131
+msgid "k2 password, defaults to env[K2_PASSWORD]."
+msgstr "K2 密码，缺省设置为 env[K2_PASSWORD]。"
+
+#: paxes_cinder/k2aclient/shell.py:138
+msgid ""
+"k2 auditmemento, defaults to, if set, env[K2_AUDITMEMENTO], otherwise to "
+"\"k2a\"."
+msgstr "K2 auditmemento，缺省设置为 env[K2_AUDITMEMENTO]（如果设置了此项），否则设置为“k2a”。"
+
+#: paxes_cinder/k2aclient/shell.py:145
+msgid "k2 certpath, defaults to, if set, env[K2_CERTPATH], otherwise to None."
+msgstr "k2 certpath，缺省设置为 env[K2_CERTPATH]（如果设置了此项），否则设置为 None。"
+
+#: paxes_cinder/k2aclient/shell.py:152
+msgid ""
+"log directory, defaults to, if set, env[K2A_LOGDIR], otherwise to None. "
+"None turnsoff file logging"
+msgstr "日志目录，缺省设置为 env[K2A_LOGDIR]（如果设置了此项），否则设置为 None。如果值为 None，那么将关闭文件日志记录"
+
+#: paxes_cinder/k2aclient/shell.py:171
+msgid ""
+"directory where k2aexc subdirectorywill be placedie \"<excdir>/k2aexc\", "
+"defaults to, if set, env[K2A_EXCDIR], otherwise to /tmp"
+msgstr ""
+"k2aexc 子目录将放置在的目录，即“<excdir>/k2aexc”，缺省设置为 env[K2A_EXCDIR]（如果设置了此项），否则设置为"
+" /tmp"
+
+#: paxes_cinder/k2aclient/shell.py:309
+msgid ""
+"k2aclient: you must provide a url for a k2 hmc via either --k2-url or "
+"env[K2_URL]"
+msgstr "NV-D20F7FC k2aclient：您必须通过 --k2-url 或者 env[K2_URL] 来提供 K2 HMC 的 URL"
+
+#: paxes_cinder/k2aclient/shell.py:315
+msgid ""
+"k2aclient: you must provide a k2 username via either --k2-username or "
+"env[K2_USERNAME]"
+msgstr "NV-996BCEC k2aclient：您必须通过 --k2-username 或 env[K2_USERNAME] 来提供 K2 用户名"
+
+#: paxes_cinder/k2aclient/shell.py:321
+msgid ""
+"k2aclient: you must provide a k2 password via either --k2-password or via"
+" env[K2_PASSWORD]"
+msgstr "NV-EB948AA k2aclient：您必须通过 --k2-password 或 env[K2_PASSWORD] 来提供 K2 密码"
+
+#: paxes_cinder/k2aclient/shell.py:355
+#, python-format
+msgid "Display help for %s"
+msgstr "显示有关 %s 的帮助"
+
+#: paxes_cinder/k2aclient/shell.py:364
+#, python-format
+msgid "k2aclient:>%s< is not a valid subcommand"
+msgstr "NV-DAC982A k2aclient：>%s< 不是有效的子命令"
+
+#: paxes_cinder/k2aclient/shell.py:384
+msgid "... terminating k2a client"
+msgstr "NV-56344DF ... 正在终止 k2a 客户机"
+
+#: paxes_cinder/k2aclient/shell.py:389
+#, python-format
+msgid "ERROR: type: >%(type)s<, msg: >%(e)s<"
+msgstr "NV-9BF8F90 错误：类型：>%(type)s<，消息：>%(e)s<"
+
+#: paxes_cinder/k2aclient/utils.py:101
+#, python-format
+msgid "k2aclient: no %(res)s with a name or ID of '%(name_or_id)s' exists."
+msgstr "NV-63A28A2 k2aclient：不存在其名称或标识为“%(res)s”的 %(name_or_id)s。"
+
+#: paxes_cinder/k2aclient/utils.py:108
+#, python-format
+msgid ""
+"k2aclient: multiple %(res)s matches found for '%(name_or_id)s', use an ID"
+" to be more specific."
+msgstr "NV-9ACDF38 k2aclient：找到了“%(res)s”的多个 %(name_or_id)s 匹配项，请使用一个更具体的标识。"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:144
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:138
+#, python-format
+msgid "during directory preparation, cant create directory:  >%s<"
+msgstr "NV-64A449C 在准备目录期间，无法创建目录：>%s<"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:150
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:144
+#, python-format
+msgid "during directory preparation, cant write to directory:  >%s<"
+msgstr "NV-C96CB61 在准备目录期间，无法写入目录：>%s<"
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:181
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_etag_test.py:44
+#: paxes_cinder/k2aclient/k2asample/tool_ssp_simulation.py:228
+#, python-format
+msgid "Node: >%s<, has no virtual_io_server, continuing ..."
+msgstr "NV-60D657D 节点 >%s< 没有 virtual_io_server，正在继续..."
+
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_cluster_vios_snap.py:192
+#: paxes_cinder/k2aclient/k2asample/k2_ssp_etag_test.py:55
+#: paxes_cinder/k2aclient/k2asample/tool_ssp_simulation.py:239
+#, python-format
+msgid "Failed to retrieve node: >%s<, msg: >%s<, continuing ..."
+msgstr "NV-0B99A4D 未能检索节点：>%s<，消息：>%s<，正在继续..."
+
+#: paxes_cinder/k2aclient/openstack/common/lockutils.py:276
+#, python-format
+msgid "Released file lock \"%(lock)s\" at %(path)s for method \"%(method)s\"..."
+msgstr "NV-F6B31F1 已为方法“%(method)s”释放 %(path)s 处的文件锁定“%(lock)s”..."
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:98
+#, python-format
+msgid ""
+"k2aclient: during lu_linked_clone_of_lu, source_lu_udid: "
+">%(source_lu_udid)s<, not in sharedstoragepool: >%(ssp.id)s<"
+msgstr ""
+"NV-69F0ACE k2aclient：在 lu_linked_clone_of_lu 期间，source_lu_udid "
+">%(source_lu_udid)s< 不在共享存储池中：>%(ssp.id)s<"
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:221
+#, python-format
+msgid ""
+"k2aclient: for cluster id : >%(cluster.id)s<,  during lu_linked_clone, "
+"for SourceUDID: >%(sourceUDID)s<, and DestinationUDID: "
+">%(destinationUDID)s<, experienced job failure, job_id: "
+">%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient：对于集群标识：>%(cluster.id)s<，在 lu_linked_clone 期间，对于 SourceUDID "
+">%(sourceUDID)s< 和 DestinationUDID "
+">%(destinationUDID)s<，遇到了作业故障，job_id：>%(jresponse.job_id)s<，状态：>%(jresponse.status)s<，已将输入"
+" K2 作业诊断写入 >%(diagfspeci)s<，已将响应 K2 作业诊断写入 >%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/cluster_manager.py:335
+#, python-format
+msgid ""
+"k2aclient: for cluster id : >%(cluster.id)s<,  during lu_create, for "
+"lu_unit_name: >%(lu_unit_name)s<, with lu_unit_capacity: "
+">%(lu_unit_capacity)s<, experienced job failure, job_id: "
+">%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient：对于集群标识：>%(cluster.id)s<，在 lu_create 期间，对于 "
+"lu_unit_name：>%(lu_unit_name)s<，具有 "
+"lu_unit_capacity：>%(lu_unit_capacity)s<，遇到了作业故障，job_id：>%(jresponse.job_id)s<，状态：>%(jresponse.status)s<，已将输入"
+" K2 作业诊断写入：>%(diagfspeci)s<，已将响应 K2 作业诊断写入：>%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/logicalpartition_manager.py:126
+#: paxes_cinder/k2aclient/v1/logicalpartition_manager.py:191
+#, python-format
+msgid ""
+"k2aclient: during power_on, for LogicalPartition: "
+">%(logicalpartition.id)s<, failed to power on due to job failure, job_id:"
+" >%(jresponse.job_id)s<, status: >%(jresponse.status)s<, input K2 job "
+"diagnostics have been written to: >%(diagfspeci)s<, response k2 job "
+"diagnostics have been written to: >%(diagfspec)s<"
+msgstr ""
+"k2aclient：在 power_on "
+"期间，对于逻辑分区：>%(logicalpartition.id)s<，由于发生作业故障而未能打开电源，job_id：>%(jresponse.job_id)s<，状态：>%(jresponse.status)s<，已将输入"
+" K2 作业诊断写入：>%(diagfspeci)s<，已将响应 K2 作业诊断写入：>%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/managementconsole_manager.py:77
+#, python-format
+msgid ""
+"CLIRunner: ManagementConsole: >%(mc.id)s<, failed to run cmd: >%(cmd)s< "
+"due to job failure, job_id: >%(jresponse.job_id)s<, status: "
+">%(jresponse.status)s<, input K2 job diagnostics have been written to: "
+">%(diagfspeci)s<,  response k2 job diagnostics have been written to: "
+">%(diagfspec)s<"
+msgstr ""
+"CLIRunner：管理控制台：>%(mc.id)s<，由于发生作业故障而未能运行命令：>%(cmd)s<，job_id：>%(jresponse.job_id)s<，状态：>%(jresponse.status)s<，已将输入"
+" K2 作业诊断写入：>%(diagfspeci)s<，已将响应 K2 作业诊断写入：>%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:108
+#, python-format
+msgid ""
+"SharedStoragePool: While attempting to access Cluster: >%s<, unable to "
+"connect to HMC: >%s<"
+msgstr "共享存储池：尝试访问集群 >%s< 时，无法连接至 HMC：>%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:110
+msgid "Check the HMC and its configuration."
+msgstr "请检查 HMC 及其配置。"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:111
+#, python-format
+msgid "SharedStoragePool: Able to connect to HMC: >%s< for Cluster: >%s<"
+msgstr "共享存储池：能够连接至集群 >%s< 的 HMC：>%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:113
+#, python-format
+msgid "SharedStoragePool: Couldn't access Cluster: >%s<"
+msgstr "共享存储池：未能访问集群：>%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:114
+msgid "Check the PowerVC SharedStoragePool configuration"
+msgstr "请检查 PowerVC 共享存储池配置"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:115
+#, python-format
+msgid "SharedStoragePool: Couldn't access SharedStoragePool in Cluster: >%s<"
+msgstr "共享存储池：未能访问集群 >%s 中的共享存储池"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:117
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:122
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:127
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:133
+msgid "Diagnose and repair Cluster"
+msgstr "请诊断并修复集群"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:118
+#, python-format
+msgid ""
+"SharedStoragePool: Successfully accessed SharedStoragePool in Cluster: "
+">%s<"
+msgstr "共享存储池：已成功访问集群 >%s 中的共享存储池"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:120
+#, python-format
+msgid "SharedStoragePool: Unable to create LogicalUnits in Cluster: >%s<"
+msgstr "共享存储池：无法在集群 >%s 中创建逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:123
+#, python-format
+msgid "SharedStoragePool: LogicalUnit creation functional in Cluster: >%s<"
+msgstr "共享存储池：可在集群 >%s< 中创建逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:125
+#, python-format
+msgid "SharedStoragePool: Unable to clone LogicalUnits in Cluster: >%s<"
+msgstr "共享存储池：无法在集群 >%s 中克隆逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:128
+#, python-format
+msgid ""
+"SharedStoragePool: Unable to clone LogicalUnits in Cluster: >%s<, status:"
+" >%s<"
+msgstr "共享存储池：无法在集群 >%s 中克隆逻辑单元，状态：>%s<"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:130
+#, python-format
+msgid "Clone functional in Cluster: >%s<"
+msgstr "可在集群 >%s< 中克隆"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:131
+#, python-format
+msgid "SharedStoragePool: Unable to delete LogicalUnits in Cluster: >%s<"
+msgstr "共享存储池：无法在集群 >%s 中删除逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:134
+#, python-format
+msgid "SharedStoragePool: LogicalUnit deletion functional in Cluster: >%s<"
+msgstr "共享存储池：可在集群 >%s< 中删除逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:136
+msgid "SharedStoragePool: Not Attempted"
+msgstr "共享存储池：未尝试"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:143
+msgid "HMC connectivity"
+msgstr "HMC 连接"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:144
+msgid "Test connection to an HMC managing the SharedStoragePool"
+msgstr "测试与用于管理共享存储池的 HMC 的连接"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:147
+msgid "Cluster and SharedStoragePool accessibility"
+msgstr "集群和共享存储池辅助功能选项"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:148
+msgid "Test the accessibility of a SharedStoragePool"
+msgstr "测试共享存储池的辅助功能选项"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:151
+msgid "Create SharedStoragePool LogicalUnits"
+msgstr "创建共享存储池逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:152
+msgid "Test the capability to create SharedStoragePool LogicalUnits"
+msgstr "测试是否具有创建共享存储池逻辑单元的能力"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:155
+msgid "Clone LogicalUnits"
+msgstr "克隆逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:156
+msgid "Test the capability to perform a clone"
+msgstr "测试是否具有执行克隆的能力"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:159
+msgid "Delete SharedStoragePool LogicalUnits"
+msgstr "删除共享存储池逻辑单元"
+
+#: paxes_cinder/k2aclient/v1/paxes_manager.py:160
+msgid "Test the capability to delete SharedStoragePool LogicalUnits"
+msgstr "测试是否具有删除共享存储池逻辑单元的能力"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:112
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cannot update K2 object(s) obtained"
+" from a list operation, for ssp: >%s<"
+msgstr ""
+"NV-CEE080E k2aclient：在 updated_append_lus 期间，无法更新从列示操作获得的 K2 对象，对象 "
+"ssp：>%s<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:158
+#, python-format
+msgid "k2aclient: during updated_append_lus, wrong length of lu input tuple: >%d<"
+msgstr "NV-B8F5AF7 k2aclient：在 updated_append_lus 期间，LU 输入元组的长度错误：>%d<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:192
+#, python-format
+msgid ""
+"k2aclient:  during updated_append_lus, request to add LU unit_name: >%s< "
+"failed, name must be unique"
+msgstr ""
+"NV-F6B87FC k2aclient：在 updated_append_lus 期间，请求添加 LU unit_name: >%s< "
+"失败，名称必须唯一"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:224
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, while adding LUs named: "
+">%(lunames)s<,  # attempts due to HTTP 412 exceeded: "
+">%(self.api.retries)d<"
+msgstr ""
+"NV-01A9381 k2aclient：在 updated_append_lus 期间，添加名为 >%(lunames)s< 的 LU 时，由于"
+" HTTP 412 而导致尝试次数超过了 >%(self.api.retries)d<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:260
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cant handle K2 response, K2 "
+"reported successful creation of >%(lenlus)d<  lus named: >%(lunames)s<,  "
+"attempts: >%(attempts)d<  but only >%(lustoadd)d< LUs were found."
+msgstr ""
+"k2aclient：在 updated_append_lus 期间，无法处理 K2 响应，K2 报告了已成功创建 >%(lenlus)d< 个名为"
+" >%(lunames)s< 的 LU，尝试次数：>%(attempts)d<，但是仅找到 >%(lustoadd)d< 个 LU。"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:276
+#, python-format
+msgid ""
+"k2aclient: during updated_append_lus, cant handle K2 response, K2 "
+"reported successful creation of >%(lenlus)d< lus named: >%(lunames)s<, "
+"attempts: >%(attempts)d< but >%(lustoadd)d< extra LUs were returned."
+msgstr ""
+"k2aclient：在 updated_append_lus 期间，无法处理 K2 响应，K2 报告了已成功创建 >%(lenlus)d< 个名为"
+" >%(lunames)s< 的 LU，尝试次数：>%(attempts)d<，但是返回了 >%(lustoadd)d< 个额外的 LU。"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:369
+#, python-format
+msgid ""
+"k2aclient: during update_append_lu, programming error, could not find "
+"lu_udid: >%(lu_udid)s<, in input ssp for: >%(pool)s<"
+msgstr ""
+"k2aclient：在 update_append_lu 期间，发生了编程错误，在 >%(lu_udid)s< 的输入 ssp 中找不到 "
+"lu_udid：>%(pool)s<"
+
+#: paxes_cinder/k2aclient/v1/sharedstoragepool_manager.py:390
+#, python-format
+msgid ""
+"k2aclient: during update_append_lu, while deleting LUs w/ udids: "
+">%(lu_udids)s<, # attempts due to HTTP 412 exceeded: >%(retries)d<"
+msgstr ""
+"NV-A3B2A22 k2aclient：在 update_append_lu 期间，删除 UDID 为 >%(lu_udids)s< 的 LU "
+"时，由于 HTTP 412 而导致尝试次数超过了 >%(retries)d<"
+
+#: paxes_cinder/k2aclient/v1/shell.py:55
+#, python-format
+msgid "k2aclient: during encoding unexpected type: >%s<"
+msgstr "NV-AA592CA k2aclient：在编码期间，遇到意外的类型：>%s<"
+
+#: paxes_cinder/k2aclient/v1/shell.py:205
+#: paxes_cinder/k2aclient/v1/shell.py:801
+#: paxes_cinder/k2aclient/v1/shell.py:812
+msgid "Id of the cluster."
+msgstr "集群的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:215
+msgid "UUID of the cluster containing the LUs."
+msgstr "包含 LU 的集群的 UUID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:218
+msgid "UDID of the source logicalunit."
+msgstr "源逻辑单元的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:221
+msgid "UDID of the destination logicalunit."
+msgstr "目标逻辑单元的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:231
+msgid "Id of the managedsystem to list logicalpartitions"
+msgstr "要列示逻辑分区的受管系统的标识"
+
+#: paxes_cinder/k2aclient/v1/shell.py:246
+#: paxes_cinder/k2aclient/v1/shell.py:273
+#: paxes_cinder/k2aclient/v1/shell.py:295
+#: paxes_cinder/k2aclient/v1/shell.py:350
+#: paxes_cinder/k2aclient/v1/shell.py:486
+#: paxes_cinder/k2aclient/v1/shell.py:658
+#: paxes_cinder/k2aclient/v1/shell.py:674
+#: paxes_cinder/k2aclient/v1/shell.py:698
+#: paxes_cinder/k2aclient/v1/shell.py:714
+msgid "Id of the managedsystem."
+msgstr "受管系统的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:249
+#: paxes_cinder/k2aclient/v1/shell.py:262
+#: paxes_cinder/k2aclient/v1/shell.py:617
+#: paxes_cinder/k2aclient/v1/shell.py:634
+msgid "Id of the logicalpartition."
+msgstr "逻辑分区的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:276
+msgid "UDIDs of the logicalpartition."
+msgstr "逻辑分区的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:313
+#: paxes_cinder/k2aclient/v1/shell.py:324
+#: paxes_cinder/k2aclient/v1/shell.py:347
+msgid "Id of the managementconsole."
+msgstr "管理控制台的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:327
+#: paxes_cinder/k2aclient/v1/shell.py:356
+msgid "Command to run."
+msgstr "要运行的命令。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:353
+msgid "UUID of the virtualioserver."
+msgstr "虚拟服务器的 UUID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:394
+msgid "Id of the sharedstoragepool."
+msgstr "共享存储池的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:405
+#: paxes_cinder/k2aclient/v1/shell.py:443
+#: paxes_cinder/k2aclient/v1/shell.py:456
+msgid "UUID of the sharedstoragepool."
+msgstr "共享存储池的 UUID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:408
+msgid "Name of the new logicalunit."
+msgstr "新逻辑单元的名称。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:411
+msgid "Capacity of the new logicalunit."
+msgstr "新逻辑单元的容量。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:414
+msgid "Optional flag to control whether the new logicalunit will be thick or thin"
+msgstr "用于控制新逻辑单元将为富逻辑单元或者瘦逻辑单元的可选标志"
+
+#: paxes_cinder/k2aclient/v1/shell.py:419
+msgid "LogicalUnitType: VirtualIO_Disk | VirtualIO_Image"
+msgstr "LogicalUnitType：VirtualIO_Disk | VirtualIO_Image"
+
+#: paxes_cinder/k2aclient/v1/shell.py:423
+msgid "Optional udid of LU to clone from, new if omitted"
+msgstr "要从其中克隆的 LU 的可选 UDID；如果省略了，那么将为 new"
+
+#: paxes_cinder/k2aclient/v1/shell.py:446
+msgid "UDIDs of the logicalunit."
+msgstr "逻辑单元的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:459
+msgid "Optional flag to control whether full details should be output"
+msgstr "用于控制是否应输出完整详细信息的可选标志"
+
+#: paxes_cinder/k2aclient/v1/shell.py:471
+msgid "Id of the managedsystem to list virtualioservers"
+msgstr "要列示虚拟服务器的受管系统的标识"
+
+#: paxes_cinder/k2aclient/v1/shell.py:489
+#: paxes_cinder/k2aclient/v1/shell.py:513
+msgid "Id of the virtualioserver."
+msgstr "虚拟服务器的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:493
+msgid ""
+"Optional extended attributes Valid values include: All, Advanced, "
+"Hypervisor, SystemNetwork, ViosStorage, ViosNetwork, ViosFCMapping, "
+"ViosSCSIMapping, and None May be used multiple times. \"All\" if omitted"
+msgstr ""
+"可选的扩展属性，有效值包括：All、Advanced、Hypervisor、SystemNetwork、ViosStorage、ViosNetwork、ViosFCMapping、ViosSCSIMapping"
+" 和 None，可以多次使用。如果省略了值，那么将为“All”"
+
+#: paxes_cinder/k2aclient/v1/shell.py:608
+msgid "Id of the logicalpartition to list clientnetworkadapters"
+msgstr "要列示客户机网络适配器的逻辑分区的标识"
+
+#: paxes_cinder/k2aclient/v1/shell.py:620
+msgid "Id of the clientnetworkadapter."
+msgstr "客户机网络适配器的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:637
+msgid "UDIDs of the clientnetworkadapter."
+msgstr "客户机网络适配器的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:649
+msgid "Id of the managedsystem to list virtualnetworks"
+msgstr "要列示虚拟网络的受管系统的标识"
+
+#: paxes_cinder/k2aclient/v1/shell.py:661
+msgid "Id of the virtualnetwork."
+msgstr "虚拟网络的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:677
+msgid "UDIDs of the virtualnetwork."
+msgstr "虚拟网络的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:689
+msgid "Id of the managedsystem to list virtualswitchs"
+msgstr "要列示虚拟交换机的受管系统的标识"
+
+#: paxes_cinder/k2aclient/v1/shell.py:701
+msgid "Id of the virtualswitch."
+msgstr "虚拟交换机的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:717
+msgid "UDIDs of the virtualswitch."
+msgstr "虚拟交换机的 UDID。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:740
+msgid "Id of the file."
+msgstr "文件的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:750
+msgid "Ids of the files."
+msgstr "文件的标识。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:761
+msgid "/rest/api/uom<uomresource>."
+msgstr "/rest/api/uom<uomresource>。"
+
+#: paxes_cinder/k2aclient/v1/shell.py:766
+msgid "Send output to file"
+msgstr "将输出发送至晚间"
+
+#: paxes_cinder/k2aclient/v1/shell.py:782
+msgid "Read cinder ssp conf files and report on health"
+msgstr "读取 Cinder ssp conf 文件以及有关运行状况的报告"
+
+#: paxes_cinder/k2aclient/v1/shell.py:815
+#: paxes_cinder/k2aclient/v1/shell.py:843
+msgid "VIOS password for all VIOS defaults to \"padmin\""
+msgstr "所有 VIOS 的 VIOS 密码都缺省设置为“padmin”"
+
+#: paxes_cinder/k2aclient/v1/shell.py:820
+#: paxes_cinder/k2aclient/v1/shell.py:848
+msgid "Target directory for snapsdefaults to \"/tmp/vios-snap\""
+msgstr "快照的目标目录缺省设置为“/tmp/vios-snap”"
+
+#: paxes_cinder/k2aclient/v1/shell.py:839
+msgid "list of vios ips expressed as jsoneg '[\"9.47.161.157\"]'"
+msgstr "VIOS 的 IP 列表表示为 jsoneg '[\"9.47.161.157\"]'"
+
+#: paxes_cinder/k2aclient/v1/v1k2creater.py:170
+#, python-format
+msgid "k2aclient: during process_root, unrecognized service: >%s<"
+msgstr "NV-1FC12D8 k2aclient：在 process_root 期间，不识别服务：>%s<"
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:61
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, for type: >%(pcname)s<, k2 gave "
+"unknown attr: >%(us_tag)s<, is there a schema mismatch?, will skip ..."
+msgstr ""
+"NV-A18BFC5 k2aclient：在 K2 编组期间，对于类型：>%(pcname)s<，K2 "
+"给定了未知属性：>%(us_tag)s<，是否存在模式不匹配？将跳过..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:77
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, for type: >%(pcname)s<, k2 attr: "
+">%(us_tag)s<: is listed as scalar, but maybe its not?, is there a schema "
+"mismatch?, will replace existing scalar w/ next value ..."
+msgstr ""
+"k2aclient：在 K2 编组期间，对于类型：>%(pcname)s<，K2 属性 >%(us_tag)s< "
+"列示为标量，但是它可能不是标量吗？是否存在模式不匹配？将现有标量替换为新值吗？..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:131
+#, python-format
+msgid ""
+"k2aclient: during k2 deserialization, while processing: k2 type: "
+">%(parent_tag)s<, there is no definition for k2 type: >%(k2type)s<, is "
+"there a schema mismatch?, will skip ..."
+msgstr ""
+"k2aclient：在 K2 编组期间，处理 K2 类型 >%(parent_tag)s< 时，不存在 K2 类型 >%(k2type)s< "
+"的定义，是否存在模式不匹配？将跳过..."
+
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:190
+#: paxes_cinder/k2aclient/v1/v1k2loader.py:199
+msgid "k2aclient:"
+msgstr "NV-E561712 k2aclient："
+
+#: paxes_cinder/k2aclient/v1/virtualioserver_manager.py:280
+#, python-format
+msgid ""
+"k2aclient: during lua_recovery, for device_id: >%(device_id)s<, "
+"experienced job failure, job_id: >%(jresponse.job_id)s<, status: "
+">%(jresponse.status)s<, input K2 job diagnostics have been written to: "
+">%(diagfspeci)s<, response k2 job diagnostics have been written to: "
+">%(diagfspec)s<"
+msgstr ""
+"k2aclient：在 lua_recovery 期间，对于 "
+"device_id：>%(device_id)s<，遇到了作业故障，job_id：>%(jresponse.job_id)s<，状态：>%(jresponse.status)s<，已将输入"
+" K2 作业诊断写入：>%(diagfspeci)s<，已将响应 K2 作业诊断写入：>%(diagfspec)s<"
+
+#: paxes_cinder/k2aclient/v1/web_file_manager.py:83
+msgid ""
+"k2aclient: during file upload, filename: >%(wf.filename)s<, id: "
+">%(wf.id)s<, file_uuid: >%(wf.file_uuid)s<, file_enum_type: "
+">%(wf.file_enum_type)s<"
+msgstr "k2aclient：在上载文件期间，文件名：>%(wf.filename)s<，标识：>%(wf.id)s<，file_uuid：>%(wf.file_uuid)s<，file_enum_type：>%(wf.file_enum_type)s<"
+
+#: paxes_cinder/k2aclient/v1/web_job_manager.py:65
+#, python-format
+msgid ""
+"k2aclient: during %(jobtype)s, retry job, job_id: >%(job_id)s<, status: "
+">%(status)s<,"
+msgstr ""
+"NV-FBECCFD k2aclient：在 %(jobtype)s "
+"期间，重试作业，job_id：>%(job_id)s<，状态：>%(status)s<，"
+
+#: paxes_cinder/k2aclient/v1/web_job_manager.py:77
+#, python-format
+msgid ""
+"k2aclient: during %(jobtype)s, too many retries, maximum number of "
+"retries: >%(maxretries)d<, job_id: >%(job_id)s<, status: >%(status)s<,"
+msgstr ""
+"k2aclient：在 %(jobtype)s "
+"期间，重试次数太多，最大重试次数：>%(maxretries)d<，job_id：>%(job_id)s<，状态，>%(status)s<，"
+
+#: paxes_cinder/scheduler/host_manager.py:59
+#, python-format
+msgid "clean up host_state_map: %(host)shost"
+msgstr "NV-F9D1534 清除 host_state_map：%(host)shost"
+
+#: paxes_cinder/scheduler/sched_drv.py:56
+#, python-format
+msgid "volume request: requested size: %(size)s. "
+msgstr "卷请求：所请求的大小：%(size)s。"
+
+#: paxes_cinder/scheduler/sched_drv.py:62
+#, python-format
+msgid ""
+"{host: %(hostname)s, free_capacity: %(free_cap)s, total_capacity: "
+"%(total)s, reserved_percentage: %(reserved)s, last update: "
+"%(time_updated)s}"
+msgstr "{主机：%(hostname)s，可用容量：%(free_cap)s，总容量：%(total)s，所保留容量所占的百分比：%(reserved)s，最近一次更新时间：%(time_updated)s}"
+
+#: paxes_cinder/scheduler/sched_drv.py:72
+msgid "request exceeds capacity: info"
+msgstr "NV-DBCC600 请求超过容量：info"
+
+#: paxes_cinder/scheduler/sched_drv.py:75
+msgid "No storage has been registered. "
+msgstr "NV-96E101B 尚未注册存储器。"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:67
+msgid ""
+"Free capacity not set: Volume node is either still under initialization "
+"or the node info collection is broken."
+msgstr "NV-872554F 未设置可用容量：卷节点仍然在进行初始化，或者节点信息收集已中断。"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:99
+msgid "missing default_volume_type"
+msgstr "NV-404930C 缺少 default_volume_type"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:106
+#, python-format
+msgid ""
+"missing valid rsize on                                 "
+"%(default)svolume_type: %(vol_type)s"
+msgstr "NV-B717E15 在 %(default)svolume_type：%(vol_type)s 上缺少有效 rsize"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:117
+#, python-format
+msgid ""
+"Insufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-5CC98A1 "
+"可用空间不足，无法创建卷（所请求的空间/可用空间/rsize）：%(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:124
+#, python-format
+msgid ""
+"Sufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-D0E32D8 "
+"有足够的可用空间可用于创建卷（所请求的空间/可用空间/rsize）：%(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scohack/scohack_http.py:150
+#, python-format
+msgid "BadStoreUri: credentials '%(creds)s' not well-formatted."
+msgstr "NV-5991AD7 BadStoreUri：凭证“%(creds)s”的格式不正确。"
+
+#: paxes_cinder/scohack/scohack_http.py:160
+msgid "BadStoreUri: no address specified in HTTP URL"
+msgstr "NV-2A5D3E2 BadStoreUri：在 HTTP URL 中未指定任何地址"
+
+#: paxes_cinder/scohack/scohack_http.py:295
+#, python-format
+msgid "MaxRedirectsExceeded: redirects: >%(max)d<"
+msgstr "NV-30617DF MaxRedirectsExceeded：重定向次数：>%(max)d<"
+
+#: paxes_cinder/scohack/scohack_http.py:308
+#, python-format
+msgid "HTTP URL returned a %(status)s status code."
+msgstr "HTTP URL 返回了 %(status)s 状态码。"
+
+#: paxes_cinder/scohack/scohack_http.py:310
+#: paxes_cinder/scohack/scohack_http.py:322
+#, python-format
+msgid "BadStoreUri: loc.path: >%(path)s<, reason: >%(reason)s<"
+msgstr "NV-0E3AB46 BadStoreUri：loc.path：>%(path)s<，原因：>%(reason)s<"
+
+#: paxes_cinder/scohack/scohack_location.py:50
+#, python-format
+msgid "exception.UnknownScheme: scheme: >%(scheme)s<"
+msgstr "NV-B8DA628 exception.UnknownScheme：方案：>%(scheme)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:77
+msgid "URI must start with scohack://"
+msgstr "NV-DF4522D URI 必须以 scohack:// 开头"
+
+#: paxes_cinder/scohack/scohack_scohack.py:79
+#, python-format
+msgid "BadStore: uri: >%(uri)s<, reason: >%(reason)s<"
+msgstr "NV-7D2A4E2 BadStore：URI：>%(uri)s<，原因：>%(reason)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:93
+#, python-format
+msgid "x-scg-vios-id: >%(id)s< not of form 'ttttmmm_sssssssnnn'"
+msgstr "NV-9CCE26B x-scg-vios-id：>%(id)s< 的格式不是“ttttmmm_sssssssnnn”"
+
+#: paxes_cinder/scohack/scohack_scohack.py:106
+#, python-format
+msgid "scohack: x-scg-vios-id: cant list ManagedSystem: >%(ex)s<"
+msgstr "NV-405AA27 scohack：x-scg-vios-id：无法列示受管系统：>%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:121
+#, python-format
+msgid "scohack: x-scg-vios-id: cant find ManagedSystem for: >%(id)s<"
+msgstr "NV-708F8BE scohack：x-scg-vios-id：找不到 >%(id)s< 的受管系统"
+
+#: paxes_cinder/scohack/scohack_scohack.py:129
+#, python-format
+msgid "scohack: x-scg-vios-id: cant list VirtualIoServer: >%(ex)s<"
+msgstr "NV-2D6AE0A scohack：x-scg-vios-id：无法列示 VirtualIoServer：>%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:139
+#, python-format
+msgid "scohack: x-scg-vios-id: cant find VirtualIOServer for: >%(id)s<"
+msgstr "NV-081426D scohack：x-scg-vios-id：找不到 >%(id)s< 的 VirtualIOServer"
+
+#: paxes_cinder/scohack/scohack_scohack.py:162
+msgid "scohack: cant list vios"
+msgstr "NV-D40CA86 scohack：无法列示 VIOS"
+
+#: paxes_cinder/scohack/scohack_scohack.py:168
+msgid "scohack: no vios found"
+msgstr "NV-ABFCCCD scohack：找不到 VIOS"
+
+#: paxes_cinder/scohack/scohack_scohack.py:177
+#, python-format
+msgid "scohack: cant list vios for ms: >%(id)s<"
+msgstr "NV-D6ED6BF scohack：无法列示 ms >%(id)s< 的 VIOS"
+
+#: paxes_cinder/scohack/scohack_scohack.py:184
+#, python-format
+msgid "scohack: no vios found for ms: >%(id)s<"
+msgstr "NV-0FD0B8A scohack：找不到 ms >%(id)s< 的 VIOS"
+
+#: paxes_cinder/scohack/scohack_scohack.py:195
+#, python-format
+msgid "scohack: for ms: >%(mid)s<, cant find vios: >%(vid)s<"
+msgstr "NV-AD83B35 scohack：对于 ms：>%(mid)s<，找不到 VIOS：>%(vid)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:204
+#, python-format
+msgid "scohack: cant find vios: >%(vid)s<"
+msgstr "NV-3704F44 scohack：找不到 VIOS：>%(vid)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:328
+#, python-format
+msgid ""
+"scohack: only single hmc is supported: prev: >%(prev_id)s<, new: "
+">%(new_id)s<"
+msgstr "NV-185C13E scohack：仅支持单个 HMC：前一个 HMC：>%(prev_id)s<，新 HMC：>%(new_id)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:339
+#, python-format
+msgid "scohack: no HMC for id: >%(id)s<"
+msgstr "NV-628D2F6 scohack：不存在标识 >%(id)s< 的 HMC"
+
+#: paxes_cinder/scohack/scohack_scohack.py:352
+#, python-format
+msgid ""
+"scohack: managemenconsole: >%(mc)s< could not be retrieved, hdisks will "
+"not be cleaned up, msg: >%(msg)s<"
+msgstr "scohack：未能检索到管理控制台 >%(mc)s<，将不会清除 hdisk，消息：>%(msg)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:383
+#, python-format
+msgid "scohack: vios: >%(vios)s<, volume: >%(vol)s<"
+msgstr "NV-22A4C11 scohack：VIOS：>%(vios)s<，卷：>%(vol)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:400
+#, python-format
+msgid "scohack: image upload: hdisk: >%(hdisk)s<, vios: >%(vios)s<"
+msgstr "NV-B86BF01 scohack：上载映像：hdisk：>%(hdisk)s<，VIOS：>%(vios)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:417
+#, python-format
+msgid "scohack: volume not found: >%(volume)s<"
+msgstr "NV-CDC6DBB scohack：找不到卷：>%(volume)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:428
+#, python-format
+msgid "scohack: volume: invalid status: >%(status)s<"
+msgstr "NV-D365509 scohack：卷：无效状态：>%(status)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:445
+#, python-format
+msgid "scohack: no ports for vios: >%(vios)s<"
+msgstr "NV-230F42F scohack：不存在 VIOS >%(vios)s< 的端口"
+
+#: paxes_cinder/scohack/scohack_scohack.py:461
+#, python-format
+msgid "scohack: failed to connect to volume >%(volume_id)s< "
+msgstr "NV-E7095A2 scohack：未能连接至卷 >%(volume_id)s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:471
+#, python-format
+msgid ""
+"scohack: for target volume: >%(volume)s<, bad connection: >%(info)s<, no "
+"target_lun"
+msgstr "NV-79C5617 scohack：对于目标卷：>%(volume)s<，错误连接：>%(info)s<，没有 target_lun"
+
+#: paxes_cinder/scohack/scohack_scohack.py:487
+#, python-format
+msgid ""
+"scohack: for target volume: >%(volume)s<, no target wwpn found in "
+"connection: >%(info)s< "
+msgstr "NV-5C2B384 scohack：对于目标卷：>%(volume)s<，在连接中找不到目标 WWPN：>%(info)s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:506
+#, python-format
+msgid "scohack: target volume: >%(volume)s<, does not have page83 data"
+msgstr "NV-33E8084 scohack：目标卷 >%(volume)s< 没有 page83 数据"
+
+#: paxes_cinder/scohack/scohack_scohack.py:514
+#, python-format
+msgid "scohack: start luarecovery: deviceid: >%(id)s< , itls: >%(itls)s<"
+msgstr "NV-0A59DDD scohack：启动 luarecovery：设备标识：>%(id)s<，itls：>%(itls)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:525
+#, python-format
+msgid "scohack: lua_recovery job failed for target volume: >%(volume)s<"
+msgstr "NV-D94C9A2 scohack：对于目标卷 >%(volume)s<，lua_recovery 作业失败"
+
+#: paxes_cinder/scohack/scohack_scohack.py:538
+#, python-format
+msgid "scohack: luarcovery job status: >%(status)s<, result: >%(res)s<"
+msgstr "NV-FC7E239 scohack：luarcovery 作业状态：>%(status)s<，结果：>%(res)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:544
+#, python-format
+msgid ""
+"scohack: lua_recovery job internal error, device_list is invalid device "
+"list: >%(lua_list)s<"
+msgstr "NV-610160F scohack：lua_recovery 作业内部错误，device_list 是无效设备列表：>%(lua_list)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:552
+#, python-format
+msgid ""
+"scohack: lua_recovery job returned multiple devices device list: "
+">%(lua_list)s<, will select first ..."
+msgstr "NV-3A4481D scohack：lua_recovery 作业返回了多个设备列表：>%(lua_list)s<，将选择第一个设备列表..."
+
+#: paxes_cinder/scohack/scohack_scohack.py:562
+#, python-format
+msgid ""
+"This means that a device was found from an ITL nexus and it was "
+"determined to be in use by the VIOS. The most likely cause is that a "
+"virtual device was not removed from a previous deploy. The VIOS took no "
+"action in this case. device: >%(dev)s<"
+msgstr ""
+"这意味着从 ITL 关系中找到了一个设备，并且确定 VIOS 正在使用该设备。最有可能导致这种情况的原因是未从先前部署中除去虚拟设备。VIOS "
+"在这种情况下未执行任何操作。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:572
+#, python-format
+msgid ""
+"This means that the ITL nexus is not consider reliable and some error "
+"occurred that prevents the VIOS from determining making a decision on "
+"safely removing a device. The VIOS took no action in this case. Perhaps "
+"try to remove the offending hdisk from the VIOS, with rmdev -d -l hdiskx."
+" device: >%(dev)s<"
+msgstr ""
+"NV-DC7D321 这意味着 ITL 关系未被视为可靠，并且发生了某些错误，阻止 VIOS 确定作出有关安全除去设备的决策。VIOS "
+"在这种情况下未执行任何操作。也许尝试使用 rmdev -d -l hdiskx 从 VIOS 除去厌恶的 hdisk。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:585
+#, python-format
+msgid ""
+"This means the information provided and action taken by the VIOS was "
+"sufficient to find the storage. pvName, and uniqueID elements will follow"
+" in the data stream. device: >%(dev)s<"
+msgstr ""
+"NV-8DB8D33 这意味着 VIOS 所提供的信息和执行的操作足以查找存储器。数据流中将采用 pvName 和 uniqueID "
+"元素。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:593
+#, python-format
+msgid ""
+"This means some new storage element was found at the ITL nexus but VIOS "
+"could not determine if it is the storage of interest to the management "
+"tool. device: >%(dev)s<"
+msgstr ""
+"NV-36ADD00 这意味着在 ITL 关系中找到了一些新的存储器元素，但是 VIOS "
+"未能确定它是否是管理工具感兴趣的存储器。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:602
+#, python-format
+msgid ""
+"The VIOS could not determine if this is logical unit of interest to the "
+"management tool however did find a device from the ITL nexus list. "
+"device: >%(dev)s<"
+msgstr "NV-6761BFF VIOS 未能确定这是否是管理工具感兴趣的逻辑单元，但是从 ITL 关系列表中找到了设备。设备 >%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:611
+#, python-format
+msgid ""
+"The VIOS could not find a device from the itl nexus list. It could be "
+"some SCSI or transport error occurred during configuration or the ITL "
+"nexus list was incorrect. device: >%(dev)s<"
+msgstr ""
+"NV-2479600 VIOS 未能从 ITL 关系列表中找到设备。可能是在配置期间发生了某些 SCSI 或传输错误，或者 ITL "
+"关系列表不正确。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:622
+#, python-format
+msgid ""
+"Unknown device status. Severe internal error contact NCO. device: "
+">%(dev)s<"
+msgstr "NV-2EF1D11 未知设备状态。发生了严重的内部错误，请与 NCO 联系。设备：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:638
+#, python-format
+msgid "scohack: failed to find device name: >%(dev)s<"
+msgstr "NV-B6E8402 scohack：找不到设备名：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:643
+#, python-format
+msgid "scohack: found device name: >%(dev)s<"
+msgstr "NV-32CF4C2 scohack：找到了设备名：>%(dev)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:665
+#, python-format
+msgid "scohack: hdisk_uuid: >%(hdisk)s<, checksum not specified"
+msgstr "NV-D85ABDC scohack：hdisk_uuid：>%(hdisk)s<，未指定校验和"
+
+#: paxes_cinder/scohack/scohack_scohack.py:672
+#, python-format
+msgid "scohack: hdisk_uuid: >%(hdisk)s<, size not specified"
+msgstr "NV-9783CB3 scohack：hdisk_uuid：>%(hdisk)s<，未指定大小"
+
+#: paxes_cinder/scohack/scohack_scohack.py:694
+#, python-format
+msgid ""
+"scohack: image upload complete for hdisk_uuid: >%(hdisk)s<, webfile id: "
+">%(wid)s<, actual size: >%(size)s< bytes, elapsed time: >%(time)d< "
+"seconds, rate: >%(rate)f< minutes/GB"
+msgstr ""
+"scohack：对 hdisk_uuid 完成了上载映像：>%(hdisk)s<，Web "
+"文件标识：>%(wid)s<，实际大小：>%(size)s< 个字节，耗用时间：>%(time)d< 秒，速率：>%(rate)f< 分钟/GB"
+
+#: paxes_cinder/scohack/scohack_scohack.py:709
+#, python-format
+msgid ""
+"scohack:  mismatch: expected_file_size_in_bytes: >%e_size)d<, "
+"current_file_size_in_bytes: >%(c_size)d<"
+msgstr ""
+"NV-E2ACA08 "
+"scohack：不匹配：expected_file_size_in_bytes：>%e_size)d<，current_file_size_in_bytes：>%(c_size)d<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:740
+#, python-format
+msgid ""
+"scohack: cleanup failure for: >%(hdisk)s<, job status: >%(status)s<, "
+"response: >%(res)s< continuing ..."
+msgstr ""
+"NV-C9A426B scohack：清除 >%(hdisk)s< 失败，作业状态：>%(status)s<，响应：>%(res)s< "
+"正在继续..."
+
+#: paxes_cinder/scohack/scohack_scohack.py:752
+#, python-format
+msgid ""
+"scohack: for hdisk_uuid: >%(hdisk)s<  no managementconsole, hisks will "
+"not be cleaned up"
+msgstr "NV-508BE83 scohack：对于 hdisk_uuid：>%(hdisk)s< 没有管理控制台，将不会清除 hisks"
+
+#: paxes_cinder/scohack/scohack_scohack.py:758
+#: paxes_cinder/scohack/scohack_scohack.py:768
+#, python-format
+msgid "scohack: for hdisk_uuid: >%(hdisk)s< cleanup failed, msg: >%(ex)s<"
+msgstr "NV-B37BCB5 scohack：对于 hdisk_uuid：>%(hdisk)s< 清除失败，消息：>%(ex)s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:772
+#, python-format
+msgid "scohack: upload failed for hdisk_uuid: >%(dsk)s<"
+msgstr "NV-D7A600C scohack：对于 hdisk_uuid >%(dsk)s< 上载失败"
+
+#: paxes_cinder/scohack/scohack_utils.py:47
+#, python-format
+msgid "Error: cooperative_iter exception %(error)s"
+msgstr "NV-23E8986 错误：发生 cooperative_iter 异常 %(error)s"
+
+#: paxes_cinder/volume/__init__.py:46
+#, python-format
+msgid ""
+"cinder volume_create interface has been changed. PowerVC monkey patch for"
+" volume clone won't work. function: %(fx)s, arguments: %(args)s"
+msgstr ""
+"NV-7A6F9A4 Cinder volume_create 接口已更改。用于卷克隆的 PowerVC "
+"猴子补丁将不起作用。函数：%(fx)s，自变量：%(args)s"
+
+#: paxes_cinder/volume/__init__.py:61
+#, python-format
+msgid ""
+"Monkey patched volume clone by paxes volume_create_decorator(). Source "
+"Volume ID: %(svol)s, volume type name: %(voltpnm)s, volume type ID: "
+"%(voltpid)s"
+msgstr ""
+"NV-D17192A 由 PowerVC volume_create_decorator() "
+"使用猴子补丁进行了卷克隆。源卷标识：%(svol)s，卷类型名称：%(voltpnm)s，卷类型标识：%(voltpid)s"
+
+#: paxes_cinder/volume/__init__.py:94
+#, python-format
+msgid ""
+"Failed to get the parameters from function "
+"cinder.volume.volume_types.create(). Default quota didn't set for the "
+"storage template. Error: %(err)s"
+msgstr ""
+"NV-A4934EA 未能从 cinder.volume.volume_types.create() "
+"函数获取参数。未对存储器模板设置缺省配额。错误：%(err)s"
+
+#: paxes_cinder/volume/__init__.py:114
+#, python-format
+msgid "Successfully set default quota for storage template %(vol_type)s"
+msgstr "NV-71868FF 已成功为存储器模板 %(vol_type)s 设置了缺省配额"
+
+#: paxes_cinder/volume/__init__.py:118
+#, python-format
+msgid ""
+"Failed to set default quota for storage template %(vol_type)s, error: "
+"%(err)s"
+msgstr "NV-D86E5F7 未能为存储器模板 %(vol_type)s 设置缺省配额，错误：%(err)s"
+
+#: paxes_cinder/volume/__init__.py:122
+#, python-format
+msgid ""
+"Cannot set default quota for storage template %(vol_type) due to invalid "
+"Parameters from volume type create."
+msgstr "NV-D9BA448 由于创建卷类型时使用了无效参数，因此无法为存储器模板 %(vol_type) 设置缺省配额。"
+
+#: paxes_cinder/volume/__init__.py:175
+#, python-format
+msgid "Error getting data volumes: %s "
+msgstr "NV-7627301 获取数据卷时发生错误：%s "
+
+#: paxes_cinder/volume/manager.py:89
+#, python-format
+msgid "Cannot perform direct SAN operation on disk with prefix %(prefix)s"
+msgstr "NV-1701BDD 无法对前缀为 %(prefix)s 的磁盘执行直接 SAN 操作"
+
+#: paxes_cinder/volume/manager.py:100
+msgid "Driver still initializing, wait..."
+msgstr "NV-C6CA9E0 驱动程序仍然在初始化，请稍候..."
+
+#: paxes_cinder/volume/manager.py:102
+#, python-format
+msgid "Try again: %s"
+msgstr "NV-FEE7BD0 重试：%s"
+
+#: paxes_cinder/volume/manager.py:172
+#, python-format
+msgid "Fabric {fabric_name} ({user}@{ip}:{port}): %(message)s"
+msgstr "NV-0A01336 光纤网 {fabric_name} ({user}@{ip}:{port})：%(message)s"
+
+#: paxes_cinder/volume/manager.py:188
+#, python-format
+msgid ""
+"Storage Provider {storage_provider_hostname} ({user}@{ip}:{port}) "
+"{volume_id}: %(message)s"
+msgstr ""
+"NV-E1A972C 存储器提供者 {storage_provider_hostname} ({user}@{ip}:{port}) "
+"{volume_id}：%(message)s"
+
+#: paxes_cinder/volume/manager.py:223
+msgid ""
+"The volume is already attached to another virtual server, possibly one "
+"that is not managed by PowerVC."
+msgstr "该卷已经连接至另一个虚拟服务器，可能这是 PowerVC 未管理的一个虚拟服务器。"
+
+#: paxes_cinder/volume/manager.py:227
+msgid ""
+"The volume cannot be deleted because it is either mapped to a host or "
+"part of a flashcopy or remote copy operation."
+msgstr "无法删除该卷，因为它已映射至主机或者一部分瞬间复制或远程复制操作。"
+
+#: paxes_cinder/volume/manager.py:239
+#, python-format
+msgid "%(error_prefix)s failure for volume {volume_id}: %(error)s"
+msgstr "卷 {volume_id} 的 %(error_prefix)s 故障：%(error)s"
+
+#: paxes_cinder/volume/manager.py:244
+#, python-format
+msgid ""
+"%(error_prefix)s failure for volume {volume_id}.Command %(cmd)s, error "
+"%(error)s"
+msgstr "卷 {volume_id} 的 %(error_prefix)s 故障。命令 %(cmd)s，错误 %(error)s"
+
+#: paxes_cinder/volume/manager.py:393
+#, python-format
+msgid "Resuming deletion of volume %s"
+msgstr "NV-E253654 正在继续删除卷 %s"
+
+#: paxes_cinder/volume/manager.py:396
+#, python-format
+msgid ""
+"Failed to delete volume %(volid)s during volume service startup. Error: "
+"%(error)s"
+msgstr "NV-CCA27AC 在卷服务启动期间未能删除卷 %(volid)s。错误：%(error)s"
+
+#: paxes_cinder/volume/manager.py:410
+#, python-format
+msgid "Processing volume that was left in the attaching state. Volume id: %(id)s"
+msgstr "NV-89FC9B0 正在处理先前处于“正在连接”状态的卷。卷标识：%(id)s"
+
+#: paxes_cinder/volume/manager.py:483
+#, python-format
+msgid ""
+"_volume_attach_rollback: Volume %(id)s is missing restricted metadata to "
+"recover the attaching state."
+msgstr "NV-C8F1D06 _volume_attach_rollback：卷 %(id)s 缺少受限制的元数据来恢复“正在连接”状态。"
+
+#: paxes_cinder/volume/manager.py:487
+#, python-format
+msgid ""
+"_volume_attach_rollback: No attach operation  to rollback for volume "
+"%(id)s"
+msgstr "NV-77AEEA1 _volume_attach_rollback：没有要对卷 %(id)s 回滚的连接操作"
+
+#: paxes_cinder/volume/manager.py:493
+#, python-format
+msgid ""
+"_volume_attach_rollback: Invalid connector %(conn)s in volume %(id)s "
+"restrict metadata. Rollback without termination"
+msgstr ""
+"NV-4096184 _volume_attach_rollback：卷 %(id)s 中的无效连接器 %(conn)s "
+"将限制元数据。进行回滚而不终止"
+
+#: paxes_cinder/volume/manager.py:498
+#, python-format
+msgid "_volume_attach_rollback: Roll back attaching state for volume %(id)s."
+msgstr "NV-1EB0444 _volume_attach_rollback：对卷 %(id)s 回滚“正在连接”状态。"
+
+#: paxes_cinder/volume/manager.py:518
+#, python-format
+msgid ""
+"_volume_attach_rollback: Finished. Volume %(id)s has rolled back to "
+"available state."
+msgstr "NV-1E08B26 _volume_attach_rollback：已完成。卷 %(id)s 已回滚到可用状态。"
+
+#: paxes_cinder/volume/manager.py:600
+#, python-format
+msgid ""
+"The volume detach didn't finish successfully before cinder service was "
+"restarted. volume id: %(id)s"
+msgstr "NV-333B81A 在 Cinder 服务重新启动之前，未成功完成拆离卷。卷标识：%(id)s"
+
+#: paxes_cinder/volume/manager.py:633
+msgid "Unable to initialize host, driver is uninitialized"
+msgstr "NV-7F33CBC 无法初始化主机，未初始化驱动程序"
+
+#: paxes_cinder/volume/manager.py:650
+msgid "update default quota class..."
+msgstr "NV-392B903 更新缺省配额类..."
+
+#: paxes_cinder/volume/manager.py:652
+msgid "Post init_host processing and update volume status."
+msgstr "NV-6EC3032 进行后 init_host 处理，并更新卷状态。"
+
+#: paxes_cinder/volume/manager.py:656
+#, python-format
+msgid "Error happened during post init_host volume processing. Error: %s"
+msgstr "NV-B263BC8 进行后 init_host 卷处理期间发生错误。错误：%s"
+
+#: paxes_cinder/volume/manager.py:660
+#, python-format
+msgid "Rollback volume still attaching during init_host: %d volumes"
+msgstr "NV-BDEAFA8 在 init_host %d 卷期间，回滚卷仍然在连接"
+
+#: paxes_cinder/volume/manager.py:665
+#, python-format
+msgid "Resume volume deletion during init_host: %d volumes"
+msgstr "NV-6BC64FF 在 init_host %d 卷期间，恢复卷删除"
+
+#: paxes_cinder/volume/manager.py:719
+msgid "Caught Exception Refreshing Driver Status "
+msgstr "刷新驱动程序状态时捕获到异常"
+
+#: paxes_cinder/volume/manager.py:755
+msgid "Caught Exception trying to update Storage Node in DB"
+msgstr "NV-36093B5 尝试更新数据库中的存储节点时捕获到异常"
+
+#: paxes_cinder/volume/manager.py:793
+msgid "Unable to retrieve Default Volume Type"
+msgstr "NV-544BC4C 无法检索缺省卷类型"
+
+#: paxes_cinder/volume/manager.py:850
+#, python-format
+msgid "volume %s: removing export"
+msgstr "NV-BAF02FC 卷 %s：正在除去导出"
+
+#: paxes_cinder/volume/manager.py:852
+#, python-format
+msgid "volume %s: deleting"
+msgstr "NV-4F406DE 卷 %s：正在删除"
+
+#: paxes_cinder/volume/manager.py:855
+#, python-format
+msgid "volume %s: volume is busy"
+msgstr "NV-3431BA6 卷 %s：卷处于繁忙状态"
+
+#: paxes_cinder/volume/manager.py:858
+#, python-format
+msgid "Fail to remove_export or delete_volume: %sname"
+msgstr "NV-E98201D 未能 remove_export 或 delete_volume：%sname"
+
+#: paxes_cinder/volume/manager.py:862
+#, python-format
+msgid "Volume %s: deletion failed with exception "
+msgstr "NV-137591B 卷 %s：删除失败，发生了异常"
+
+#: paxes_cinder/volume/manager.py:954
+#, python-format
+msgid ""
+"failed checking whether                              volume %(vol_id)s "
+"backs an image, metadata=%(mdata)s"
+msgstr "NV-BE4D3EE 未能检查卷 %(vol_id)s 是否支持映像，元数据 = %(mdata)s"
+
+#: paxes_cinder/volume/manager.py:991
+#, python-format
+msgid ""
+"volume %(volid)s has unfinished attach transaction. Rolling back before "
+"deleting the volume."
+msgstr "NV-331CBBA 卷 %(volid)s 具有未完成的连接事务。在删除该卷之前，请进行回滚。"
+
+#: paxes_cinder/volume/manager.py:1035
+#, python-format
+msgid ""
+"Quota exceeded for %(s_pid)s, tried to extend volume by %(s_size)sG, "
+"(%(d_consumed)dG of %(d_quota)dG already consumed)"
+msgstr ""
+"NV-521C07E 对于 %(s_pid)s，超过了配额，已尝试将卷扩充 %(s_size)sG，（已使用 "
+"%(d_consumed)dG，配额为 %(d_quota)dG）"
+
+#: paxes_cinder/volume/manager.py:1091
+#, python-format
+msgid ""
+"The host %(hostid)s for boot volume %(volid)s  does not support extend "
+"volume."
+msgstr "NV-37CDE0F 引导卷 %(volid)s 的主机 %(hostid)s 不支持扩充卷。"
+
+#: paxes_cinder/volume/manager.py:1145
+#, python-format
+msgid "Start attach transaction for volume %(id)s."
+msgstr "NV-1CBB13C 对卷 %(id)s 启动连接事务。"
+
+#: paxes_cinder/volume/manager.py:1175
+#, python-format
+msgid "Driver returned %s"
+msgstr "NV-B695526 驱动程序已返回 %s"
+
+#: paxes_cinder/volume/manager.py:1208
+#, python-format
+msgid "Successfully attached the volume %(id)s. Clean up transaction."
+msgstr "NV-F606087 已成功连接卷 %(id)s。清除事务。"
+
+#: paxes_cinder/volume/drivers/paxes_san.py:162
+#, python-format
+msgid "Waiting %(seconds)d seconds before next attempt..."
+msgstr "NV-0553DA5 在下一次尝试之前等待 %(seconds)d 秒..."
+
+#: paxes_cinder/volume/drivers/paxes_san.py:182
+#, python-format
+msgid "Error running SSH command: %s"
+msgstr "NV-052C0AB 运行 SSH 命令时出错：%s"
+
+#: paxes_cinder/volume/drivers/emc/emc_common_product.py:35
+msgid "Updating volume status"
+msgstr "NV-A56DF8D 正在更新卷状态"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:89
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1374
+msgid "protocol must be specified as '<in> iSCSI' or '<in> FC'"
+msgstr "协议必须指定为“<in> iSCSI”或“<in> FC”"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:123
+msgid "Entering create_volume."
+msgstr "NV-4C5AEEB 正在进入 create_volume。"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:127
+#, python-format
+msgid "Create Volume: %(volume)s  Size: %(size)lu"
+msgstr "NV-403E8FC 创建卷：%(volume)s  大小：%(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:157
+#, python-format
+msgid ""
+"Unsupported element_type value %(element_type)s.  Specify a supported "
+"element_type value and resubmit the request."
+msgstr ""
+"NV-AC11F99 element_type 值 %(element_type)s 不受支持。请指定受支持的 element_type "
+"值，然后重新提交该请求。"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:164
+#, python-format
+msgid "Create Volume: %(volume)s  Storage type: %(storage_type)s"
+msgstr "NV-4E4E2BB 创建卷：%(volume)s  存储类型：%(storage_type)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:171
+#, python-format
+msgid ""
+"Create Volume: %(volume)s  Pool: %(pool)s,  Element Type: "
+"%(element_type)s, Storage System: %(storage_system)s"
+msgstr ""
+"NV-723484A "
+"创建卷：%(volume)s，池：%(pool)s，元素类型：%(element_type)s，存储系统：%(storage_system)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:182
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s. Storage Configuration Service not "
+"found for pool %(storage_type)s."
+msgstr "NV-0EFA73A 创建卷 %(volumename)s 时出错。找不到池 %(storage_type)s 的存储配置服务。"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:190
+#, python-format
+msgid ""
+"Create Volume: %(name)s  Method: CreateOrModifyElementFromStoragePool  "
+"ConfigServicie: %(service)s  ElementName: %(name)s  InPool: %(pool)s  "
+"ElementType: %(element_type)s  Size: %(size)lu"
+msgstr ""
+"NV-6E312B4 创建卷：%(name)s  方法：CreateOrModifyElementFromStoragePool "
+"配置服务：%(service)s  元素名称：%(name)s InPool：%(pool)s 元素类型：%(element_type)s "
+"大小：%(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:206
+#, python-format
+msgid "Create Volume: %(volumename)s  Return code: %(rc)lu"
+msgstr "NV-0214C49 创建卷：%(volumename)s  返回码：%(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:213
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s.  Return code: %(rc)lu.  Error: "
+"%(error)s"
+msgstr "NV-227D3AC 创建卷 %(volumename)s 时出错。返回码：%(rc)lu。错误：%(error)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:220
+#, python-format
+msgid "Leaving create_volume: %(volumename)s  Return code: %(rc)lu"
+msgstr "NV-C5C5CCC 正在离开 create_volume %(volumename)s  返回码：%(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:235
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:259
+msgid "Could not establish ecom connection"
+msgstr "NV-930992B 未能建立 ecom 连接"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:177
+#, python-format
+msgid "ssp:  no matching HMC was found in the DB for host: >%s<"
+msgstr "NV-BFBE123 ssp：在主机 >%s< 的数据库中找不到相匹配的 HMC"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:248
+#, python-format
+msgid "ssp: during create default volume type, DB error: >%s<"
+msgstr "NV-FA1BBE8 ssp：创建缺省卷类型期间发生了数据库错误：>%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:279
+#, python-format
+msgid ""
+"ssp: during _create_lu for LU: (name: >%(name)s<, size: >%(size)s<, thin:"
+" >%(thin)s<), ssp_udid: >%(ssp_udid)s< is not same as extra_spec "
+"shared_storage_pool: >%(extra_spec_ssp_id)s<"
+msgstr ""
+"ssp：对 LU 执行 _create_lu "
+"期间：（名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<），ssp_udid：>%(ssp_udid)s< 与 "
+"extra_spec shared_storage_pool 不相同：>%(extra_spec_ssp_id)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:299
+#, python-format
+msgid ""
+"ssp: failed during _create_lu for LU: (name: >%(name)s<, size: "
+">%(size)s<, thin: >%(thin)s<), message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：对 LU 执行 _create_lu "
+"期间失败：（名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<），消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:329
+#, python-format
+msgid ""
+"ssp: during _create_lu job for LU: (name: >%(name)s<, size: >%(size)s<, "
+"thin: >%(thin)s<), ssp_udid: >%(ssp_udid)s< is not same as extra_spec "
+"shared_storage_pool: >%(extra_spec_ssp_id)s<"
+msgstr ""
+"ssp：对 LU 执行 _create_lu "
+"作业期间：（名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<），ssp_udid：>%(ssp_udid)s< 与"
+" extra_spec shared_storage_pool 不相同：>%(extra_spec_ssp_id)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:351
+#, python-format
+msgid ""
+"ssp: failure during _create_lu, create parameters: name: >%(name)s<, "
+"size: >%(size)s<, thin: >%(thin)s<, logicalunittype: "
+">%(logicalunittype)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在 _create_lu "
+"期间失败，创建参数：名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<，逻辑单元类型：>%(logicalunittype)s<，消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:366
+#, python-format
+msgid ""
+"ssp: failure during _create_lu job, expecting COMPLETED_OK, but for "
+"job_id: >%(job_id)s< got status: >%(status)s< create parameters: name: "
+">%(name)s<, size: >%(size)s<, thin: >%(thin)s<, logicalunittype: "
+">%(logicalunittype)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-76A9409 ssp：执行 _create_lu 作业期间失败，期望 COMPLETED_OK，但是对于 "
+"job_id：>%(job_id)s< 获得的状态为：>%(status)s< "
+"创建参数：名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<，逻辑单元类型：>%(logicalunittype)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:382
+#, python-format
+msgid ""
+"ssp: create complete, job_id: >%(job_id)s<, name: >%(name)s<, size: "
+">%(size)s<, thin: >%(thin)s<, logicalunittype: >%(logicalunittype)s<, "
+"k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-9FEEE64 "
+"ssp：已完成创建，job_id：>%(job_id)s<，名称：>%(name)s<，大小：>%(size)s<，瘦：>%(thin)s<，逻辑单元类型：>%(logicalunittype)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:416
+#, python-format
+msgid ""
+"ssp: failed during _delete_lu of LU w/ with unique_device_id: "
+">%(lu_udid)s<,  message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：对 unique_device_id 为 >%(lu_udid)s< 的 LU 执行 _delete_lu "
+"期间失败，消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:431
+#, python-format
+msgid ""
+"ssp: during _clone_lu_by_name, couldnt find lu with src_lu_name: "
+">%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+msgstr ""
+"ssp：在 _clone_lu_by_name 期间，找不到 src_lu_name 为 >%(src_lu_name)s< 的 "
+"LU，tgt_lu_name：>%(tgt_lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:439
+#, python-format
+msgid ""
+"ssp: during _clone_lu_by_name, found too many lus with src_lu_name: "
+">%(src_lu_name)s<, tgt_lu_name: >%(tgt_lu_name)s<"
+msgstr ""
+"NV-8FDE368 ssp：在 _clone_lu_by_name 期间，找到太多 src_lu_name 为 "
+">%(src_lu_name)s< 的 LU，tgt_lu_name：>%(tgt_lu_name)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:469
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, clone parameters: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s< msg: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在执行 _clone_lu_bj "
+"期间失败，克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s< "
+"tgt_lu_size：>%(tgt_lu_size)s< msg：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:485
+#: paxes_cinder/volume/drivers/ssp/ssp.py:547
+#, python-format
+msgid ""
+"ssp: apparent failure during _clone_lu_bj, expecting COMPLETED_OK, but "
+"for job_id: >%(job_id)s< got status: >%(status)s< clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-64234D9 ssp：在执行 _clone_lu_bj 期间发生明显故障，期望 COMPLETED_OK，但是对于 "
+"job_id：>%(job_id)s< 获得的状态为：>%(status)s< "
+"克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s< "
+"tgt_lu_size：>%(tgt_lu_size)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:509
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, during create, clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在执行 _clone_lu_bj "
+"期间失败，在创建期间，克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s<"
+" tgt_lu_size：>%(tgt_lu_size)s< 消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:530
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bj, during clone, clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在执行 _clone_lu_bj "
+"期间失败，在克隆期间，克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s<"
+" tgt_lu_size：>%(tgt_lu_size)s< 消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:576
+#, python-format
+msgid ""
+"ssp: failure during _clone_lu_bp, clone parameters: src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s< message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在执行 _clone_lu_bp "
+"期间失败，克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s< "
+"tgt_lu_size：>%(tgt_lu_size)s< 消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:591
+#, python-format
+msgid ""
+"ssp: apparent failure during _clone_lu_bp, expecting COMPLETED_OK, but "
+"for job_id: >%(job_id)s< got status: >%(status)s< clone parameters: "
+"src_lu_udid: >%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< "
+"tgt_lu_size: >%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-21DAFDD ssp：在执行 _clone_lu_bp 期间发生明显故障，期望 COMPLETED_OK，但是对于 "
+"job_id：>%(job_id)s< 获得的状态为：>%(status)s< "
+"克隆参数：src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s< "
+"tgt_lu_size：>%(tgt_lu_size)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:606
+#, python-format
+msgid ""
+"ssp: clone complete, job_id: >%(job_id)s<, src_lu_udid: "
+">%(src_lu_udid)s<, tgt_lu_name: >%(tgt_lu_name)s< tgt_lu_size: "
+">%(tgt_lu_size)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-330DF39 "
+"ssp：已完成克隆，job_id：>%(job_id)s<，src_lu_udid：>%(src_lu_udid)s<，tgt_lu_name：>%(tgt_lu_name)s<"
+" tgt_lu_size：>%(tgt_lu_size)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:625
+msgid "ssp: driver not yet initialized"
+msgstr "NV-767C35B ssp：尚未初始化驱动程序"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:634
+#, python-format
+msgid ""
+"K2 GET SharedStoragePool time: >%(delta)f< is bigger or equal to "
+"update_stats periodic interval: >%(periodic_interval)d<"
+msgstr ""
+"NV-BB646A1 K2 获取共享存储池时间：>%(delta)f< 大于或等于 update_stats "
+"周期性时间间隔：>%(periodic_interval)d<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:641
+#, python-format
+msgid ""
+"ssp: during get_volume_stats, failed to refresh shared storage pool with "
+"ssp_id: >%(self._ssp.id)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：执行 get_volume_stats 期间，未能刷新 ssp_id 为 >%(self._ssp.id)s< "
+"的共享存储池，消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:680
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, while performing vios cluster check, "
+"failed to refresh cluster id: >%(self._cluster.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-AC40CF2 ssp：在 %(duringwhatstage)s 期间，执行 VIOS "
+"集群检查时，未能刷新集群标识：>%(self._cluster.id)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:707
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, for vios id: >%(vios.id)s<, "
+"OperatingSystemVersion: >%(os_version)s<"
+msgstr ""
+"ssp：在 %(duringwhatstage)s 期间，对于 VIOS "
+"标识：>%(vios.id)s<，操作系统版本：>%(os_version)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:719
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, vios id: >%(vios.id)s<, running and "
+"active"
+msgstr "ssp：在 %(duringwhatstage)s 期间，VIOS 标识：>%(vios.id)s<，正在运行并且处于活动状态"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:727
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, for cluster id: >%(self._cluster.id)s<, "
+"vios state issue, vios id: >%(vios.id)s<: PartitionState: "
+">%(vios.partition_state)s< ResourceMonitoringControlState: "
+">%(vios.rmc_state)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在 %(duringwhatstage)s 期间，对于集群标识：>%(self._cluster.id)s<，VIOS 状态问题，VIOS"
+" 标识：>%(vios.id)s<：分区状态：>%(vios.partition_state)s< "
+"资源监视控制状态：>%(vios.rmc_state)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:751
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, could not find restricted metadata for "
+"volume id: >%(volume_id)s<"
+msgstr "ssp：执行 %(duringwhatstage)s 期间，找不到卷标识 >%(volume_id)s< 的受限制的元数据"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:767
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, failed to refresh shared storage pool "
+"with ssp_id: >%(self._ssp.id)s<, message: >%(e)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：执行 %(duringwhatstage)s 期间，未能刷新 ssp_id 为 >%(self._ssp.id)s< "
+"的共享存储池，消息：>%(e)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:780
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, couldnt find lu for volume_id: "
+">%(volume_id)s< with: unique_device_id: >%(lu_udid)s< and unit_name: "
+">%(lu_name)s<"
+msgstr ""
+"ssp：执行 %(duringwhatstage)s 期间，找不到 unique_device_id 为 >%(volume_id)s< 且 "
+"unit_name 为 >%(lu_udid)s< 的 volume_id >%(lu_name)s< 的 LU"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:791
+#, python-format
+msgid ""
+"ssp: during %(duringwhatstage)s, found too many lus for volume_id: "
+">%(volume_id)s< with: unique_device_id: >%(lu_udid)s< and unit_name: "
+">%(lu_name)s<"
+msgstr ""
+"NV-338EFD0 ssp：执行 %(duringwhatstage)s 期间，找到了太多 unique_device_id 为 "
+">%(volume_id)s< 且 unit_name 为 >%(lu_udid)s< 的 volume_id >%(lu_name)s< 的 "
+"LU"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:805
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:342
+msgid "enter: do_setup"
+msgstr "NV-9097266 进入：do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:825
+msgid "ssp: failure during do_setup, cant find hmc."
+msgstr "NV-AE8B2E2 ssp：执行 do_setup 期间失败，找不到 HMC。"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:853
+#, python-format
+msgid ""
+"ssp: during do_setup, failed to obtain k2client, k2_url: >%(k2_url)s<, "
+"k2_username: >%(k2_username)s<"
+msgstr ""
+"ssp：执行 do_setup 期间，未能获得 "
+"k2client，k2_url：>%(k2_url)s<，k2_username：>%(k2_username)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:866
+#, python-format
+msgid ""
+"ssp: during do_setup, using hmc_uuid: >%(hmc_uuid)s<, failed to retrieve "
+"managementconsole, k2xa: >%(k2xa)s<"
+msgstr "ssp：执行 do_setup 期间，使用 hmc_uuid：>%(hmc_uuid)s<，未能检索管理控制台，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:875
+#, python-format
+msgid "ssp: during do_setup, hmc version: >%s<"
+msgstr "NV-3F31730 ssp：执行 do_setup 期间，HMC 版本：>%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:885
+#, python-format
+msgid ""
+"ssp: during do_setup, using k2_url: >%(k2_url)s<, failed to retrieve "
+"cluster, cluster_id: >%(cluster_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：执行 do_setup 期间，使用 k2_url >%(k2_url)s< 未能检索集群 "
+"cluster_id：>%(cluster_id)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:904
+#, python-format
+msgid ""
+"ssp: during do_setup, using k2_url: >%(k2_url)s< and cluster_id: "
+">%(cluster_id)s< failed to retrieve shared storage pool with ssp_ip: "
+">%(ssp_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：执行 do_setup 期间，使用 k2_url >%(k2_url)s< 和 cluster_id >%(cluster_id)s< "
+"未能检索 ssp_ip 为 >%(ssp_id)s< 的共享存储池，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:923
+#, python-format
+msgid "ssp: during do_setup, creating default volume type: >%s<"
+msgstr "NV-379E7B0 ssp：执行 do_setup 期间，创建缺省卷类型：>%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:928
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:487
+msgid "leave: do_setup"
+msgstr "NV-F492AE8 离开：do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:931
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:580
+msgid "leave: check_for_setup_error"
+msgstr "NV-1C79D46 离开：check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:981
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1009
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1050
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1149
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:48
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:73
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:145
+#, python-format
+msgid "ssp: exception: >%s<"
+msgstr "NV-31FED69 ssp：异常：>%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:982
+msgid "ssp: failed during create_volume"
+msgstr "NV-E4EE3DB ssp：执行 create_volume 期间失败"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1010
+#, python-format
+msgid ""
+"ssp: failed during delete_volume, lu_udid: >%(lu_udid)s< lu_name: "
+">%(lu_name)s< volume id: >%(volume_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-41060EC ssp：执行 delete_volume 期间失败，lu_udid：>%(lu_udid)s< "
+"lu_name：>%(lu_name)s< 卷标识：>%(volume_id)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1029
+#, python-format
+msgid "ssp: during create_snapshot, cant find volume_id: >%s<"
+msgstr "NV-FDA9D85 ssp：在执行 create_snapshot 期间，找不到 volume_id：>%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1051
+#, python-format
+msgid ""
+"ssp: failure during create_snapshot: lu_udid: >%(src_lu_udid)s< lu_name: "
+">%(src_lu_name)s< volume id: >%(source_vol_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-ACF24A1 ssp：执行 create_snapshot 期间失败，lu_udid：>%(src_lu_udid)s< "
+"lu_name：>%(src_lu_name)s< 卷标识：>%(source_vol_id)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1070
+#, python-format
+msgid "ssp: during delete_snapshot, couldnt find lu with unit_name: >%s<"
+msgstr "NV-FCB5EA8 ssp：执行 delete_snapshot 期间，找不到 unit_name 为 >%s< 的 LU"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1077
+#, python-format
+msgid "ssp: during delete_snapshot, found too many lus with unit_name: >%s<"
+msgstr "NV-66B083E ssp：执行 delete_snapshot 期间，找到了太多 unit_name 为 >%s< 的 LU"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1105
+#, python-format
+msgid ""
+"ssp: error during create_volume_from_snapshot: snapshot with name: "
+">%(snapshot_name)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-F6CFF00 ssp：执行 create_volume_from_snapshot 期间发生错误：名称为 "
+">%(snapshot_name)s< 的快照，k2xa：>%(k2xa)s< "
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1150
+#, python-format
+msgid ""
+"ssp:  error during create_cloned_volume: src_lu_udid: >%(src_lu_udid)s< "
+"src_lu_name: >%(src_lu_name)s< volume id: >%(src_volume_id)s<, k2xa: "
+">%(k2xa)s<"
+msgstr ""
+"NV-24854A9 ssp：执行 create_cloned_volume "
+"期间发生错误：src_lu_udid：>%(src_lu_udid)s< src_lu_name：>%(src_lu_name)s< "
+"卷标识：>%(src_volume_id)s<，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:1211
+#, python-format
+msgid "stats = %(stats)s"
+msgstr "NV-898A2AA stats = %(stats)s"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:49
+#, python-format
+msgid ""
+"ssp: while discovering mapped LUs, failed to refresh cluster with "
+"cluster_id: >%(self._cluster.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-347194B ssp：发现已映射的 LU 时，未能刷新 cluster_id 为 >%(self._cluster.id)s< "
+"的集群，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:59
+#, python-format
+msgid "Node >%s< has no virtual_io_server. Skipping."
+msgstr "NV-C3FDDFD 节点 >%s< 没有 virtual_io_server。跳过。"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:74
+#, python-format
+msgid ""
+"ssp: while discovering mapped LUs, in cluster with cluster_id: "
+">%(self._cluster.id)s< failed to retrieve vios with managedsystem_id: "
+">%(ms_id)s< and virtualioserver_id: >%(vios_id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-F12DD40 ssp：在 cluster_id 为 >%(self._cluster.id)s< 的集群中发现已映射的 LU 时，未能检索"
+" managedsystem_id 为 >%(ms_id)s< 且 virtualioserver_id 为 >%(vios_id)s< 的 "
+"VIOS，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:115
+msgid ""
+"No volume statistics available, either driver has not been initialized or"
+" there is a problem w/ the driver, check cinder logs."
+msgstr "NV-A8A5D70 未提供卷统计信息，尚未初始化驱动程序或者驱动程序存在问题，请查看 Cinder 日志。"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:146
+#, python-format
+msgid ""
+"ssp: while discovering volumes, failed to refresh shared storage pool "
+"with ssp_id: >%(self._ssp.id)s<, k2xa: >%(k2xa)s<"
+msgstr ""
+"NV-7BF09DB ssp：在发现卷时，未能刷新 ssp_id 为 >%(self._ssp.id)s< "
+"的共享存储池，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:173
+msgid ""
+"This volume is not a candidate for management because it is already "
+"attached to a virtual machine.  To manage this volume with PowerVC, you "
+"must bring the virtual machine under management.  Select to manage the "
+"virtual machine that has the volume attached.  The attached volume will "
+"be automatically included for management."
+msgstr ""
+"此卷不是要对其进行管理的候选者，因为它已经连接至虚拟机。要使用 PowerVC "
+"管理此卷，必须使该虚拟机受管理。选择管理此卷已连接至的虚拟机。将自动对所连接的卷进行管理。"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:184
+#, python-format
+msgid ""
+"ssp: during Logical Unit discovery, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, volume is in use and not available for management, "
+"k2xa: >%(k2xa)s<"
+msgstr "ssp：在发现逻辑单元期间，ssp_id：>%(ssp_id)s<，lu_unique_device_id：>%(lu_unique_device_id)s<，lu_unit_name：>%(lu_unit_name)s<，正在使用卷，不可对该卷进行管理，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:200
+msgid ""
+"Because it is of type VirtualIO_Image, this volume is not a candidate for"
+" management. Perhaps, while deleting a PowerVC image, someone chose not "
+"to delete the backing storage? If you wish to work with the underlying "
+"Shared Storage Pool Logical Unit please use the HMC or VIOS commands."
+msgstr ""
+"因为此卷的类型为 VirtualIO_Image，所以此卷不可作为管理的候选者。也许在删除 PowerVC "
+"映像期间，某人选择了不删除备份存储器？如果您希望使用底层的共享存储池逻辑单元，请使用 HMC 或者 VIOS 命令。"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:210
+#, python-format
+msgid ""
+"ssp: during Logical Unit discovery, ssp_id: >%(ssp_id)s<, "
+"lu_unique_device_id: >%(lu_unique_device_id)s<, lu_unit_name: "
+">%(lu_unit_name)s<, volume is of type VirtualIO_Image and not available  "
+"for management, k2xa: >%(k2xa)s<"
+msgstr ""
+"ssp：在发现逻辑单元期间，ssp_id：>%(ssp_id)s<，lu_unique_device_id：>%(lu_unique_device_id)s<，lu_unit_name：>%(lu_unit_name)s<，卷的类型为"
+" VirtualIO_Image，不可对该卷进行管理，k2xa：>%(k2xa)s<"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:240
+#, python-format
+msgid "WWPN on node %(node)s: %(wwpn)s"
+msgstr "NV-D154765 节点 %(node)s 上的 WWPN：%(wwpn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:299
+#, python-format
+msgid "Required keys %(required)s not found in vdisk dictionary %(dictionary)r"
+msgstr "在 vdisk 目录 %(dictionary)r 中找不到必需的密钥 %(required)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:349
+msgid "do_setup: Could not get system name"
+msgstr "NV-5732B20 do_setup：未能获取系统名称"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:361
+#, python-format
+msgid "do_setup: Pool %s does not exist"
+msgstr "NV-1B3A18D do_setup：池 %s 不存在"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:412
+#, python-format
+msgid ""
+"Expected integers for node_count and vdisk_count, svcinfo lsiogrp "
+"returned: %(node)s and %(vdisk)s"
+msgstr ""
+"NV-D7E5D72 期望 node_count 和 vdisk_count 的值为整数，返回的 svcinfo lsiogrp：%(node)s"
+" 和 %(vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:475
+msgid "do_setup: No configured nodes"
+msgstr "do_setup：没有已配置的节点"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:484
+#, python-format
+msgid "Creating default volume type '%s'"
+msgstr "NV-5FF13AA 正在创建缺省卷类型“%s”"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:541
+msgid "enter: check_for_setup_error"
+msgstr "进入：check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:545
+msgid "Unable to determine system name"
+msgstr "NV-82D9304 无法确定系统名称"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:548
+msgid "Unable to determine system id"
+msgstr "NV-3C12EE7 无法确定系统标识"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:551
+msgid "Unable to determine pool extent size"
+msgstr "NV-D455E3E 无法确定池扩展数据块大小"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:558
+#, python-format
+msgid "%s is not set"
+msgstr "NV-6919A40 未设置 %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:564
+msgid ""
+"Password or SSH private key is required for authentication: set either "
+"san_password or san_private_key option"
+msgstr ""
+"NV-6FE00A0 密码或 SSH 专用密钥对于认证必需的：请设置 either san_password 或 san_private_key "
+"选项"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:572
+#, python-format
+msgid ""
+"Illegal value %d specified for storwize_svc_flashcopy_timeout: valid "
+"values are between 0 and 600"
+msgstr "NV-F2E38D9 为 storwize_svc_flashcopy_timeout 指定了非法值 %d：有效值介于 0 到 600 之间"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:594
+#, python-format
+msgid "ensure_export: Volume %(volume_id)s does not reference a vdisk"
+msgstr "NV-EF2904A ensure_export：卷 %(volume_id)s 未引用 vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:601
+#, python-format
+msgid ""
+"ensure_export: Volume %(volume_id)s references vdisk %(vdisk)s, which was"
+" not found on storage"
+msgstr ""
+"NV-C3410C4 ensure_export：卷 %(volume_id)s 引用了 vdisk %(vdisk)s，但是在存储器上找不到该 "
+"vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:627
+#, python-format
+msgid "enter: _get_chap_secret_for_host: host name %s"
+msgstr "进入：_get_chap_secret_for_host：主机名 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:663
+#, python-format
+msgid ""
+"leave: _get_chap_secret_for_host: host name %(host_name)s with secret "
+"%(chap_secret)s"
+msgstr "请离开：_get_chap_secret_for_host：具有机密 %(chap_secret)s 的主机名 %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:686
+msgid "_create_host: Cannot clean host name. Host name is not unicode or string"
+msgstr "NV-ED84213 _create_host：无法清除主机名。主机名不是 Unicode 或字符串"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:837
+#, python-format
+msgid "enter: _get_host_from_connector: prefix %s"
+msgstr "进入：_get_host_from_connector：前缀 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:865
+#, python-format
+msgid ""
+"Continue to fall back processing after initial failure to make a host on "
+"the SAN controller: %s"
+msgstr "NV-41DBBAB 在初始故障之后，继续进行回退处理，以在 SAN 控制器上生成主机：%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:909
+#, python-format
+msgid "leave: _get_host_from_connector: host %s"
+msgstr "离开：_get_host_from_connector：主机 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:921
+#, python-format
+msgid "enter: _create_host: host %s"
+msgstr "进入：_create_host：主机 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:936
+msgid "_create_host: No connector ports"
+msgstr "_create_host：没有连接器端口"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:969
+#, python-format
+msgid "leave: _create_host: host %(host)s - %(host_name)s"
+msgstr "离开：_create_host：主机 %(host)s - %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:992
+#, python-format
+msgid "enter: _map_vol_to_host: vdisk %(vdisk_id)s to host %(host_name)s"
+msgstr "进入：_map_vol_to_host：将 vdisk %(vdisk_id)s 映射至主机 %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1022
+msgid ""
+"storwize_svc_multihostmap_enabled is set to False, Not allow multi host "
+"mapping"
+msgstr "NV-ABB7D85 storwize_svc_multihostmap_enabled 已设置为 False，不允许多个主机映射"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1034
+#, python-format
+msgid "vdisk %s mapping to multi host"
+msgstr "NV-45393AC vdisk %s 映射至多个主机"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1040
+#, python-format
+msgid ""
+"leave: _map_vol_to_host: LUN %(result_lun)s, vdisk %(vdisk_id)s, host "
+"%(host_name)s"
+msgstr "离开：_map_vol_to_host：LUN %(result_lun)s，vdisk %(vdisk_id)s，主机 %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1050
+#, python-format
+msgid "enter: _delete_host: host %s "
+msgstr "进入：_delete_host：主机 %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1058
+#, python-format
+msgid "leave: _delete_host: host %s "
+msgstr "离开：_delete_host：主机 %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1084
+#, python-format
+msgid ""
+"The connector does not contain the required information: %(connector)s, "
+"protocols %(protos)s"
+msgstr "NV-6A00D73 连接器不包含必需的信息：%(connector)s，协议 %(protos)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1105
+#, python-format
+msgid "Enter: initialize_connection: %s"
+msgstr "NV-4DB79BA 进入：initialize_connection：%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1128
+#, python-format
+msgid "Did not find expected column name in lsvdisk: %s"
+msgstr "NV-5EFF8EA lsvdisk 中找不到期望的列名：%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1130
+#, python-format
+msgid "initialize_connection: Missing volume attribute for vdisk %s"
+msgstr "NV-4FE8A8D initialize_connection：缺少 vdisk %s 的卷属性"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1142
+msgid "_create_host failed to return the host name."
+msgstr "_create_host 未能返回主机名。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1164
+#, python-format
+msgid ""
+"initialize_connection: No node found in I/O group %(gid)s for vdisk "
+"%(vdisk_id)s"
+msgstr "NV-8182517 initialize_connection：I/O 组 %(gid)s 中找不到 vdisk %(vdisk_id)s 的节点"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1173
+#, python-format
+msgid "initialize_connection: Did not find a preferred node for vdisk %s"
+msgstr "NV-1DB16EC initialize_connection：找不到 vdisk %s 的首选节点"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1195
+msgid ""
+"Could not get FC connection information for the host-volume connection. "
+"Is the host configured properly for FC connections?"
+msgstr "NV-D8556EE 对于主机/卷连接，未能获取 FC 连接信息。是否为 FC 连接正确配置了主机？"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1210
+#, python-format
+msgid ""
+"initialize_connection: Failed to collect return properties for volume "
+"%(vol)s and connector %(conn)s.\n"
+msgstr "NV-0A9D0F9 initialize_connection：未能收集卷 %(vol)s 和连接器 %(conn)s 的返回属性。\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1215
+#, python-format
+msgid ""
+"leave: initialize_connection:\n"
+" volume: %(vol)s\n"
+" connector %(conn)s\n"
+" properties: %(prop)s"
+msgstr ""
+"离开：initialize_connection：\n"
+"卷：%(vol)s\n"
+"连接器：%(conn)s\n"
+"属性：%(prop)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1233
+#, python-format
+msgid "enter: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "请输入：terminate_connection：具有连接器 %(conn)s 的卷 %(vol)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1246
+#, python-format
+msgid ""
+"terminate_connection: vdisk mismatch: %(err)s. Performing no operation on"
+" the storage controller"
+msgstr "NV-78DEE4C terminate_connection：vdisk 不匹配：%(err)s。未对存储控制器执行任何操作"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1252
+#, python-format
+msgid ""
+"terminate_connection: vdisk deleted: %(err)s. Performing no operation on "
+"the storage controller"
+msgstr "NV-0E7CDF3 terminate_connection：已删除 vdisk：%(err)s。未对存储控制器执行任何操作"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1265
+#, python-format
+msgid "Detach volume: failed to lookup host name for vdisk ID: %(vdisk)s"
+msgstr "NV-5D2DC5C 拆离卷：未能查询 vdisk 标识 %(vdisk)s 的主机名"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1291
+#, python-format
+msgid ""
+"There was an error when attempting to remove the host disk mappings for "
+"volume ID %(vol)s and vdsik ID %(vdisk)s: %(err)s"
+msgstr "NV-07BAF93 尝试除去卷标识 %(vol)s 和 vdsik 标识 %(vdisk)s 的主机磁盘映射时发生错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1303
+#, python-format
+msgid ""
+"terminate_connection: No mapping of vdisk %(vdisk_id)s to host "
+"%(host_name)s found"
+msgstr ""
+"NV-0CD2F25 terminate_connection：找不到从 vdisk %(vdisk_id)s 映射至主机 "
+"%(host_name)s 的映射"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1314
+#, python-format
+msgid "leave: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "离开：terminate_connection：具有连接器 %(conn)s 的卷 %(vol)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1414
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:118
+#, python-format
+msgid "enter: _create_vdisk: candidate names %s "
+msgstr "NV-2D6FE98 进入：_create_vdisk：候选名称 %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1470
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:218
+#, python-format
+msgid ""
+"_create_vdisk %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"_create_vdisk %(name)s - 找不到 CLI 输出形式的成功消息。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1477
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:225
+#, python-format
+msgid "leave: _create_vdisk: volume %(name)s ID %(id)s "
+msgstr "NV-3A4E903 离开：_create_vdisk：卷 %(name)s 标识 %(id)s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1499
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1513
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find success "
+"message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"创建从 %(source)s 到 %(target)s 的 FC 映射 - 找不到 CLI 输出形式的成功消息。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1525
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1535
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find mapping id"
+" in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"创建从 %(source)s 到 %(target)s 的 FC 映射 - 找不到 CLI 输出形式的映射标识。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1550
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to prepare FlashCopy from %(source)s to "
+"%(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-AD077CD _prepare_fc_map：未能准备从 %(source)s 到 %(target)s 的 FlashCopy。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1578
+#, python-format
+msgid ""
+"Unexecpted mapping status %(status)s for mapping %(id)s. Attributes: "
+"%(attr)s"
+msgstr "映射 %(id)s 的意外映射状态 %(status)s。属性：%(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1590
+#, python-format
+msgid ""
+"Mapping %(id)s prepare failed to complete within the allotted %(to)d "
+"seconds timeout. Terminating."
+msgstr "NV-46B21B5 映射 %(id)s 准备未能在指定的 %(to)d 秒超时内完成。正在终止。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1595
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to start FlashCopy from %(source)s to %(target)s "
+"with exception %(ex)s"
+msgstr ""
+"NV-B48FD34 _prepare_fc_map：未能启动从 %(source)s 到 %(target)s 的 FlashCopy，发生异常"
+" %(ex)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1602
+#, python-format
+msgid "_prepare_fc_map: %s"
+msgstr "NV-956CB6C _prepare_fc_map：%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1609
+#, python-format
+msgid ""
+"_start_fc_map: Failed to start FlashCopy from %(source)s to %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-FCBE987 _start_fc_map：未能启动从 %(source)s 到 %(target)s 的 FlashCopy。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1620
+#, python-format
+msgid ""
+"enter: _run_flashcopy: execute FlashCopy from source %(source)s to target"
+" %(target)s"
+msgstr "请进入：_run_flashcopy：执行从 %(source)s 到 %(target)s 的 FlashCopy"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1633
+#, python-format
+msgid "leave: _run_flashcopy: FlashCopy started from %(source)s to %(target)s"
+msgstr "离开：_run_flashcopy：已启动从 %(source)s 到 %(target)s 的 FlashCopy"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1642
+#, python-format
+msgid ""
+"enter: _create_copy: snapshot with possible names %(names)s from vdisk "
+"%(src_vdisk)s"
+msgstr "进入：_create_copy：来自 vdisk %(src_vdisk)s 的名称可能为 %(names)s 的快照"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1650
+#, python-format
+msgid "_create_copy: Source vdisk %s does not exist"
+msgstr "NV-8A48F71 _create_copy：源 vdisk %s 不存在"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1662
+#, python-format
+msgid ""
+"_create_copy: cannot get source vdisk %(src)s capacity from vdisk "
+"attributes %(attr)s"
+msgstr "_create_copy：无法从 vdisk 属性 %(attr)s 获取源 vdisk %(src)s 容量"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1681
+#, python-format
+msgid "leave: _create_copy: snapshot vdisk %(tgt_vdisk)s from vdisk %(src_vdisk)s"
+msgstr "请离开：_create_copy：来自 vdisk %(src_vdisk)s 的快照 vdisk %(tgt_vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1688
+#, python-format
+msgid "enter: _get_flashcopy_mapping_attributes: mapping %s"
+msgstr "进入：_get_flashcopy_mapping_attributes：映射 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1711
+#, python-format
+msgid ""
+"leave: _get_flashcopy_mapping_attributes: mapping %(fc_map_id)s, "
+"attributes %(attributes)s"
+msgstr "离开：_get_flashcopy_mapping_attributes：映射 %(fc_map_id)s，属性 %(attributes)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1719
+#, python-format
+msgid "enter: _is_vdisk_defined: vdisk %s "
+msgstr "进入：_is_vdisk_defined：vdisk %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1721
+#, python-format
+msgid "leave: _is_vdisk_defined: vdisk %(vdisk)s with %(str)s "
+msgstr "离开：_is_vdisk_defined：具有 %(str)s 的 vdisk %(vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1764
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1228
+#, python-format
+msgid "%(map_id)s [vdisk %(src)s to vdisk %(tgt)s]"
+msgstr "%(map_id)s [vdisk %(src)s 到 vdisk %(tgt)s]"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1777
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, increasing copyrate of flashcopy mapping "
+"%(map)s from 0 to %(copyrate)s and waiting for completion."
+msgstr ""
+"NV-0B06E40 要删除 vdisk %(vdisk_id)s，请将瞬间复制映射 %(map)s 的复制速度从 0 增大到 "
+"%(copyrate)s，并等待完成。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1791
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1261
+#, python-format
+msgid "Vdisk %(id)s not involved in mapping %(src)s -> %(tgt)s"
+msgstr "从 %(src)s 至 %(tgt)s 的映射中不涉及 Vdisk %(id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1798
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1268
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, flashcopy mapping %(map)s with "
+"status '%(status)s' was removed."
+msgstr "NV-4CA8ED6 为了允许删除 vdisk %(vdisk_id)s，已除去状态为“%(status)s”的瞬间复制映射 %(map)s。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1806
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1276
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, waiting for flashcopy mapping "
+"%(map)s with status '%(status)s' to complete."
+msgstr "NV-E66FA4E 为了允许删除 vdisk %(vdisk_id)s，正在等待完成状态为“%(status)s”的瞬间复制映射 %(map)s。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1816
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1286
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, forcing removal of flashcopy "
+"mapping %(map)s with status '%(status)s'"
+msgstr "NV-824284E 为了允许删除 vdisk %(vdisk_id)s，正在强制除去状态为“%(status)s”的瞬间复制映射 %(map)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1827
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1300
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, prepared flashcopy mapping "
+"%(map)s was removed."
+msgstr "NV-211FA49 为了允许删除 vdisk %(vdisk_id)s，已除去准备好的瞬间复制映射 %(map)s。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1835
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1310
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, flashcopy mapping %(map)s with status "
+"'idle_or_copied' was removed."
+msgstr "NV-DA08F03 为了删除 vdisk %(vdisk_id)s，已除去状态为“idle_or_copied”的瞬间复制映射 %(map)s。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1841
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1318
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, waiting for completion of flashcopy mapping"
+" %(map)s, which is currently %(progress)s%% complete and has status "
+"'%(status)s'."
+msgstr ""
+"NV-CE3069A 为了删除 vdisk %(vdisk_id)s，正在等待完成瞬间复制映射 %(map)s，它当前已完成 "
+"%(progress)s%%，状态为“%(status)s”。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1881
+msgid ""
+"Flashcopy mapping copy rate is 0. Copy is not in progress. Return to "
+"caller."
+msgstr "NV-45B5480 瞬间复制映射的复制速度为 0。未在复制。返回到调用者。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1944
+#, python-format
+msgid "enter: _delete_vdisk: vdisk %s"
+msgstr "进入：_delete_vdisk：vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1949
+#, python-format
+msgid "warning: Tried to delete vdisk %s but it does not exist."
+msgstr "NV-E47B663 警告：尝试删除 %s，但它不存在。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1955
+#, python-format
+msgid "Removing vdisk %(vdisk_id)s"
+msgstr "NV-E18AA05 正在除去 vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1968
+#, python-format
+msgid ""
+"Hosts mapped to vdisk %(vdisk)s:\n"
+"%(out)s"
+msgstr ""
+"NV-4159ED7 主机已映射至 vdisk %(vdisk)s：\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1974
+#, python-format
+msgid ""
+"Existing FlashCopy mappings:\n"
+"%(out)s"
+msgstr ""
+"NV-A345C87 现有瞬间复制映射：\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1982
+#, python-format
+msgid "leave: _delete_vdisk: vdisk %s"
+msgstr "离开：_delete_vdisk：vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1992
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2086
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2135
+#, python-format
+msgid "adding volume_type_id to volume=%s"
+msgstr "NV-86F0410 正在将 volume_type_id 添加至卷 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2014
+#, python-format
+msgid ""
+"Starting deletion of volume %(volume_id)s.  There is no associated vdisk,"
+" so no operation will be performed on the storage controller."
+msgstr "NV-04391FA 开始删除卷 %(volume_id)s。不存在相关联的 vdisk，因此，将不会在存储控制器中执行操作。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2020
+#, python-format
+msgid "Starting deletion of volume %(volume_id)s, backed by vdisk %(vdisk_id)s"
+msgstr "NV-0C0C004 开始删除卷 %(volume_id)s，由 vdisk %(vdisk_id)s 备份"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2032
+#, python-format
+msgid ""
+"delete_volume: vdisk mismatch: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr "NV-D258084 delete_volume：vdisk 不匹配：%(err)s。未对存储控制器执行任何操作"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2038
+#, python-format
+msgid ""
+"delete_volume: vdisk deleted: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr "NV-FC2A0B0 delete_volume：vdisk 已删除：%(err)s。未对存储控制器执行任何操作"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2075
+msgid "create_volume_from_snapshot: Source and destination size differ."
+msgstr "NV-5A82296 create_volume_from_snapshot：源和目标大小不同。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2096
+#, python-format
+msgid "create_volume_from_snapshot:  Source vdisk %s does not exist"
+msgstr "NV-4729BC4 create_volume_from_snapshot：源 vdisk %s 不存在。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2123
+msgid "create_cloned_volume: Source and destination size differ."
+msgstr "NV-4DD8AF7 create_cloned_volume：源和目标大小不同。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2164
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1025
+#, python-format
+msgid "enter: extend_volume: volume %s"
+msgstr "NV-826757D 进入：extend_volume：卷 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2174
+msgid "extend_volume: Extending a volume with snapshots is not supported."
+msgstr "NV-E7C02C3 extend_volume：不支持通过快照扩展卷。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2186
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1051
+#, python-format
+msgid "leave: extend_volume: volume %s"
+msgstr "NV-0CDE488 请舍弃：extend_volume：卷 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2202
+#, python-format
+msgid "enter: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "进入：migrate_volume：id=%(id)s，host=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2234
+msgid "migrate_volume started with more than one vdisk copy"
+msgstr "migrate_volume 已从多个 vdisk 副本开始"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2252
+#, python-format
+msgid ""
+"migrate_volume %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"migrate_volume %(name)s - 在 CLI 输出中找不到成功消息。\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2264
+msgid "migrate_volume: Could not get vdisk copy data"
+msgstr "NV-E8B0820 migrate_volume：未能获取 vdisk 副本数据"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2279
+#, python-format
+msgid "leave: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "请舍弃：migrate_volume：id=%(id)s，host=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2301
+msgid "Updating volume stats"
+msgstr "正在更新卷统计信息"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2324
+msgid "Could not get pool data from the storage"
+msgstr "NV-675559D 未能从存储获取池数据"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2325
+msgid "_update_volume_stats: Could not get storage pool data"
+msgstr "NV-F6BB258 _update_volume_stats：未能获取存储池数据"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2412
+msgid ""
+"Illegal value specified for storwize_svc_vol_rsize: set to either a "
+"percentage (0-100) or -1"
+msgstr "NV-8977C50 为 storwize_svc_vol_rsize 指定了非法值：设置为百分比 (0-100) 或 -1"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2418
+msgid ""
+"Illegal value specified for storwize_svc_vol_warning: set to a percentage"
+" (0-100)"
+msgstr "NV-80C1898 为 storwize_svc_vol_warning 指定了非法值：设置为百分比 (0-100)"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2425
+msgid ""
+"Illegal value specified for storwize_svc_vol_grainsize: set to either 32,"
+" 64, 128, or 256"
+msgstr "NV-8A90F92 为 storwize_svc_vol_grainsize 指定了非法值：设置为 32、64、128 或 256"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2432
+msgid "System does not support compression"
+msgstr "NV-90F35C9 系统不支持压缩"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2437
+msgid "If compression is set to True, rsize must also be set (not equal to -1)"
+msgstr "NV-102C98D 如果压缩设置为 true，那么还必须设置 rsize（不等于 -1）"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2443
+#, python-format
+msgid ""
+"Illegal value %(prot)s specified for storwize_svc_connection_protocol: "
+"valid values are %(enabled)s"
+msgstr ""
+"NV-5EBEB51 为 storwize_svc_connection_protocol 指定了非法值 %(prot)s：有效值为 "
+"%(enabled)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2451
+#, python-format
+msgid "I/O group %(iogrp)d is not valid; available I/O groups are %(avail)s"
+msgstr "NV-9E31DDB I/O 组 %(iogrp)d 无效；可用的 I/O 组是 %(avail)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2465
+#, python-format
+msgid "enter: _execute_command_and_parse_attributes:  command %s"
+msgstr "进入：_execute_command_and_parse_attributes：命令 %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2477
+#, python-format
+msgid ""
+"CLI Exception output:\n"
+" command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-A3B1CA4 CLI 异常输出：\n"
+"命令：%(cmd)s\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2494
+#, python-format
+msgid ""
+"leave: _execute_command_and_parse_attributes:\n"
+"command: %(cmd)s\n"
+"attributes: %(attr)s"
+msgstr ""
+"离开：_execute_command_and_parse_attributes：\n"
+"命令：%(cmd)s\n"
+"属性：%(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2513
+#, python-format
+msgid ""
+"_get_hdr_dic: attribute headers and values do not match.\n"
+" Headers: %(header)s\n"
+" Values: %(row)s"
+msgstr ""
+"_get_hdr_dic：属性头和值不匹配。\n"
+"头：%(header)s\n"
+"值：%(row)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2521
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+"stdout: %(out)s\n"
+"stderr: %(err)s\n"
+msgstr ""
+"NV-39015B6 %(fun)s：失败，产生了意外 CLI 输出。\n"
+"命令：%(cmd)s\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2535
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"%(fun)s：失败，产生了意外 CLI 输出。\n"
+"命令：%(cmd)s\n"
+"标准输出：%(out)s\n"
+"标准错误：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2543
+#, python-format
+msgid "Did not find expected column in %(fun)s: %(hdr)s"
+msgstr "NV-BEC3CF8 %(fun)s 中找不到期望的列：%(hdr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:103
+#, python-format
+msgid ""
+"StorwizeSVCProductDriver: start flashcopy mapping polling timer, polling "
+"interval: %(intval)s seconds"
+msgstr "NV-796256C StorwizeSVCProductDriver：开始瞬间复制映射轮询计时器，轮询时间间隔：%(intval)s 秒"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:328
+#, python-format
+msgid ""
+"The volume %(name)s is in the error state and not a candidate for "
+"management.  vdisk status: %(status)s  vdisk id: %(vdisk_id)s  vdisk uid:"
+" %(vdisk_uid)s  "
+msgstr ""
+"卷 %(name)s 处于错误状态，并且不是要管理的候选者。vdisk 状态：%(status)s  vdisk 标识：%(vdisk_id)s"
+"  vdisk UID：%(vdisk_uid)s  "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:592
+#, python-format
+msgid ""
+"The connector %(connector)s does not contain the required keys, which are"
+" %(expected_fc_keys)s.or %(expected_iscsi_keys)s"
+msgstr ""
+"连接器 %(connector)s 不包含必需的密钥，它是 %(expected_fc_keys)s 或者 "
+"%(expected_iscsi_keys)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:647
+#, python-format
+msgid "Incorporating WWPNS for Node %(node_id)s: %(wwpns)s"
+msgstr "NV-365ED6F 正在合并节点 %(node_id)s 的 WWPN：%(wwpns)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:659
+#, python-format
+msgid ""
+"Attachment for host '%(host)s' to %(storage)s for volume %(volume)s "
+"expects zoning between initiator WWPNs %(initiators)s and target WWPNs "
+"%(targets)s"
+msgstr ""
+"NV-0F22247 将主机“%(host)s”连接到卷 %(volume)s 的 %(storage)s 时，期望在发起方 WWPN "
+"%(initiators)s 与目标 WWPN %(targets)s 之间进行分区"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:721
+#, python-format
+msgid "Mapping initiator %(phy)s to node %(node)s"
+msgstr "NV-5DC7B55 正在将发起方 %(phy)s 映射至节点 %(node)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:766
+#, python-format
+msgid ""
+"Fabric %(fabric)s does not have visibility to any WWPNs in node %(node)s,"
+" part of iogrp %(iogrp)s of storage controller %(name)s. WWPNs visible on"
+" the fabric are %(visible)s. WWPNs on the controller are %(available)s."
+msgstr ""
+"光纤网 %(fabric)s 对于节点 %(node)s 中的任何 WWPN 以及存储控制器 %(name)s 的部分 iogrp "
+"%(iogrp)s 不可视。在光纤网上可视的 WWPN 为 %(visible)s。控制器上的 WWPN 为 %(available)s。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:811
+msgid "Zoning for single fabric, one initiator."
+msgstr "NV-6E5D37F 单个光纤网的分区，一个发起方。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:821
+msgid "Zoning for single fabric, two initiators."
+msgstr "NV-2E0EF21 单个光纤网的分区，两个发起方。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:835
+#, python-format
+msgid ""
+"Zoning for single fabric, general case due to %(count)s initiators on "
+"fabric."
+msgstr "NV-D9A5CD2 单个光纤网的分区，由于光纤网上有 %(count)s 个发起方而导致的一般情况。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:845
+msgid "Zoning for dual fabric, one initiator per fabric."
+msgstr "NV-EE35C79 双光纤网的分区，每个光纤网一个发起方。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:864
+msgid "Zoning for dual fabric, two initiators per fabric."
+msgstr "NV-C638EFA 双光纤网的分区，每个光纤网两个发起方。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:884
+#, python-format
+msgid ""
+"Zoning for dual fabric, general case due to %(count1)s initiators on "
+"first fabric and %(count2)s initiators on second fabric."
+msgstr ""
+"NV-4351BA7 双光纤网的分区，由于第一个光纤网上有 %(count1)s 个发起方，第二个光纤网上有 %(count2)s "
+"个发起方而导致的一般情况。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:894
+#, python-format
+msgid "Zoning for general case due to %(count)s fabrics."
+msgstr "NV-0733A1E 分区，由于有 %(count)s 个光纤网而导致的一般情况。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:911
+#, python-format
+msgid "Creating zones: %r"
+msgstr "NV-70BDC4D 正在创建区域：%r"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:923
+#, python-format
+msgid "Requested mapping for initiators  %(initiators)s and targets %(targets)s"
+msgstr "NV-35F3CC8 已为发起方 %(initiators)s 和目标 %(targets)s 请求映射"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:941
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:950
+#, python-format
+msgid "Returned mapping is %(mapping)s"
+msgstr "NV-10E28B0 所返回的映射为 %(mapping)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:976
+#, python-format
+msgid "Terminating connection with parameters %(connector)sconnector"
+msgstr "NV-4EFE246 正在使用参数 %(connector)sconnector 终止连接"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:986
+#, python-format
+msgid "Removing zones for initiators: %(initiator_list)s"
+msgstr "NV-CC588B5 正在为发起方 %(initiator_list)s 除去区域"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:996
+#, python-format
+msgid ""
+"There was a failure when the zone manager attempted to remove zones "
+"created for WWPNs %(wwpns)s during detach of volume %(vol)s."
+msgstr "NV-AA064A4 在拆离卷 %(vol)s 期间，区域管理器尝试除去为 WWPN %(wwpns)s 创建的区域时发生故障。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1083
+#, python-format
+msgid "SSH Pool: %d free, %d waiting, in-flight commands:"
+msgstr "NV-F9DD698 SSH 池：%d 可用，%d 正在等待，未完成的命令："
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1087
+#, python-format
+msgid " %(duration).2f %(commands)s"
+msgstr "NV-98D8DC3  %(duration).2f %(commands)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1141
+#, python-format
+msgid ""
+"vdisk %(vdsk)s has been added to the flashcopy mapping delete queue with "
+"priority %(pri)s."
+msgstr "NV-38E83B6 vdisk %(vdsk)s 已添加至优先级为 %(pri)s 的瞬间复制映射删除队列。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1149
+#, python-format
+msgid ""
+"Successfully returned from flashcopy mapping waiter for vdisk %(vdsk)s, "
+"returned value: %(ret)s, total wait time: %(wt)s seconds."
+msgstr ""
+"NV-62F28E6 已成功地从 vdisk %(vdsk)s 的瞬间复制映射等待器返回，所返回的值：%(ret)s，等待时间总计：%(wt)s "
+"秒。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1166
+#, python-format
+msgid ""
+"Exception happened when waiting for flashcopy mapping handling for vdisk "
+"%(vdsk)s, total wait time: %(wt)s seconds."
+msgstr "NV-71EC636 在等待为 vdisk %(vdsk)s 处理的瞬间复制映射时发生异常，等待时间总计：%(wt)s 秒。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1172
+#, python-format
+msgid ""
+"Removed flashcopy mappings waiter from waiting queue for vdisk %(vdsk)s "
+"deletion."
+msgstr "NV-46703B0 已从删除 vdisk %(vdsk)s 的等待队列中除去瞬间复制映射等待器。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1183
+#, python-format
+msgid "Flashcopy mapping delete queue: %(vdsks)s"
+msgstr "NV-CA4A211 瞬间复制映射删除队列：%(vdsks)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1193
+#, python-format
+msgid ""
+"Flashcopy mapping delete queue: %(cnt)s vdisks pending delete, average "
+"wait time: %(avg)s seconds"
+msgstr "NV-91BB641 瞬间复制映射删除队列：%(cnt)s vdisk 暂挂删除，平均等待时间：%(avg)s 秒"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1242
+#, python-format
+msgid "fcmapping_handler: %(err)s"
+msgstr "fcmapping_handler：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1245
+#, python-format
+msgid ""
+"fcmapping_handler: to delete vdisk %(vdisk_id)s, increasing copyrate of "
+"flashcopy mapping %(map)s from 0 to %(copyrate)s and waiting for "
+"completion."
+msgstr ""
+"NV-EE5BEB1 fcmapping_handler：要删除 vdisk %(vdisk_id)s，请将瞬间复制映射 %(map)s "
+"的复制速度从 0 增大到 %(copyrate)s，并等待完成。"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1357
+#, python-format
+msgid ""
+"Exception happened during processing flashcopy mapping per vdisk %(vdsk)s"
+" deletion: %(err)s"
+msgstr "NV-71C30D1 每次删除 vdisk %(vdsk)s 时处理瞬间复制映射期间发生了异常：%(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1387
+#, python-format
+msgid ""
+"Duration of fcmapping_handler timer: %(runtime)s seconds, %(pct)s%% of "
+"fixed polling interval."
+msgstr "NV-80870AC fcmapping_handler 计时器的持续时间：%(runtime)s 秒，固定轮询时间间隔的 %(pct)s%%。"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:93
+#, python-format
+msgid "Fabric names are not unique: %(fabric_names)s"
+msgstr "NV-2ED2D0B 光纤网名称非唯一名称：%(fabric_names)s"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:261
+#, python-format
+msgid "Connection established to fabric %(f_name)s"
+msgstr "NV-41B567C 已与光纤网 %(f_name)s 建立连接"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:376
+#, python-format
+msgid "Zones to be created for %(fabric)s are %(zones)r"
+msgstr "NV-2E6EE4A 要为 %(fabric)s 创建的区域为 %(zones)r"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:410
+#, python-format
+msgid "%(fabric_descriptor)s: deleting zones %(zone_list)s"
+msgstr "NV-C3FDFEA %(fabric_descriptor)s：正在删除区域 %(zone_list)s"
+
+#: paxes_cinder/zonemanager/paxes_fc_zone_manager.py:449
+#, python-format
+msgid "Returned data from get_nameserver_info() is %(info)r"
+msgstr "NV-7863F08 从 get_nameserver_info() 返回的数据为 %(info)r"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:122
+msgid "Could not connect"
+msgstr "NV-07C9AAF 未能连接"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:124
+#, python-format
+msgid "SSH Client created for %s"
+msgstr "NV-08C2923 已为 %s 创建 SSH 客户机"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:187
+#, python-format
+msgid "Failed getting active zone set from %s"
+msgstr "NV-373682A 未能从 %s 获取活动区域集"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:218
+msgid "Malformed zone configuration"
+msgstr "NV-9BF2FBF 格式不正确的区域配置"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:220
+#, python-format
+msgid "Failed getting active zone set from fabric %s"
+msgstr "NV-A5B77A2 未能从光纤网 %s 获取活动区域集"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:259
+#, python-format
+msgid "Add Zones - Zones passed: %s"
+msgstr "NV-8A18A84 添加区域 - 所传递的区域：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:267
+#, python-format
+msgid "Adding zone failed. Error in getting active zone set from fabric %s"
+msgstr "NV-C692314 添加区域失败。从光纤网 %s 获取活动区域集时发生错误"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:276
+#, python-format
+msgid "Zone %(zoneName)s already contains required members"
+msgstr "NV-EADDEDC 区域 %(zoneName)s 已经包含必需的成员"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:282
+#, python-format
+msgid "Deleted Zone before insert : %s"
+msgstr "NV-4C9797D 插入之前已删除区域：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:286
+#, python-format
+msgid "Deleting zone failed %s"
+msgstr "NV-C1A773E 删除区域失败 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:294
+#, python-format
+msgid "Adding zone, cmd to run %s"
+msgstr "NV-D2B3DDC 正在添加区域，要运行的命令 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:301
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:304
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:338
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:341
+#, python-format
+msgid "Adding zone failed, cmd %s"
+msgstr "NV-3F8FCCF 添加区域失败，命令 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:312
+msgid "No new zones created"
+msgstr "NV-145C307 未创建新区域"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:322
+#, python-format
+msgid "Zoneset create operation failed with output %s"
+msgstr "NV-0645570 区域集创建操作失败，输出为 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:330
+#, python-format
+msgid "cfgAdd operation failed : %s"
+msgstr "NV-C8F3EB6 cfgAdd 操作失败：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:343
+msgid "Zoning completed"
+msgstr "NV-BC5301E 已完成分区"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:373
+#, python-format
+msgid "Failed getting active zones from fabric %s"
+msgstr "NV-21CE132 未能从光纤网 %s 获取活动区域"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:395
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:398
+#, python-format
+msgid "Deleting zones failed, cmd %s"
+msgstr "NV-AFACFBC 删除区域失败，命令 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:414
+#, python-format
+msgid "Failed collecting nsshow info for fabric %s"
+msgstr "NV-6039569 为光纤网 %s 收集 nsshow 信息失败"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:421
+#, python-format
+msgid "Failed collecting nscamshow info for fabric %s"
+msgstr "NV-A1992B9 为光纤网 %s 收集 nscamshow 信息失败"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:453
+#, python-format
+msgid "Problem: %(problem)s"
+msgstr "NV-D20CB78 问题：%(problem)s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:471
+#, python-format
+msgid "Will retry after %(seconds)s seconds..."
+msgstr "NV-A7C85C7 %(seconds)s 秒钟之后将重试..."
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:490
+#, python-format
+msgid "Failed closing SSH connection %s"
+msgstr "NV-3EA57B2 未能关闭 SSH 连接 %s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:512
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:561
+#, python-format
+msgid "running: '%s'"
+msgstr "NV-081F69F 正在运行：“%s”"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:521
+#, python-format
+msgid "Returned data was %r"
+msgstr "NV-93F16B7 所返回的数据为 %r"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:535
+#, python-format
+msgid "Error running command via ssh: %s"
+msgstr "NV-20D0255 通过 SSH 运行命令时发生错误：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:587
+#, python-format
+msgid "Error while checking zoning txn status: %s"
+msgstr "NV-2D4C6DF 检查分区 txn 状态时发生错误：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:599
+#, python-format
+msgid "Executing: %s"
+msgstr "NV-4EBB354 正在执行：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:609
+#, python-format
+msgid "CLI execution returned: %s"
+msgstr "NV-538FB7E 所返回的 CLI 执行情况：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:633
+#, python-format
+msgid "Error executing command %(cmd)s: %s"
+msgstr "执行命令 %(cmd)s 时发生错误：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:648
+#, python-format
+msgid "Failed when executing command '%(cmd)s': %(err)s"
+msgstr "NV-B5BA5A5 执行命令“%(cmd)s”时失败：%(err)s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:670
+#, python-format
+msgid "Malformed nameserver output is: %s"
+msgstr "NV-07E23F0 格式不正确的名称服务器输出：%s"
+
+#: paxes_cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py:672
+msgid "Malformed nameserver info"
+msgstr "NV-4331BBF 格式不正确的名称服务器信息"
+

@@ -1,0 +1,800 @@
+[DEFAULT]
+#
+# Options defined in oslo.messaging
+#
+
+# Use durable queues in amqp. (boolean value)
+# Deprecated group/name - [DEFAULT]/rabbit_durable_queues
+#amqp_durable_queues=false
+
+# Auto-delete queues in amqp. (boolean value)
+#amqp_auto_delete=false
+
+# Size of RPC connection pool. (integer value)
+#rpc_conn_pool_size=30
+
+# SSL version to use (valid only if SSL enabled). valid values
+# are TLSv1, SSLv23 and SSLv3. SSLv2 may be available on some
+# distributions. (string value)
+#kombu_ssl_version=
+
+# SSL key file (valid only if SSL enabled). (string value)
+#kombu_ssl_keyfile=
+
+# SSL cert file (valid only if SSL enabled). (string value)
+#kombu_ssl_certfile=
+
+# SSL certification authority file (valid only if SSL
+# enabled). (string value)
+#kombu_ssl_ca_certs=
+
+# How long to wait before reconnecting in response to an AMQP
+# consumer cancel notification. (floating point value)
+#kombu_reconnect_delay=1.0
+
+# The RabbitMQ broker address where a single node is used.
+# (string value)
+#rabbit_host=localhost
+
+# The RabbitMQ broker port where a single node is used.
+# (integer value)
+#rabbit_port=5672
+
+# RabbitMQ HA cluster host:port pairs. (list value)
+#rabbit_hosts=$rabbit_host:$rabbit_port
+
+# Connect over SSL for RabbitMQ. (boolean value)
+#rabbit_use_ssl=false
+
+# The RabbitMQ userid. (string value)
+#rabbit_userid=guest
+
+# The RabbitMQ password. (string value)
+#rabbit_password=guest
+
+# the RabbitMQ login method (string value)
+#rabbit_login_method=AMQPLAIN
+
+# The RabbitMQ virtual host. (string value)
+#rabbit_virtual_host=/
+
+# How frequently to retry connecting with RabbitMQ. (integer
+# value)
+#rabbit_retry_interval=1
+
+# How long to backoff for between retries when connecting to
+# RabbitMQ. (integer value)
+#rabbit_retry_backoff=2
+
+# Maximum number of RabbitMQ connection retries. Default is 0
+# (infinite retry count). (integer value)
+#rabbit_max_retries=0
+
+# Use HA queues in RabbitMQ (x-ha-policy: all). If you change
+# this option, you must wipe the RabbitMQ database. (boolean
+# value)
+#rabbit_ha_queues=false
+
+# If passed, use a fake RabbitMQ provider. (boolean value)
+#fake_rabbit=false
+
+# Driver or drivers to handle sending notifications. (multi
+# valued)
+#notification_driver=
+notification_driver = cinder.openstack.common.notifier.rpc_notifier
+
+# AMQP topic used for OpenStack notifications. (list value)
+# Deprecated group/name - [rpc_notifier2]/topics
+#notification_topics=notifications
+
+# Seconds to wait for a response from a call. (integer value)
+#rpc_response_timeout=60
+
+# A URL representing the messaging driver to use and its full
+# configuration. If not set, we fall back to the rpc_backend
+# option and driver specific configuration. (string value)
+#transport_url=<None>
+
+# The messaging driver to use, defaults to rabbit. Other
+# drivers include qpid and zmq. (string value)
+#rpc_backend=rabbit
+
+# The default exchange under which topics are scoped. May be
+# overridden by an exchange name specified in the
+# transport_url option. (string value)
+#control_exchange=openstack
+control_exchange=cinder
+
+
+#
+# Options defined in cinder.exception
+#
+
+# make exception message format errors fatal (boolean value)
+#fatal_exception_format_errors=false
+
+
+#
+# Options defined in cinder.policy
+#
+
+# JSON file representing policy (string value)
+#policy_file=policy.json
+
+# Rule checked when requested rule is not found (string value)
+#policy_default_rule=default
+
+
+#
+# Options defined in cinder.quota
+#
+
+# number of volumes allowed per project (integer value)
+#quota_volumes=10
+
+# number of volume snapshots allowed per project (integer
+# value)
+#quota_snapshots=10
+
+# number of volume gigabytes (snapshots are also included)
+# allowed per project (integer value)
+#quota_gigabytes=1000
+
+# number of seconds until a reservation expires (integer
+# value)
+#reservation_expire=86400
+
+# count of reservations until usage is refreshed (integer
+# value)
+#until_refresh=0
+
+# number of seconds between subsequent usage refreshes
+# (integer value)
+#max_age=0
+
+# default driver to use for quota checks (string value)
+#quota_driver=cinder.quota.DbQuotaDriver
+# whether to use default quota class for default quota
+# (boolean value)
+#use_default_quota_class=true
+
+
+#
+# Options defined in cinder.service
+#
+
+# seconds between nodes reporting state to datastore (integer
+# value)
+#report_interval=10
+
+# seconds between running periodic tasks (integer value)
+#periodic_interval=60
+
+# range of seconds to randomly delay when starting the
+# periodic task scheduler to reduce stampeding. (Disable by
+# setting to 0) (integer value)
+#periodic_fuzzy_delay=60
+
+# IP address for OpenStack Volume API to listen (string value)
+#osapi_volume_listen=0.0.0.0
+
+# port for os volume api to listen (integer value)
+#osapi_volume_listen_port=8776
+
+# Number of workers for OpenStack Volume API service (integer
+# value)
+#osapi_volume_workers=<None>
+
+#
+# Options defined in cinder.wsgi
+#
+
+# Maximum line size of message headers to be accepted.
+# max_header_line may need to be increased when using large
+# tokens (typically those generated by the Keystone v3 API
+# with big service catalogs). (integer value)
+#max_header_line=16384
+
+# Sets the value of TCP_KEEPIDLE in seconds for each server
+# socket. Not supported on OS X. (integer value)
+#tcp_keepidle=600
+
+# CA certificate file to use to verify connecting clients
+# (string value)
+#ssl_ca_file=<None>
+
+# Certificate file to use when starting the server securely
+# (string value)
+#ssl_cert_file=<None>
+
+# Private key file to use when starting the server securely
+# (string value)
+#ssl_key_file=<None>
+#
+# Options defined in cinder.common.config
+#
+
+# File name for the paste.deploy config for cinder-api (string
+# value)
+#api_paste_config=api-paste.ini
+
+# Top-level directory for maintaining cinder's state (string
+# value)
+# Deprecated group/name - [DEFAULT]/pybasedir
+#state_path=/var/lib/cinder
+
+# ip address of this host (string value)
+#my_ip=10.0.0.1
+
+# default glance hostname or ip (string value)
+#glance_host=$my_ip
+# default glance port (integer value)
+#glance_port=9292
+
+# A list of the glance api servers available to cinder
+# ([hostname|ip]:port) (list value)
+#glance_api_servers=$glance_host:$glance_port
+
+# Version of the glance api to use (integer value)
+#glance_api_version=1
+
+# Number retries when downloading an image from glance
+# (integer value)
+#lance_num_retries=0
+
+# Allow to perform insecure SSL (https) requests to glance
+# (boolean value)
+#glance_api_insecure=false
+
+# Whether to attempt to negotiate SSL layer compression when
+# using SSL (https) requests. Set to False to disable SSL
+# layer compression. In some cases disabling this may improve
+# data throughput, eg when high network bandwidth is available
+# and you are using already compressed image formats such as
+# qcow2 . (boolean value)
+#glance_api_ssl_compression=false
+
+# http/https timeout value for glance operations. If no value
+# (None) is supplied here, the glanceclient default value is
+# used. (integer value)
+#glance_request_timeout=<None>
+
+# the topic scheduler nodes listen on (string value)
+#scheduler_topic=cinder-scheduler
+
+# the topic volume nodes listen on (string value)
+#volume_topic=cinder-volume
+
+# the topic volume backup nodes listen on (string value)
+#backup_topic=cinder-backup
+
+# Deploy v1 of the Cinder API. (boolean value)
+#enable_v1_api=true
+
+# Deploy v2 of the Cinder API. (boolean value)
+#enable_v2_api=true
+
+# whether to rate limit the api (boolean value)
+#api_rate_limit=true
+
+# Specify list of extensions to load when using
+# osapi_volume_extension option with
+# cinder.api.contrib.select_extensions (list value)
+#osapi_volume_ext_list=
+
+# osapi volume extension to load (multi valued)
+#osapi_volume_extension=cinder.api.contrib.standard_extensions
+
+# full class name for the Manager for volume (string value)
+#volume_manager=cinder.volume.manager.VolumeManager
+
+# full class name for the Manager for volume backup (string
+# value)
+#backup_manager=cinder.backup.manager.BackupManager
+
+# full class name for the Manager for scheduler (string value)
+#scheduler_manager=cinder.scheduler.manager.SchedulerManager
+
+# Name of this node.  This can be an opaque identifier.  It is
+# not necessarily a hostname, FQDN, or IP address. (string
+# value)
+#host=cinder
+
+# availability zone of this node (string value)
+#storage_availability_zone=nova
+
+# default availability zone to use when creating a new volume.
+# If this is not set then we use the value from the
+# storage_availability_zone option as the default
+# availability_zone for new volumes. (string value)
+#default_availability_zone=<None>
+
+# default volume type to use (string value)
+#default_volume_type=<None>
+
+# time period to generate volume usages for.  Time period must
+# be hour, day, month or year (string value)
+#volume_usage_audit_period=month
+
+# Path to the rootwrap configuration file to use for running
+# commands as root (string value)
+#rootwrap_config=/etc/cinder/rootwrap.conf
+# Enable monkey patching (boolean value)
+#monkey_patch=false
+
+# List of modules/decorators to monkey patch (list value)
+#monkey_patch_modules=
+# maximum time since last check-in for up service (integer
+# value)
+#service_down_time=60
+
+# The full class name of the volume API class to use (string
+# value)
+#volume_api_class=cinder.volume.api.API
+
+# The full class name of the volume backup API class (string
+# value)
+#backup_api_class=cinder.backup.api.API
+
+# The strategy to use for auth. Supports noauth, keystone, and
+# deprecated. (string value)
+#auth_strategy=noauth
+
+# A list of backend names to use. These backend names should
+# be backed by a unique [CONFIG] group with its options (list
+# value)
+#enabled_backends=<None>
+
+# Whether snapshots count against GigaByte quota (boolean
+# value)
+#no_snapshot_gb_quota=false
+
+# The full class name of the volume transfer API class (string
+# value)
+#transfer_api_class=cinder.transfer.api.API
+
+
+#
+# Options defined in cinder.compute
+#
+# The full class name of the compute API class to use (string
+# value)
+#compute_api_class=cinder.compute.nova.API
+
+
+#
+# Options defined in cinder.db.api
+#
+# The backend to use for db (string value)
+#db_backend=sqlalchemy
+
+# Services to be added to the available pool on create
+# (boolean value)
+#enable_new_services=true
+
+# Template string to be used to generate volume names (string
+# value)
+#volume_name_template=volume-%s
+
+# Template string to be used to generate snapshot names
+# (string value)
+#snapshot_name_template=snapshot-%s
+
+# Template string to be used to generate backup names (string
+# value)
+#backup_name_template=backup-%s
+
+
+#
+# Options defined in cinder.db.base
+#
+# driver to use for database access (string value)
+#db_driver=cinder.db
+
+
+#
+# Options defined in cinder.image.glance
+#
+
+# A list of url schemes that can be downloaded directly via
+# the direct_url.  Currently supported schemes: [file]. (list
+# value)
+#allowed_direct_url_schemes=
+
+
+#
+# Options defined in cinder.image.image_utils
+#
+
+# Directory used for temporary storage during image conversion
+# (string value)
+#image_conversion_dir=$state_path/conversion
+
+
+#
+# Options defined in cinder.openstack.common.db.sqlalchemy.session
+#
+
+# the filename to use with sqlite (string value)
+#sqlite_db=cinder.sqlite
+
+# If true, use synchronous mode for sqlite (boolean value)
+#sqlite_synchronous=true
+
+
+#
+# Options defined in cinder.openstack.common.eventlet_backdoor
+#
+
+# Enable eventlet backdoor.  Acceptable values are 0, <port>,
+# and <start>:<end>, where 0 results in listening on a random
+# tcp port number; <port> results in listening on the
+# specified port number (and not enabling backdoor if that
+# port is in use); and <start>:<end> results in listening on
+# the smallest unused port number within the specified range
+# of port numbers.  The chosen port is displayed in the
+# service's log file. (string value)
+#backdoor_port=<None>
+
+# Directory to use for lock files. Default to a temp directory
+# (string value)
+#lock_path=<None>
+
+
+#
+# Options defined in cinder.openstack.common.log
+#
+
+# Print debugging output (set logging level to DEBUG instead
+# of default WARNING level). (boolean value)
+#debug=false
+
+# Print more verbose output (set logging level to INFO instead
+# of default WARNING level). (boolean value)
+#verbose=false
+
+# Log output to standard error (boolean value)
+#use_stderr=true
+
+# Format string to use for log messages with context (string
+# value)
+#logging_context_format_string=%(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
+
+# Format string to use for log messages without context
+# (string value)
+#logging_default_format_string=%(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
+
+# Data to append to log format when level is DEBUG (string
+# value)
+#logging_debug_format_suffix=%(funcName)s %(pathname)s:%(lineno)d
+
+# Prefix each line of exception output with this format
+# (string value)
+#logging_exception_prefix=%(asctime)s.%(msecs)03d %(process)d TRACE %(name)s %(instance)s
+# List of logger=LEVEL pairs (list value)
+#default_log_levels=amqp=WARN,amqplib=WARN,boto=WARN,qpid=WARN,sqlalchemy=WARN,suds=INFO,iso8601=WARN,requests.packages.urllib3.connectionpool=WARN
+
+# Publish error events (boolean value)
+#publish_errors=false
+
+# Make deprecations fatal (boolean value)
+#fatal_deprecations=false
+
+# If an instance is passed with the log message, format it
+# like this (string value)
+#instance_format="[instance: %(uuid)s] "
+
+# If an instance UUID is passed with the log message, format
+# it like this (string value)
+#instance_uuid_format="[instance: %(uuid)s] "
+
+# The name of logging configuration file. It does not disable
+# existing loggers, but just appends specified logging
+# configuration to any other existing logging options. Please
+# see the Python logging module documentation for details on
+# logging configuration files. (string value)
+# Deprecated group/name - [DEFAULT]/log_config
+#log_config_append=<None>
+
+# DEPRECATED. A logging.Formatter log message format string
+# which may use any of the available logging.LogRecord
+# attributes. This option is deprecated.  Please use
+# logging_context_format_string and
+# logging_default_format_string instead. (string value)
+#log_format=<None>
+
+# Format string for %%(asctime)s in log records. Default:
+# %(default)s (string value)
+#log_date_format=%Y-%m-%d %H:%M:%S
+
+# (Optional) Name of log file to output to. If no default is
+# set, logging will go to stdout. (string value)
+# Deprecated group/name - [DEFAULT]/logfile
+#log_file=<None>
+
+# (Optional) The base directory used for relative --log-file
+# paths (string value)
+# Deprecated group/name - [DEFAULT]/logdir
+#log_dir=<None>
+
+# Use syslog for logging. Existing syslog format is DEPRECATED
+# during I, and then will be changed in J to honor RFC5424
+# (boolean value)
+#use_syslog=false
+
+# (Optional) Use syslog rfc5424 format for logging. If
+# enabled, will add APP-NAME (RFC5424) before the MSG part of
+# the syslog message.  The old format without APP-NAME is
+# deprecated in I, and will be removed in J. (boolean value)
+#use_syslog_rfc_format=false
+
+# Syslog facility to receive log lines (string value)
+#syslog_log_facility=LOG_USER
+
+
+#
+# Options defined in cinder.openstack.common.periodic_task
+#
+
+# Some periodic tasks can be run in a separate process. Should
+# we run them here? (boolean value)
+#run_external_periodic_tasks=true
+
+
+#
+# Options defined in cinder.volume.api
+#
+
+# Create volume from snapshot at the host where snapshot
+# resides (boolean value)
+#snapshot_same_host=true
+
+# Ensure that the new volumes are the same AZ as snapshot or
+# source volume (boolean value)
+#cloned_volume_same_az=true
+
+
+#
+# Options defined in cinder.volume.driver
+#
+
+# The maximum number of times to rescan iSER targetto find
+# volume (integer value)
+#num_iser_scan_tries=3
+
+# The maximum number of iser target ids per host (integer
+# value)
+#iser_num_targets=100
+
+# prefix for iser volumes (string value)
+#iser_target_prefix=iqn.2010-10.org.iser.openstack:
+
+# The IP address that the iSER daemon is listening on (string
+# value)
+#iser_ip_address=$my_ip
+
+# The port that the iSER daemon is listening on (integer
+# value)
+#iser_port=3260
+
+# iser target user-land tool to use (string value)
+#iser_helper=tgtadm
+
+# number of times to attempt to run flakey shell commands
+# (integer value)
+#num_shell_tries=3
+
+# The percentage of backend capacity is reserved (integer
+# value)
+#reserved_percentage=0
+
+# The maximum number of iscsi target ids per host (integer
+# value)
+#iscsi_num_targets=100
+
+# prefix for iscsi volumes (string value)
+#iscsi_target_prefix=iqn.2010-10.org.openstack:
+
+# The IP address that the iSCSI daemon is listening on (string
+# value)
+#iscsi_ip_address=$my_ip
+
+# The port that the iSCSI daemon is listening on (integer
+# value)
+#iscsi_port=3260
+
+# The maximum number of times to rescan targets to find volume
+# (integer value)
+# Deprecated group/name - [DEFAULT]/num_iscsi_scan_tries
+#num_volume_device_scan_tries=3
+
+# The backend name for a given driver implementation (string
+# value)
+#volume_backend_name=<None>
+
+# Do we attach/detach volumes in cinder using multipath for
+# volume to image and image to volume transfers? (boolean
+# value)
+#use_multipath_for_image_xfer=false
+
+# Method used to wipe old voumes (valid options are: none,
+# zero, shred) (string value)
+#volume_clear=zero
+
+# Size in MiB to wipe at start of old volumes. 0 => all
+# (integer value)
+#volume_clear_size=0
+
+# The flag to pass to ionice to alter the i/o priority of the
+# process used to zero a volume after deletion, for example
+# "-c3" for idle only priority. (string value)
+#volume_clear_ionice=<None>
+
+# iscsi target user-land tool to use (string value)
+#iscsi_helper=tgtadm
+
+# Volume configuration file storage directory (string value)
+#volumes_dir=$state_path/volumes
+
+# IET configuration file (string value)
+#iet_conf=/etc/iet/ietd.conf
+
+# Comma-separated list of initiator IQNs allowed to connect to
+# the iSCSI target. (From Nova compute nodes.) (string value)
+#lio_initiator_iqns=
+
+# Sets the behavior of the iSCSI target to either perform
+# blockio or fileio optionally, auto can be set and Cinder
+# will autodetect type of backing device (string value)
+#iscsi_iotype=fileio
+
+# The default block size used when copying/clearing volumes
+# (string value)
+#volume_dd_blocksize=1M
+
+
+#
+# Options defined in cinder.volume.drivers.lvm
+#
+
+# Name for the VG that will contain exported volumes (string
+# value)
+#volume_group=cinder-volumes
+
+# If set, create lvms with multiple mirrors. Note that this
+# requires lvm_mirrors + 2 pvs with available space (integer
+# value)
+#lvm_mirrors=0
+
+# Type of LVM volumes to deploy; (default or thin) (string
+# value)
+#lvm_type=default
+
+
+#
+# Options defined in cinder.volume.manager
+#
+
+# Driver to use for volume creation (string value)
+#volume_driver=cinder.volume.drivers.lvm.LVMISCSIDriver
+#@volume_driver = paxes_cinder.volume.drivers.vios.vios_lvm.VIOSLVMDriver
+
+# Timeout for creating the volume to migrate to when
+# performing volume migration (seconds) (integer value)
+#migration_create_volume_timeout_secs=300
+
+#
+# Offload pending volume delete during volume service startup
+# (boolean value)
+#volume_service_inithost_offload=false
+
+#
+# FC Zoning mode configured (string value)
+#zoning_mode=none
+
+#
+# User defined capabilities, a JSON formatted string
+# specifying key/value pairs. (string value)
+#extra_capabilities={}
+
+
+[database]
+
+#
+# Options defined in cinder.openstack.common.db.api
+#
+
+# The backend to use for db (string value)
+# Deprecated group/name - [DEFAULT]/db_backend
+#backend=sqlalchemy
+
+# Enable the experimental use of thread pooling for all DB API
+# calls (boolean value)
+# Deprecated group/name - [DEFAULT]/dbapi_use_tpool
+#use_tpool=false
+
+
+#
+# Options defined in cinder.openstack.common.db.sqlalchemy.session
+#
+
+# The SQLAlchemy connection string used to connect to the
+# database (string value)
+# Deprecated group/name - [DEFAULT]/sql_connection
+#connection=sqlite:///$state_path/$sqlite_db
+connection = mysql://username:password@host/cinder?charset=utf8
+
+# timeout before idle sql connections are reaped (integer
+# value)
+# Deprecated group/name - [DEFAULT]/sql_idle_timeout
+#idle_timeout=3600
+
+# Minimum number of SQL connections to keep open in a pool
+# (integer value)
+# Deprecated group/name - [DEFAULT]/sql_min_pool_size
+#min_pool_size=1
+
+# Maximum number of SQL connections to keep open in a pool
+# (integer value)
+# Deprecated group/name - [DEFAULT]/sql_max_pool_size
+#max_pool_size=5
+
+# maximum db connection retries during startup. (setting -1
+# implies an infinite retry count) (integer value)
+# Deprecated group/name - [DEFAULT]/sql_max_retries
+#max_retries=10
+
+# interval between retries of opening a sql connection
+# (integer value)
+# Deprecated group/name - [DEFAULT]/sql_retry_interval
+#retry_interval=10
+
+# If set, use this value for max_overflow with sqlalchemy
+# (integer value)
+# Deprecated group/name - [DEFAULT]/sql_max_overflow
+#max_overflow=<None>
+
+# Verbosity of SQL debugging information. 0=None,
+# 100=Everything (integer value)
+# Deprecated group/name - [DEFAULT]/sql_connection_debug
+#connection_debug=0
+connection_debug=1
+
+# Add python stack traces to SQL as comment strings (boolean
+# value)
+# Deprecated group/name - [DEFAULT]/sql_connection_trace
+#connection_trace=false
+connection_trace=true
+
+
+[fc-zone-manager]
+#
+# Options defined in cinder.zonemanager.drivers.brocade.brcd_fc_zone_driver
+#
+#
+# Options defined in cinder.zonemanager.fc_zone_manager
+#
+
+# FC Zone Driver responsible for zone management (string
+# value)
+#zone_driver=cinder.zonemanager.drivers.brocade.brcd_fc_zone_driver.BrcdFCZoneDriver
+
+# Zoning policy configured by user (string value)
+#zoning_policy=initiator-target
+# Comma separated list of fibre channel fabric names. This
+# list of names is used to retrieve other SAN credentials for
+# connecting to each SAN fabric (string value)
+#fc_fabric_names=<None>
+
+# FC San Lookup Service (string value)
+#fc_san_lookup_service=cinder.zonemanager.drivers.brocade.brcd_fc_san_lookup_service.BrcdFCSanLookupService
+[keymgr]
+
+#
+# Options defined in cinder.keymgr
+#
+
+# The full class name of the key manager API class (string
+# value)
+#api_class=cinder.keymgr.conf_key_mgr.ConfKeyManager
+

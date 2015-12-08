@@ -1,0 +1,1958 @@
+# Translations template for paxes_cinder.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the paxes_cinder
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-03-05 09:55-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: paxes_cinder/exception.py:16
+#, python-format
+msgid "Connection control failure: %(reason)s"
+msgstr "NV-BFC4353 fr_FR: Connection control failure: %(reason)s"
+
+#: paxes_cinder/exception.py:20
+#, python-format
+msgid "Zone operation failed: %(reason)s"
+msgstr "NV-A619680 fr_FR: Zone operation failed: %(reason)s"
+
+#: paxes_cinder/exception.py:24
+#, python-format
+msgid "FC SAN Lookup failure: %(reason)s"
+msgstr "NV-1316051 fr_FR: FC SAN Lookup failure: %(reason)s"
+
+#: paxes_cinder/exception.py:32
+#, python-format
+msgid "Internal Misconfiguration detected: %(reason)s"
+msgstr "NV-C9F5A2A fr_FR: Internal Misconfiguration detected: %(reason)s"
+
+#: paxes_cinder/exception.py:58
+#, python-format
+msgid "Fabric '%(display_name)s' (%(username)s@%(ip)s:%(port)s)"
+msgstr "NV-097D384 fr_FR: Fabric '%(display_name)s' (%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:93
+#, python-format
+msgid "%(descriptor)s: %(message)s"
+msgstr "NV-12DC37C fr_FR: %(descriptor)s: %(message)s"
+
+#: paxes_cinder/exception.py:142
+#, python-format
+msgid "%(problem)s: %(err)s"
+msgstr "NV-7FA8022 fr_FR: %(problem)s: %(err)s"
+
+#: paxes_cinder/exception.py:164
+msgid "Could not authenticate with the specified credentials"
+msgstr "NV-BB4FAEC fr_FR: Could not authenticate with the specified credentials"
+
+#: paxes_cinder/exception.py:174
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when attempting to connect"
+msgstr "NV-3AB9750 fr_FR: Timeout (%(timeout)s seconds) when attempting to connect"
+
+#: paxes_cinder/exception.py:184
+#, python-format
+msgid "Timeout (%(timeout)s seconds) when executing command %(cmd)s"
+msgstr ""
+"NV-17277CD fr_FR: Timeout (%(timeout)s seconds) when executing command "
+"%(cmd)s"
+
+#: paxes_cinder/exception.py:193
+#, python-format
+msgid "Could not connect: %(error)s %(detail)s"
+msgstr "NV-2251927 fr_FR: Could not connect: %(error)s %(detail)s"
+
+#: paxes_cinder/exception.py:201
+#, python-format
+msgid ""
+"Another transaction was already in progress when attempting to execute "
+"command '%(cmd)s'"
+msgstr ""
+"NV-B3EE2A1 fr_FR: Another transaction was already in progress when "
+"attempting to execute command '%(cmd)s'"
+
+#: paxes_cinder/exception.py:209
+#, python-format
+msgid ""
+"Zone DB exceeded size limits when executing command '%(cmd)s', which "
+"returned '%(res)s'"
+msgstr ""
+"NV-3D73335 fr_FR: Zone DB exceeded size limits when executing command "
+"'%(cmd)s', which returned '%(res)s'"
+
+#: paxes_cinder/exception.py:218
+#, python-format
+msgid "The CLI command '%(cmd)s' returned an unexpected response '%(res)s'"
+msgstr ""
+"NV-6BC3B8F fr_FR: The CLI command '%(cmd)s' returned an unexpected "
+"response '%(res)s'"
+
+#: paxes_cinder/exception.py:240
+#, python-format
+msgid "Storage %(display_name)s (%(username)s@%(ip)s:%(port)s)"
+msgstr "NV-FD8FAF8 fr_FR: Storage %(display_name)s (%(username)s@%(ip)s:%(port)s)"
+
+#: paxes_cinder/exception.py:272
+msgid "No more host definitions can be created"
+msgstr "NV-FAE0982 fr_FR: No more host definitions can be created"
+
+#: paxes_cinder/exception.py:281
+msgid "No more flashcopy mappings can be created"
+msgstr "NV-5071C44 fr_FR: No more flashcopy mappings can be created"
+
+#: paxes_cinder/exception.py:289
+msgid "Could not connect, possibly due to too many connections."
+msgstr "NV-16C6099 fr_FR: Could not connect, possibly due to too many connections."
+
+#: paxes_cinder/exception.py:297
+#, python-format
+msgid ""
+"Could not map vdisk %(vdisk_id)s to host %(host)s because it is already "
+"mapped to another host"
+msgstr ""
+"NV-4B128AE fr_FR: Could not map vdisk %(vdisk_id)s to host %(host)s "
+"because it is already mapped to another host"
+
+#: paxes_cinder/exception.py:312
+#, python-format
+msgid "vdisk %(vdisk_id)s does not exist"
+msgstr "NV-8AE54C7 fr_FR: vdisk %(vdisk_id)s does not exist"
+
+#: paxes_cinder/exception.py:322
+msgid "No common fabrics between virtual machine and storage"
+msgstr "NV-E5685D0 fr_FR: No common fabrics between virtual machine and storage"
+
+#: paxes_cinder/exception.py:339
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s has been deleted and recreated. Expected UID is "
+"%(expected_uid)s, current UID is %(current_uid)s"
+msgstr ""
+"NV-78057E1 fr_FR: vdisk %(vdisk_id)s has been deleted and recreated. "
+"Expected UID is %(expected_uid)s, current UID is %(current_uid)s"
+
+#: paxes_cinder/exception.py:350
+#, python-format
+msgid ""
+"Not enough space left on storage host %(host)s to extend the volume "
+"%(volume_id)s"
+msgstr ""
+"NV-EA431AC fr_FR: Not enough space left on storage host %(host)s to "
+"extend the volume %(volume_id)s"
+
+#: paxes_cinder/exception.py:360
+msgid ""
+"Flashcopy is in progress for boot volume, volume size didn't change. "
+"Please try again later."
+msgstr ""
+"NV-461A839 fr_FR: Flashcopy is in progress for boot volume, volume size "
+"didn't change. Please try again later."
+
+#: paxes_cinder/exception.py:367
+#, python-format
+msgid ""
+"vdisk %(vdisk_id)s is source of snapshot flashcopy and fcmap %(fcmapid)s "
+"cannot be removed."
+msgstr ""
+"NV-CB3AB35 fr_FR: vdisk %(vdisk_id)s is source of snapshot flashcopy and "
+"fcmap %(fcmapid)s cannot be removed."
+
+#: paxes_cinder/k2aclient/openstack/common/lockutils.py:276
+#, python-format
+msgid "Released file lock \"%(lock)s\" at %(path)s for method \"%(method)s\"..."
+msgstr "NV-F6B31F1 fr_FR: Released file lock \\"
+
+#: paxes_cinder/scheduler/host_manager.py:59
+#, python-format
+msgid "clean up host_state_map: %(host)shost"
+msgstr "NV-F9D1534 fr_FR: clean up host_state_map: %(host)shost"
+
+#: paxes_cinder/scheduler/sched_drv.py:57
+#, python-format
+msgid "volume request: requested size: %(size)s. "
+msgstr "fr_FR: volume request: requested size: %(size)s. "
+
+#: paxes_cinder/scheduler/sched_drv.py:63
+#, python-format
+msgid ""
+"{host: %(hostname)s, free_capacity: %(free_cap)s, total_capacity: "
+"%(total)s, reserved_percentage: %(reserved)s, last update: "
+"%(time_updated)s}"
+msgstr ""
+"fr_FR: {host: %(hostname)s, free_capacity: %(free_cap)s, total_capacity: "
+"%(total)s, reserved_percentage: %(reserved)s, last update: "
+"%(time_updated)s}"
+
+#: paxes_cinder/scheduler/sched_drv.py:73
+msgid "request exceeds capacity: info"
+msgstr "NV-DBCC600 fr_FR: request exceeds capacity: info"
+
+#: paxes_cinder/scheduler/sched_drv.py:76
+msgid "No storage has been registered. "
+msgstr "NV-96E101B fr_FR: No storage has been registered. "
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:66
+msgid ""
+"Free capacity not set: Volume node is either still under initialization "
+"or the node info collection is broken."
+msgstr ""
+"NV-872554F fr_FR: Free capacity not set: Volume node is either still "
+"under initialization or the node info collection is broken."
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:98
+msgid "missing default_volume_type"
+msgstr "NV-404930C fr_FR: missing default_volume_type"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:104
+#, python-format
+msgid "missing valid rsize on %svolume_type: %s"
+msgstr "fr_FR: missing valid rsize on %svolume_type: %s"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:114
+#, python-format
+msgid ""
+"Insufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-5CC98A1 fr_FR: Insufficient free space for volume creation (requested "
+"/ avail / rsize): %(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scheduler/filters/paxes_capacity_filter.py:121
+#, python-format
+msgid ""
+"Sufficient free space for volume creation (requested / avail / rsize): "
+"%(requested)s/%(available)s/%(rsize)s"
+msgstr ""
+"NV-D0E32D8 fr_FR: Sufficient free space for volume creation (requested / "
+"avail / rsize): %(requested)s/%(available)s/%(rsize)s"
+
+#: paxes_cinder/scohack/scohack_http.py:149
+#, python-format
+msgid "BadStoreUri: credentials '%s' not well-formatted."
+msgstr "fr_FR: BadStoreUri: credentials '%s' not well-formatted."
+
+#: paxes_cinder/scohack/scohack_http.py:159
+msgid "BadStoreUri: no address specified in HTTP URL"
+msgstr "NV-2A5D3E2 fr_FR: BadStoreUri: no address specified in HTTP URL"
+
+#: paxes_cinder/scohack/scohack_http.py:315
+msgid "The HTTP URL attempted to redirect with an invalid status code."
+msgstr "fr_FR: The HTTP URL attempted to redirect with an invalid status code."
+
+#: paxes_cinder/scohack/scohack_scohack.py:73
+msgid "URI must start with scohack://"
+msgstr "NV-DF4522D fr_FR: URI must start with scohack://"
+
+#: paxes_cinder/scohack/scohack_scohack.py:157
+msgid "scohack: cant list vios"
+msgstr "NV-D40CA86 fr_FR: scohack: cant list vios"
+
+#: paxes_cinder/scohack/scohack_scohack.py:163
+msgid "scohack: no vios found"
+msgstr "NV-ABFCCCD fr_FR: scohack: no vios found"
+
+#: paxes_cinder/scohack/scohack_scohack.py:172
+#, python-format
+msgid "scohack: cant list vios for ms: >%s<"
+msgstr "fr_FR: scohack: cant list vios for ms: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:179
+#, python-format
+msgid "scohack: no vios found for ms: >%s<"
+msgstr "fr_FR: scohack: no vios found for ms: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:189
+#, python-format
+msgid "scohack: for ms: >%s<, cant find vios: >%s<"
+msgstr "fr_FR: scohack: for ms: >%s<, cant find vios: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:197
+#, python-format
+msgid "scohack: cant find vios: >%s<"
+msgstr "fr_FR: scohack: cant find vios: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:320
+#, python-format
+msgid "scohack: only single hmc is supported: prev: >%s<, new: >%s<"
+msgstr "fr_FR: scohack: only single hmc is supported: prev: >%s<, new: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:330
+#, python-format
+msgid "scohack: no HMC for id: >%s<"
+msgstr "fr_FR: scohack: no HMC for id: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:360
+#, python-format
+msgid "scohack: vios: >%s<, volume: >%s<"
+msgstr "fr_FR: scohack: vios: >%s<, volume: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:376
+#, python-format
+msgid "scohack: image upload: hdisk: >%s<, vios: >%s<"
+msgstr "fr_FR: scohack: image upload: hdisk: >%s<, vios: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:391
+#, python-format
+msgid "scohack: volume not found: >%s<"
+msgstr "fr_FR: scohack: volume not found: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:402
+#, python-format
+msgid "scohack: volume: invalid status: >%s<"
+msgstr "fr_FR: scohack: volume: invalid status: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:419
+#, python-format
+msgid "scohack: no ports for vios: >%s<"
+msgstr "fr_FR: scohack: no ports for vios: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:435
+#, python-format
+msgid "scohack: failed to connect to volume >%(volume_id)s< "
+msgstr "NV-E7095A2 fr_FR: scohack: failed to connect to volume >%(volume_id)s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:445
+#, python-format
+msgid "scohack: for target volume: >%s<, bad connection: >%s<, no target_lun"
+msgstr ""
+"fr_FR: scohack: for target volume: >%s<, bad connection: >%s<, no "
+"target_lun"
+
+#: paxes_cinder/scohack/scohack_scohack.py:460
+#, python-format
+msgid ""
+"scohack: for target volume: >%s<, no target wwpn found in connection: "
+">%s< "
+msgstr ""
+"fr_FR: scohack: for target volume: >%s<, no target wwpn found in "
+"connection: >%s< "
+
+#: paxes_cinder/scohack/scohack_scohack.py:478
+#, python-format
+msgid "scohack: target volume: >%s<, does not have page83 data"
+msgstr "fr_FR: scohack: target volume: >%s<, does not have page83 data"
+
+#: paxes_cinder/scohack/scohack_scohack.py:495
+#, python-format
+msgid "scohack: lua_recovery job failed for target volume: >%s<"
+msgstr "fr_FR: scohack: lua_recovery job failed for target volume: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:508
+#, python-format
+msgid "scohack: luarcovery job status: >%s<, result: >%s<"
+msgstr "fr_FR: scohack: luarcovery job status: >%s<, result: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:514
+#, python-format
+msgid ""
+"scohack: lua_recovery job internal error, device_list is invalid device "
+"list: >%s<"
+msgstr ""
+"fr_FR: scohack: lua_recovery job internal error, device_list is invalid "
+"device list: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:522
+#, python-format
+msgid ""
+"scohack: lua_recovery job returned multiple devices device list: >%s<, "
+"will select first ..."
+msgstr ""
+"fr_FR: scohack: lua_recovery job returned multiple devices device list: "
+">%s<, will select first ..."
+
+#: paxes_cinder/scohack/scohack_scohack.py:532
+#, python-format
+msgid ""
+"This means that a device was found from an ITL nexus and it was "
+"determined to be in use by the VIOS. The most likely cause is that a "
+"virtual device was not removed from a previous deploy. The VIOS took no "
+"action in this case. device: >%s<"
+msgstr ""
+"fr_FR: This means that a device was found from an ITL nexus and it was "
+"determined to be in use by the VIOS. The most likely cause is that a "
+"virtual device was not removed from a previous deploy. The VIOS took no "
+"action in this case. device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:542
+#, python-format
+msgid ""
+"This means that the ITL nexus is not consider reliable and some error "
+"occurred that prevents the VIOS from determining making a decision on "
+"safely removing a device. The VIOS took no action in this case. Perhaps "
+"try to remove the offending hdisk from the VIOS, with rmdev -d -l hdiskx."
+" device: >%s<"
+msgstr ""
+"fr_FR: This means that the ITL nexus is not consider reliable and some "
+"error occurred that prevents the VIOS from determining making a decision "
+"on safely removing a device. The VIOS took no action in this case. "
+"Perhaps try to remove the offending hdisk from the VIOS, with rmdev -d -l"
+" hdiskx. device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:555
+#, python-format
+msgid ""
+"This means the information provided and action taken by the VIOS was "
+"sufficient to find the storage. pvName, and uniqueID elements will follow"
+" in the data stream. device: >%s<"
+msgstr ""
+"fr_FR: This means the information provided and action taken by the VIOS "
+"was sufficient to find the storage. pvName, and uniqueID elements will "
+"follow in the data stream. device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:563
+#, python-format
+msgid ""
+"This means some new storage element was found at the ITL nexus but VIOS "
+"could not determine if it is the storage of interest to the management "
+"tool. device: >%s<"
+msgstr ""
+"fr_FR: This means some new storage element was found at the ITL nexus but"
+" VIOS could not determine if it is the storage of interest to the "
+"management tool. device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:571
+#, python-format
+msgid ""
+"The VIOS could not determine if this is logical unit of interest to the "
+"management tool however did find a device from the ITL nexus list. "
+"device: >%s<"
+msgstr ""
+"fr_FR: The VIOS could not determine if this is logical unit of interest "
+"to the management tool however did find a device from the ITL nexus list."
+" device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:579
+#, python-format
+msgid ""
+"The VIOS could not find a device from the itl nexus list. It could be "
+"some SCSI or transport error occurred during configuration or the ITL "
+"nexus list was incorrect. device: >%s<"
+msgstr ""
+"fr_FR: The VIOS could not find a device from the itl nexus list. It could"
+" be some SCSI or transport error occurred during configuration or the ITL"
+" nexus list was incorrect. device: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:590
+#, python-format
+msgid "Unknown device status. Severe internal error contact NCO. device: >%s<"
+msgstr ""
+"fr_FR: Unknown device status. Severe internal error contact NCO. device: "
+">%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:605
+#, python-format
+msgid "scohack: failed to find device name: >%s<"
+msgstr "fr_FR: scohack: failed to find device name: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:609
+#, python-format
+msgid "scohack: found device name: >%s<"
+msgstr "fr_FR: scohack: found device name: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:629
+#, python-format
+msgid "scohack: hdisk_uuid: >%s<, checksum not specified"
+msgstr "fr_FR: scohack: hdisk_uuid: >%s<, checksum not specified"
+
+#: paxes_cinder/scohack/scohack_scohack.py:635
+#, python-format
+msgid "scohack: hdisk_uuid: >%s<, size not specified"
+msgstr "fr_FR: scohack: hdisk_uuid: >%s<, size not specified"
+
+#: paxes_cinder/scohack/scohack_scohack.py:656
+#, python-format
+msgid ""
+"scohack: image upload complete for hdisk_uuid: >%s<, webfile id: >%s<, "
+"actual size: >%s< bytes, elapsed time: >%d< seconds, rate: >%f< "
+"minutes/GB"
+msgstr ""
+"fr_FR: scohack: image upload complete for hdisk_uuid: >%s<, webfile id: "
+">%s<, actual size: >%s< bytes, elapsed time: >%d< seconds, rate: >%f< "
+"minutes/GB"
+
+#: paxes_cinder/scohack/scohack_scohack.py:670
+#, python-format
+msgid ""
+"scohack:  mismatch: expected_file_size_in_bytes: >%d<, "
+"current_file_size_in_bytes: >%d<"
+msgstr ""
+"fr_FR: scohack:  mismatch: expected_file_size_in_bytes: >%d<, "
+"current_file_size_in_bytes: >%d<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:683
+#: paxes_cinder/scohack/scohack_scohack.py:692
+#, python-format
+msgid "scohack: for hdisk_uuid: >%s< cleanup failed, msg: >%s<"
+msgstr "fr_FR: scohack: for hdisk_uuid: >%s< cleanup failed, msg: >%s<"
+
+#: paxes_cinder/scohack/scohack_scohack.py:695
+#, python-format
+msgid "scohack: upload failed for hdisk_uuid: >%s<"
+msgstr "fr_FR: scohack: upload failed for hdisk_uuid: >%s<"
+
+#: paxes_cinder/volume/__init__.py:44
+#, python-format
+msgid ""
+"Failed to get the parameters from function "
+"cinder.volume.volume_types.create(). Default quota didn't set for the "
+"storage template. Error: %(err)s"
+msgstr ""
+"NV-A4934EA fr_FR: Failed to get the parameters from function "
+"cinder.volume.volume_types.create(). Default quota didn't set for the "
+"storage template. Error: %(err)s"
+
+#: paxes_cinder/volume/__init__.py:64
+#, python-format
+msgid "Successfully set default quota for storage template %(vol_type)s"
+msgstr ""
+"NV-71868FF fr_FR: Successfully set default quota for storage template "
+"%(vol_type)s"
+
+#: paxes_cinder/volume/__init__.py:68
+#, python-format
+msgid ""
+"Failed to set default quota for storage template %(vol_type)s, error: "
+"%(err)s"
+msgstr ""
+"NV-D86E5F7 fr_FR: Failed to set default quota for storage template "
+"%(vol_type)s, error: %(err)s"
+
+#: paxes_cinder/volume/__init__.py:72
+#, python-format
+msgid ""
+"Cannot set default quota for storage template %(vol_type) due to invalid "
+"Parameters from volume type create."
+msgstr ""
+"NV-D9BA448 fr_FR: Cannot set default quota for storage template "
+"%(vol_type) due to invalid Parameters from volume type create."
+
+#: paxes_cinder/volume/__init__.py:125
+#, python-format
+msgid "Error getting data volumes: %s "
+msgstr "NV-7627301 fr_FR: Error getting data volumes: %s "
+
+#: paxes_cinder/volume/manager.py:89
+#, python-format
+msgid "Cannot perform direct SAN operation on disk with prefix %(prefix)s"
+msgstr ""
+"NV-1701BDD fr_FR: Cannot perform direct SAN operation on disk with prefix"
+" %(prefix)s"
+
+#: paxes_cinder/volume/manager.py:100
+msgid "Driver still initializing, wait..."
+msgstr "NV-C6CA9E0 fr_FR: Driver still initializing, wait..."
+
+#: paxes_cinder/volume/manager.py:102
+#, python-format
+msgid "Try again: %s"
+msgstr "NV-FEE7BD0 fr_FR: Try again: %s"
+
+#: paxes_cinder/volume/manager.py:174
+#, python-format
+msgid "Fabric {fabric_name} ({user}@{ip}:{port}): %(message)s"
+msgstr "NV-0A01336 fr_FR: Fabric {fabric_name} ({user}@{ip}:{port}): %(message)s"
+
+#: paxes_cinder/volume/manager.py:190
+#, python-format
+msgid ""
+"Storage Provider {storage_provider_hostname} ({user}@{ip}:{port}) "
+"{volume_id}: %(message)s"
+msgstr ""
+"NV-E1A972C fr_FR: Storage Provider {storage_provider_hostname} "
+"({user}@{ip}:{port}) {volume_id}: %(message)s"
+
+#: paxes_cinder/volume/manager.py:225
+msgid ""
+"The volume is already attached to another virtual server, possibly one "
+"that is not managed by PowerVC."
+msgstr ""
+"fr_FR: The volume is already attached to another virtual server, possibly"
+" one that is not managed by PowerVC."
+
+#: paxes_cinder/volume/manager.py:229
+msgid ""
+"The volume cannot be deleted because it is either mapped to a host or "
+"part of a flashcopy or remote copy operation."
+msgstr ""
+"fr_FR: The volume cannot be deleted because it is either mapped to a host"
+" or part of a flashcopy or remote copy operation."
+
+#: paxes_cinder/volume/manager.py:241
+#, python-format
+msgid "%(error_prefix)s failure for volume {volume_id}: %(error)s"
+msgstr "fr_FR: %(error_prefix)s failure for volume {volume_id}: %(error)s"
+
+#: paxes_cinder/volume/manager.py:246
+#, python-format
+msgid ""
+"%(error_prefix)s failure for volume {volume_id}.Command %(cmd)s, error "
+"%(error)s"
+msgstr ""
+"fr_FR: %(error_prefix)s failure for volume {volume_id}.Command %(cmd)s, "
+"error %(error)s"
+
+#: paxes_cinder/volume/manager.py:392
+#, python-format
+msgid "Resuming deletion of volume %s"
+msgstr "NV-E253654 fr_FR: Resuming deletion of volume %s"
+
+#: paxes_cinder/volume/manager.py:395
+#, python-format
+msgid ""
+"Failed to delete volume %(volid)s during volume service startup. Error: "
+"%(error)s"
+msgstr ""
+"NV-CCA27AC fr_FR: Failed to delete volume %(volid)s during volume service"
+" startup. Error: %(error)s"
+
+#: paxes_cinder/volume/manager.py:409
+#, python-format
+msgid "Processing volume that was left in the attaching state. Volume id: %(id)s"
+msgstr ""
+"NV-89FC9B0 fr_FR: Processing volume that was left in the attaching state."
+" Volume id: %(id)s"
+
+#: paxes_cinder/volume/manager.py:482
+#, python-format
+msgid ""
+"_volume_attach_rollback: Volume %(id)s is missing restricted metadata to "
+"recover the attaching state."
+msgstr ""
+"NV-C8F1D06 fr_FR: _volume_attach_rollback: Volume %(id)s is missing "
+"restricted metadata to recover the attaching state."
+
+#: paxes_cinder/volume/manager.py:486
+#, python-format
+msgid ""
+"_volume_attach_rollback: No attach operation  to rollback for volume "
+"%(id)s"
+msgstr ""
+"NV-77AEEA1 fr_FR: _volume_attach_rollback: No attach operation  to "
+"rollback for volume %(id)s"
+
+#: paxes_cinder/volume/manager.py:492
+#, python-format
+msgid ""
+"_volume_attach_rollback: Invalid connector %(conn)s in volume %(id)s "
+"restrict metadata. Rollback without termination"
+msgstr ""
+"NV-4096184 fr_FR: _volume_attach_rollback: Invalid connector %(conn)s in "
+"volume %(id)s restrict metadata. Rollback without termination"
+
+#: paxes_cinder/volume/manager.py:497
+#, python-format
+msgid "_volume_attach_rollback: Roll back attaching state for volume %(id)s."
+msgstr ""
+"NV-1EB0444 fr_FR: _volume_attach_rollback: Roll back attaching state for "
+"volume %(id)s."
+
+#: paxes_cinder/volume/manager.py:517
+#, python-format
+msgid ""
+"_volume_attach_rollback: Finished. Volume %(id)s has rolled back to "
+"available state."
+msgstr ""
+"NV-1E08B26 fr_FR: _volume_attach_rollback: Finished. Volume %(id)s has "
+"rolled back to available state."
+
+#: paxes_cinder/volume/manager.py:599
+#, python-format
+msgid ""
+"The volume detach didn't finish successfully before cinder service was "
+"restarted. volume id: %(id)s"
+msgstr ""
+"NV-333B81A fr_FR: The volume detach didn't finish successfully before "
+"cinder service was restarted. volume id: %(id)s"
+
+#: paxes_cinder/volume/manager.py:627
+msgid "Unable to initialize host, driver is uninitialized"
+msgstr "NV-7F33CBC fr_FR: Unable to initialize host, driver is uninitialized"
+
+#: paxes_cinder/volume/manager.py:637
+msgid "update default quota class..."
+msgstr "NV-392B903 fr_FR: update default quota class..."
+
+#: paxes_cinder/volume/manager.py:639
+msgid "Post init_host processing and update volume status."
+msgstr "NV-6EC3032 fr_FR: Post init_host processing and update volume status."
+
+#: paxes_cinder/volume/manager.py:647
+#, python-format
+msgid "Rollback volume still attaching during init_host: %d volumes"
+msgstr ""
+"NV-BDEAFA8 fr_FR: Rollback volume still attaching during init_host: %d "
+"volumes"
+
+#: paxes_cinder/volume/manager.py:652
+#, python-format
+msgid "Resume volume deletion during init_host: %d volumes"
+msgstr "NV-6BC64FF fr_FR: Resume volume deletion during init_host: %d volumes"
+
+#: paxes_cinder/volume/manager.py:832
+#, python-format
+msgid "volume %s: removing export"
+msgstr "NV-BAF02FC fr_FR: volume %s: removing export"
+
+#: paxes_cinder/volume/manager.py:834
+#, python-format
+msgid "volume %s: deleting"
+msgstr "NV-4F406DE fr_FR: volume %s: deleting"
+
+#: paxes_cinder/volume/manager.py:837
+#, python-format
+msgid "volume %s: volume is busy"
+msgstr "NV-3431BA6 fr_FR: volume %s: volume is busy"
+
+#: paxes_cinder/volume/manager.py:840
+#, python-format
+msgid "Fail to remove_export or delete_volume: %sname"
+msgstr "NV-E98201D fr_FR: Fail to remove_export or delete_volume: %sname"
+
+#: paxes_cinder/volume/manager.py:844
+#, python-format
+msgid "Volume %s: deletion failed with exception "
+msgstr "NV-137591B fr_FR: Volume %s: deletion failed with exception "
+
+#: paxes_cinder/volume/manager.py:936
+#, python-format
+msgid "failed checking whether volume %s backs an image, metadata=%s"
+msgstr "fr_FR: failed checking whether volume %s backs an image, metadata=%s"
+
+#: paxes_cinder/volume/manager.py:971
+#, python-format
+msgid ""
+"volume %(volid)s has unfinished attach transaction. Rolling back before "
+"deleting the volume."
+msgstr ""
+"NV-331CBBA fr_FR: volume %(volid)s has unfinished attach transaction. "
+"Rolling back before deleting the volume."
+
+#: paxes_cinder/volume/manager.py:1014
+#, python-format
+msgid ""
+"Quota exceeded for %(s_pid)s, tried to extend volume by %(s_size)sG, "
+"(%(d_consumed)dG of %(d_quota)dG already consumed)"
+msgstr ""
+"NV-521C07E fr_FR: Quota exceeded for %(s_pid)s, tried to extend volume by"
+" %(s_size)sG, (%(d_consumed)dG of %(d_quota)dG already consumed)"
+
+#: paxes_cinder/volume/manager.py:1070
+#, python-format
+msgid ""
+"Boot volume %(volid)s doesn't support resize, "
+"error=%(errmsg)s.extend_volume request has been ignored."
+msgstr ""
+"fr_FR: Boot volume %(volid)s doesn't support resize, "
+"error=%(errmsg)s.extend_volume request has been ignored."
+
+#: paxes_cinder/volume/manager.py:1123
+#, python-format
+msgid "Start attach transaction for volume %(id)s."
+msgstr "NV-1CBB13C fr_FR: Start attach transaction for volume %(id)s."
+
+#: paxes_cinder/volume/manager.py:1153
+#, python-format
+msgid "Driver returned %s"
+msgstr "NV-B695526 fr_FR: Driver returned %s"
+
+#: paxes_cinder/volume/manager.py:1186
+#, python-format
+msgid "Successfully attached the volume %(id)s. Clean up transaction."
+msgstr ""
+"NV-F606087 fr_FR: Successfully attached the volume %(id)s. Clean up "
+"transaction."
+
+#: paxes_cinder/volume/drivers/paxes_san.py:181
+#, python-format
+msgid "Error running SSH command: %s"
+msgstr "NV-052C0AB fr_FR: Error running SSH command: %s"
+
+#: paxes_cinder/volume/drivers/emc/emc_common_product.py:34
+msgid "Updating volume status"
+msgstr "NV-A56DF8D fr_FR: Updating volume status"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:88
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1326
+msgid "protocol must be specified as '<in> iSCSI' or '<in> FC'"
+msgstr "fr_FR: protocol must be specified as '<in> iSCSI' or '<in> FC'"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:122
+msgid "Entering create_volume."
+msgstr "NV-4C5AEEB fr_FR: Entering create_volume."
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:126
+#, python-format
+msgid "Create Volume: %(volume)s  Size: %(size)lu"
+msgstr "NV-403E8FC fr_FR: Create Volume: %(volume)s  Size: %(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:163
+#, python-format
+msgid "Create Volume: %(volume)s  Storage type: %(storage_type)s"
+msgstr ""
+"NV-4E4E2BB fr_FR: Create Volume: %(volume)s  Storage type: "
+"%(storage_type)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:170
+#, python-format
+msgid ""
+"Create Volume: %(volume)s  Pool: %(pool)s,  Element Type: "
+"%(element_type)s, Storage System: %(storage_system)s"
+msgstr ""
+"NV-723484A fr_FR: Create Volume: %(volume)s  Pool: %(pool)s,  Element "
+"Type: %(element_type)s, Storage System: %(storage_system)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:181
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s. Storage Configuration Service not "
+"found for pool %(storage_type)s."
+msgstr ""
+"NV-0EFA73A fr_FR: Error Create Volume: %(volumename)s. Storage "
+"Configuration Service not found for pool %(storage_type)s."
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:189
+#, python-format
+msgid ""
+"Create Volume: %(name)s  Method: CreateOrModifyElementFromStoragePool  "
+"ConfigServicie: %(service)s  ElementName: %(name)s  InPool: %(pool)s  "
+"ElementType: %(element_type)s  Size: %(size)lu"
+msgstr ""
+"NV-6E312B4 fr_FR: Create Volume: %(name)s  Method: "
+"CreateOrModifyElementFromStoragePool  ConfigServicie: %(service)s  "
+"ElementName: %(name)s  InPool: %(pool)s  ElementType: %(element_type)s  "
+"Size: %(size)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:205
+#, python-format
+msgid "Create Volume: %(volumename)s  Return code: %(rc)lu"
+msgstr "NV-0214C49 fr_FR: Create Volume: %(volumename)s  Return code: %(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:212
+#, python-format
+msgid ""
+"Error Create Volume: %(volumename)s.  Return code: %(rc)lu.  Error: "
+"%(error)s"
+msgstr ""
+"NV-227D3AC fr_FR: Error Create Volume: %(volumename)s.  Return code: "
+"%(rc)lu.  Error: %(error)s"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:219
+#, python-format
+msgid "Leaving create_volume: %(volumename)s  Return code: %(rc)lu"
+msgstr ""
+"NV-C5C5CCC fr_FR: Leaving create_volume: %(volumename)s  Return code: "
+"%(rc)lu"
+
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:233
+#: paxes_cinder/volume/drivers/emc/emc_smis_product.py:257
+msgid "Could not establish ecom connection"
+msgstr "NV-930992B fr_FR: Could not establish ecom connection"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:357
+msgid "Driver pool data not initialized yet."
+msgstr "fr_FR: Driver pool data not initialized yet."
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:364
+#, python-format
+msgid ""
+"K2 GET SharedStoragePool time: %f is bigger or equal to update_stats "
+"periodic interval: %d"
+msgstr ""
+"fr_FR: K2 GET SharedStoragePool time: %f is bigger or equal to "
+"update_stats periodic interval: %d"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:393
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:339
+msgid "enter: do_setup"
+msgstr "NV-9097266 fr_FR: enter: do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:483
+#, python-format
+msgid "ssp: during do_setup, creating default volume type: >%s<"
+msgstr "NV-379E7B0 fr_FR: ssp: during do_setup, creating default volume type: >%s<"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:488
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:484
+msgid "leave: do_setup"
+msgstr "NV-F492AE8 fr_FR: leave: do_setup"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:493
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:566
+msgid "leave: check_for_setup_error"
+msgstr "NV-1C79D46 fr_FR: leave: check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:609
+msgid "ssp: during create_snapshot: source_vol is None."
+msgstr "fr_FR: ssp: during create_snapshot: source_vol is None."
+
+#: paxes_cinder/volume/drivers/ssp/ssp.py:762
+#, python-format
+msgid "stats = %(stats)s"
+msgstr "NV-898A2AA fr_FR: stats = %(stats)s"
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:63
+#, python-format
+msgid "Node %s has no virtual_io_server. Skipping."
+msgstr "fr_FR: Node %s has no virtual_io_server. Skipping."
+
+#: paxes_cinder/volume/drivers/ssp/ssp_product.py:109
+msgid "Not initialized"
+msgstr "fr_FR: Not initialized"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:237
+#, python-format
+msgid "WWPN on node %(node)s: %(wwpn)s"
+msgstr "NV-D154765 fr_FR: WWPN on node %(node)s: %(wwpn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:296
+#, python-format
+msgid "Required keys %(required)s not found in vdisk dictionary %(dictionary)r"
+msgstr ""
+"fr_FR: Required keys %(required)s not found in vdisk dictionary "
+"%(dictionary)r"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:346
+msgid "do_setup: Could not get system name"
+msgstr "NV-5732B20 fr_FR: do_setup: Could not get system name"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:358
+#, python-format
+msgid "do_setup: Pool %s does not exist"
+msgstr "NV-1B3A18D fr_FR: do_setup: Pool %s does not exist"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:410
+#, python-format
+msgid ""
+"Expected integers for node_count and vdisk_count, svcinfo lsiogrp "
+"returned: %(node)s and %(vdisk)s"
+msgstr ""
+"NV-D7E5D72 fr_FR: Expected integers for node_count and vdisk_count, "
+"svcinfo lsiogrp returned: %(node)s and %(vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:473
+msgid "do_setup: No configured nodes"
+msgstr "fr_FR: do_setup: No configured nodes"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:527
+msgid "enter: check_for_setup_error"
+msgstr "fr_FR: enter: check_for_setup_error"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:531
+msgid "Unable to determine system name"
+msgstr "NV-82D9304 fr_FR: Unable to determine system name"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:534
+msgid "Unable to determine system id"
+msgstr "NV-3C12EE7 fr_FR: Unable to determine system id"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:537
+msgid "Unable to determine pool extent size"
+msgstr "NV-D455E3E fr_FR: Unable to determine pool extent size"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:544
+#, python-format
+msgid "%s is not set"
+msgstr "NV-6919A40 fr_FR: %s is not set"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:550
+msgid ""
+"Password or SSH private key is required for authentication: set either "
+"san_password or san_private_key option"
+msgstr ""
+"NV-6FE00A0 fr_FR: Password or SSH private key is required for "
+"authentication: set either san_password or san_private_key option"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:558
+#, python-format
+msgid ""
+"Illegal value %d specified for storwize_svc_flashcopy_timeout: valid "
+"values are between 0 and 600"
+msgstr ""
+"NV-F2E38D9 fr_FR: Illegal value %d specified for "
+"storwize_svc_flashcopy_timeout: valid values are between 0 and 600"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:580
+#, python-format
+msgid "ensure_export: Volume %(volume_id)s does not reference a vdisk"
+msgstr ""
+"NV-EF2904A fr_FR: ensure_export: Volume %(volume_id)s does not reference "
+"a vdisk"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:587
+#, python-format
+msgid ""
+"ensure_export: Volume %(volume_id)s references vdisk %(vdisk)s, which was"
+" not found on storage"
+msgstr ""
+"NV-C3410C4 fr_FR: ensure_export: Volume %(volume_id)s references vdisk "
+"%(vdisk)s, which was not found on storage"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:613
+#, python-format
+msgid "enter: _get_chap_secret_for_host: host name %s"
+msgstr "fr_FR: enter: _get_chap_secret_for_host: host name %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:649
+#, python-format
+msgid ""
+"leave: _get_chap_secret_for_host: host name %(host_name)s with secret "
+"%(chap_secret)s"
+msgstr ""
+"fr_FR: leave: _get_chap_secret_for_host: host name %(host_name)s with "
+"secret %(chap_secret)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:672
+msgid "_create_host: Cannot clean host name. Host name is not unicode or string"
+msgstr ""
+"NV-ED84213 fr_FR: _create_host: Cannot clean host name. Host name is not "
+"unicode or string"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:823
+#, python-format
+msgid "enter: _get_host_from_connector: prefix %s"
+msgstr "fr_FR: enter: _get_host_from_connector: prefix %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:891
+#, python-format
+msgid "leave: _get_host_from_connector: host %s"
+msgstr "fr_FR: leave: _get_host_from_connector: host %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:903
+#, python-format
+msgid "enter: _create_host: host %s"
+msgstr "fr_FR: enter: _create_host: host %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:918
+msgid "_create_host: No connector ports"
+msgstr "fr_FR: _create_host: No connector ports"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:951
+#, python-format
+msgid "leave: _create_host: host %(host)s - %(host_name)s"
+msgstr "fr_FR: leave: _create_host: host %(host)s - %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:974
+#, python-format
+msgid "enter: _map_vol_to_host: vdisk %(vdisk_id)s to host %(host_name)s"
+msgstr "fr_FR: enter: _map_vol_to_host: vdisk %(vdisk_id)s to host %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1004
+msgid ""
+"storwize_svc_multihostmap_enabled is set to False, Not allow multi host "
+"mapping"
+msgstr ""
+"NV-ABB7D85 fr_FR: storwize_svc_multihostmap_enabled is set to False, Not "
+"allow multi host mapping"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1016
+#, python-format
+msgid "vdisk %s mapping to multi host"
+msgstr "NV-45393AC fr_FR: vdisk %s mapping to multi host"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1022
+#, python-format
+msgid ""
+"leave: _map_vol_to_host: LUN %(result_lun)s, vdisk %(vdisk_id)s, host "
+"%(host_name)s"
+msgstr ""
+"fr_FR: leave: _map_vol_to_host: LUN %(result_lun)s, vdisk %(vdisk_id)s, "
+"host %(host_name)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1032
+#, python-format
+msgid "enter: _delete_host: host %s "
+msgstr "fr_FR: enter: _delete_host: host %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1040
+#, python-format
+msgid "leave: _delete_host: host %s "
+msgstr "fr_FR: leave: _delete_host: host %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1066
+#, python-format
+msgid ""
+"The connector does not contain the required information: %(connector)s, "
+"protocols %(protos)s"
+msgstr ""
+"NV-6A00D73 fr_FR: The connector does not contain the required "
+"information: %(connector)s, protocols %(protos)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1087
+#, python-format
+msgid "Enter: initialize_connection: %s"
+msgstr "NV-4DB79BA fr_FR: Enter: initialize_connection: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1110
+#, python-format
+msgid "Did not find expected column name in lsvdisk: %s"
+msgstr "NV-5EFF8EA fr_FR: Did not find expected column name in lsvdisk: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1112
+#, python-format
+msgid "initialize_connection: Missing volume attribute for vdisk %s"
+msgstr ""
+"NV-4FE8A8D fr_FR: initialize_connection: Missing volume attribute for "
+"vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1124
+msgid "_create_host failed to return the host name."
+msgstr "fr_FR: _create_host failed to return the host name."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1146
+#, python-format
+msgid ""
+"initialize_connection: No node found in I/O group %(gid)s for vdisk "
+"%(vdisk_id)s"
+msgstr ""
+"NV-8182517 fr_FR: initialize_connection: No node found in I/O group "
+"%(gid)s for vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1155
+#, python-format
+msgid "initialize_connection: Did not find a preferred node for vdisk %s"
+msgstr ""
+"NV-1DB16EC fr_FR: initialize_connection: Did not find a preferred node "
+"for vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1177
+msgid ""
+"Could not get FC connection information for the host-volume connection. "
+"Is the host configured properly for FC connections?"
+msgstr ""
+"NV-D8556EE fr_FR: Could not get FC connection information for the host-"
+"volume connection. Is the host configured properly for FC connections?"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1192
+#, python-format
+msgid ""
+"initialize_connection: Failed to collect return properties for volume "
+"%(vol)s and connector %(conn)s.\n"
+msgstr ""
+"NV-0A9D0F9 fr_FR: initialize_connection: Failed to collect return "
+"properties for volume %(vol)s and connector %(conn)s.\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1197
+#, python-format
+msgid ""
+"leave: initialize_connection:\n"
+" volume: %(vol)s\n"
+" connector %(conn)s\n"
+" properties: %(prop)s"
+msgstr ""
+"fr_FR: leave: initialize_connection:\n"
+" volume: %(vol)s\n"
+" connector %(conn)s\n"
+" properties: %(prop)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1215
+#, python-format
+msgid "enter: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "fr_FR: enter: terminate_connection: volume %(vol)s with connector %(conn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1228
+#, python-format
+msgid ""
+"terminate_connection: vdisk mismatch: %(err)s. Performing no operation on"
+" the storage controller"
+msgstr ""
+"NV-78DEE4C fr_FR: terminate_connection: vdisk mismatch: %(err)s. "
+"Performing no operation on the storage controller"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1234
+#, python-format
+msgid ""
+"terminate_connection: vdisk deleted: %(err)s. Performing no operation on "
+"the storage controller"
+msgstr ""
+"NV-0E7CDF3 fr_FR: terminate_connection: vdisk deleted: %(err)s. "
+"Performing no operation on the storage controller"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1243
+msgid "terminate_connection: failed to lookup host name"
+msgstr "fr_FR: terminate_connection: failed to lookup host name"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1258
+#, python-format
+msgid ""
+"terminate_connection: No mapping of vdisk %(vdisk_id)s to host "
+"%(host_name)s found"
+msgstr ""
+"NV-0CD2F25 fr_FR: terminate_connection: No mapping of vdisk %(vdisk_id)s "
+"to host %(host_name)s found"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1266
+#, python-format
+msgid "leave: terminate_connection: volume %(vol)s with connector %(conn)s"
+msgstr "fr_FR: leave: terminate_connection: volume %(vol)s with connector %(conn)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1366
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:116
+#, python-format
+msgid "enter: _create_vdisk: candidate names %s "
+msgstr "NV-2D6FE98 fr_FR: enter: _create_vdisk: candidate names %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1422
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:216
+#, python-format
+msgid ""
+"_create_vdisk %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"fr_FR: _create_vdisk %(name)s - did not find success message in CLI "
+"output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1429
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:223
+#, python-format
+msgid "leave: _create_vdisk: volume %(name)s ID %(id)s "
+msgstr "NV-3A4E903 fr_FR: leave: _create_vdisk: volume %(name)s ID %(id)s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1451
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1465
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find success "
+"message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"fr_FR: create FC mapping from %(source)s to %(target)s - did not find "
+"success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1477
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1487
+#, python-format
+msgid ""
+"create FC mapping from %(source)s to %(target)s - did not find mapping id"
+" in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+msgstr ""
+"fr_FR: create FC mapping from %(source)s to %(target)s - did not find "
+"mapping id in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1502
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to prepare FlashCopy from %(source)s to "
+"%(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-AD077CD fr_FR: _prepare_fc_map: Failed to prepare FlashCopy from "
+"%(source)s to %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1530
+#, python-format
+msgid ""
+"Unexecpted mapping status %(status)s for mapping %(id)s. Attributes: "
+"%(attr)s"
+msgstr ""
+"fr_FR: Unexecpted mapping status %(status)s for mapping %(id)s. "
+"Attributes: %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1542
+#, python-format
+msgid ""
+"Mapping %(id)s prepare failed to complete within the allotted %(to)d "
+"seconds timeout. Terminating."
+msgstr ""
+"NV-46B21B5 fr_FR: Mapping %(id)s prepare failed to complete within the "
+"allotted %(to)d seconds timeout. Terminating."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1547
+#, python-format
+msgid ""
+"_prepare_fc_map: Failed to start FlashCopy from %(source)s to %(target)s "
+"with exception %(ex)s"
+msgstr ""
+"NV-B48FD34 fr_FR: _prepare_fc_map: Failed to start FlashCopy from "
+"%(source)s to %(target)s with exception %(ex)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1554
+#, python-format
+msgid "_prepare_fc_map: %s"
+msgstr "NV-956CB6C fr_FR: _prepare_fc_map: %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1561
+#, python-format
+msgid ""
+"_start_fc_map: Failed to start FlashCopy from %(source)s to %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-FCBE987 fr_FR: _start_fc_map: Failed to start FlashCopy from "
+"%(source)s to %(target)s.\n"
+"stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1572
+#, python-format
+msgid ""
+"enter: _run_flashcopy: execute FlashCopy from source %(source)s to target"
+" %(target)s"
+msgstr ""
+"fr_FR: enter: _run_flashcopy: execute FlashCopy from source %(source)s to"
+" target %(target)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1585
+#, python-format
+msgid "leave: _run_flashcopy: FlashCopy started from %(source)s to %(target)s"
+msgstr ""
+"fr_FR: leave: _run_flashcopy: FlashCopy started from %(source)s to "
+"%(target)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1594
+#, python-format
+msgid ""
+"enter: _create_copy: snapshot with possible names %(names)s from vdisk "
+"%(src_vdisk)s"
+msgstr ""
+"fr_FR: enter: _create_copy: snapshot with possible names %(names)s from "
+"vdisk %(src_vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1602
+#, python-format
+msgid "_create_copy: Source vdisk %s does not exist"
+msgstr "NV-8A48F71 fr_FR: _create_copy: Source vdisk %s does not exist"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1614
+#, python-format
+msgid ""
+"_create_copy: cannot get source vdisk %(src)s capacity from vdisk "
+"attributes %(attr)s"
+msgstr ""
+"fr_FR: _create_copy: cannot get source vdisk %(src)s capacity from vdisk "
+"attributes %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1633
+#, python-format
+msgid "leave: _create_copy: snapshot vdisk %(tgt_vdisk)s from vdisk %(src_vdisk)s"
+msgstr ""
+"fr_FR: leave: _create_copy: snapshot vdisk %(tgt_vdisk)s from vdisk "
+"%(src_vdisk)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1640
+#, python-format
+msgid "enter: _get_flashcopy_mapping_attributes: mapping %s"
+msgstr "fr_FR: enter: _get_flashcopy_mapping_attributes: mapping %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1663
+#, python-format
+msgid ""
+"leave: _get_flashcopy_mapping_attributes: mapping %(fc_map_id)s, "
+"attributes %(attributes)s"
+msgstr ""
+"fr_FR: leave: _get_flashcopy_mapping_attributes: mapping %(fc_map_id)s, "
+"attributes %(attributes)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1671
+#, python-format
+msgid "enter: _is_vdisk_defined: vdisk %s "
+msgstr "fr_FR: enter: _is_vdisk_defined: vdisk %s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1673
+#, python-format
+msgid "leave: _is_vdisk_defined: vdisk %(vdisk)s with %(str)s "
+msgstr "fr_FR: leave: _is_vdisk_defined: vdisk %(vdisk)s with %(str)s "
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1716
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1203
+#, python-format
+msgid "%(map_id)s [vdisk %(src)s to vdisk %(tgt)s]"
+msgstr "fr_FR: %(map_id)s [vdisk %(src)s to vdisk %(tgt)s]"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1729
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, increasing copyrate of flashcopy mapping "
+"%(map)s from 0 to %(copyrate)s and waiting for completion."
+msgstr ""
+"NV-0B06E40 fr_FR: To delete vdisk %(vdisk_id)s, increasing copyrate of "
+"flashcopy mapping %(map)s from 0 to %(copyrate)s and waiting for "
+"completion."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1743
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1236
+#, python-format
+msgid "Vdisk %(id)s not involved in mapping %(src)s -> %(tgt)s"
+msgstr "fr_FR: Vdisk %(id)s not involved in mapping %(src)s -> %(tgt)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1750
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1243
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, flashcopy mapping %(map)s with "
+"status '%(status)s' was removed."
+msgstr ""
+"NV-4CA8ED6 fr_FR: To allow deletion of vdisk %(vdisk_id)s, flashcopy "
+"mapping %(map)s with status '%(status)s' was removed."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1758
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1251
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, waiting for flashcopy mapping "
+"%(map)s with status '%(status)s' to complete."
+msgstr ""
+"NV-E66FA4E fr_FR: To allow deletion of vdisk %(vdisk_id)s, waiting for "
+"flashcopy mapping %(map)s with status '%(status)s' to complete."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1768
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1261
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, forcing removal of flashcopy "
+"mapping %(map)s with status '%(status)s'"
+msgstr ""
+"NV-824284E fr_FR: To allow deletion of vdisk %(vdisk_id)s, forcing "
+"removal of flashcopy mapping %(map)s with status '%(status)s'"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1779
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1275
+#, python-format
+msgid ""
+"To allow deletion of vdisk %(vdisk_id)s, prepared flashcopy mapping "
+"%(map)s was removed."
+msgstr ""
+"NV-211FA49 fr_FR: To allow deletion of vdisk %(vdisk_id)s, prepared "
+"flashcopy mapping %(map)s was removed."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1787
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1285
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, flashcopy mapping %(map)s with status "
+"'idle_or_copied' was removed."
+msgstr ""
+"NV-DA08F03 fr_FR: To delete vdisk %(vdisk_id)s, flashcopy mapping %(map)s"
+" with status 'idle_or_copied' was removed."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1793
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1293
+#, python-format
+msgid ""
+"To delete vdisk %(vdisk_id)s, waiting for completion of flashcopy mapping"
+" %(map)s, which is currently %(progress)s%% complete and has status "
+"'%(status)s'."
+msgstr ""
+"NV-CE3069A fr_FR: To delete vdisk %(vdisk_id)s, waiting for completion of"
+" flashcopy mapping %(map)s, which is currently %(progress)s%% complete "
+"and has status '%(status)s'."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1896
+#, python-format
+msgid "enter: _delete_vdisk: vdisk %s"
+msgstr "fr_FR: enter: _delete_vdisk: vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1901
+#, python-format
+msgid "warning: Tried to delete vdisk %s but it does not exist."
+msgstr "NV-E47B663 fr_FR: warning: Tried to delete vdisk %s but it does not exist."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1907
+#, python-format
+msgid "Removing vdisk %(vdisk_id)s"
+msgstr "NV-E18AA05 fr_FR: Removing vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1920
+#, python-format
+msgid ""
+"Hosts mapped to vdisk %(vdisk)s:\n"
+"%(out)s"
+msgstr ""
+"NV-4159ED7 fr_FR: Hosts mapped to vdisk %(vdisk)s:\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1926
+#, python-format
+msgid ""
+"Existing FlashCopy mappings:\n"
+"%(out)s"
+msgstr ""
+"NV-A345C87 fr_FR: Existing FlashCopy mappings:\n"
+"%(out)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1934
+#, python-format
+msgid "leave: _delete_vdisk: vdisk %s"
+msgstr "fr_FR: leave: _delete_vdisk: vdisk %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1944
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2038
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2087
+#, python-format
+msgid "adding volume_type_id to volume=%s"
+msgstr "NV-86F0410 fr_FR: adding volume_type_id to volume=%s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1966
+#, python-format
+msgid ""
+"Starting deletion of volume %(volume_id)s.  There is no associated vdisk,"
+" so no operation will be performed on the storage controller."
+msgstr ""
+"NV-04391FA fr_FR: Starting deletion of volume %(volume_id)s.  There is no"
+" associated vdisk, so no operation will be performed on the storage "
+"controller."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1972
+#, python-format
+msgid "Starting deletion of volume %(volume_id)s, backed by vdisk %(vdisk_id)s"
+msgstr ""
+"NV-0C0C004 fr_FR: Starting deletion of volume %(volume_id)s, backed by "
+"vdisk %(vdisk_id)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1984
+#, python-format
+msgid ""
+"delete_volume: vdisk mismatch: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr ""
+"NV-D258084 fr_FR: delete_volume: vdisk mismatch: %(err)s. Performing no "
+"operation on the storage controller"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:1990
+#, python-format
+msgid ""
+"delete_volume: vdisk deleted: %(err)s. Performing no operation on the "
+"storage controller"
+msgstr ""
+"NV-FC2A0B0 fr_FR: delete_volume: vdisk deleted: %(err)s. Performing no "
+"operation on the storage controller"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2027
+msgid "create_volume_from_snapshot: Source and destination size differ."
+msgstr ""
+"NV-5A82296 fr_FR: create_volume_from_snapshot: Source and destination "
+"size differ."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2048
+#, python-format
+msgid "create_volume_from_snapshot:  Source vdisk %s does not exist"
+msgstr ""
+"NV-4729BC4 fr_FR: create_volume_from_snapshot:  Source vdisk %s does not "
+"exist"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2075
+msgid "create_cloned_volume: Source and destination size differ."
+msgstr ""
+"NV-4DD8AF7 fr_FR: create_cloned_volume: Source and destination size "
+"differ."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2116
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1000
+#, python-format
+msgid "enter: extend_volume: volume %s"
+msgstr "NV-826757D fr_FR: enter: extend_volume: volume %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2126
+msgid "extend_volume: Extending a volume with snapshots is not supported."
+msgstr ""
+"NV-E7C02C3 fr_FR: extend_volume: Extending a volume with snapshots is not"
+" supported."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2138
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1026
+#, python-format
+msgid "leave: extend_volume: volume %s"
+msgstr "NV-0CDE488 fr_FR: leave: extend_volume: volume %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2154
+#, python-format
+msgid "enter: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "fr_FR: enter: migrate_volume: id=%(id)s, host=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2186
+msgid "migrate_volume started with more than one vdisk copy"
+msgstr "fr_FR: migrate_volume started with more than one vdisk copy"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2204
+#, python-format
+msgid ""
+"migrate_volume %(name)s - did not find success message in CLI output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"fr_FR: migrate_volume %(name)s - did not find success message in CLI "
+"output.\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2216
+msgid "migrate_volume: Could not get vdisk copy data"
+msgstr "NV-E8B0820 fr_FR: migrate_volume: Could not get vdisk copy data"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2231
+#, python-format
+msgid "leave: migrate_volume: id=%(id)s, host=%(host)s"
+msgstr "fr_FR: leave: migrate_volume: id=%(id)s, host=%(host)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2253
+msgid "Updating volume stats"
+msgstr "fr_FR: Updating volume stats"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2276
+msgid "Could not get pool data from the storage"
+msgstr "NV-675559D fr_FR: Could not get pool data from the storage"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2277
+msgid "_update_volume_stats: Could not get storage pool data"
+msgstr "NV-F6BB258 fr_FR: _update_volume_stats: Could not get storage pool data"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2364
+msgid ""
+"Illegal value specified for storwize_svc_vol_rsize: set to either a "
+"percentage (0-100) or -1"
+msgstr ""
+"NV-8977C50 fr_FR: Illegal value specified for storwize_svc_vol_rsize: set"
+" to either a percentage (0-100) or -1"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2370
+msgid ""
+"Illegal value specified for storwize_svc_vol_warning: set to a percentage"
+" (0-100)"
+msgstr ""
+"NV-80C1898 fr_FR: Illegal value specified for storwize_svc_vol_warning: "
+"set to a percentage (0-100)"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2377
+msgid ""
+"Illegal value specified for storwize_svc_vol_grainsize: set to either 32,"
+" 64, 128, or 256"
+msgstr ""
+"NV-8A90F92 fr_FR: Illegal value specified for storwize_svc_vol_grainsize:"
+" set to either 32, 64, 128, or 256"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2384
+msgid "System does not support compression"
+msgstr "NV-90F35C9 fr_FR: System does not support compression"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2389
+msgid "If compression is set to True, rsize must also be set (not equal to -1)"
+msgstr ""
+"NV-102C98D fr_FR: If compression is set to True, rsize must also be set "
+"(not equal to -1)"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2395
+#, python-format
+msgid ""
+"Illegal value %(prot)s specified for storwize_svc_connection_protocol: "
+"valid values are %(enabled)s"
+msgstr ""
+"NV-5EBEB51 fr_FR: Illegal value %(prot)s specified for "
+"storwize_svc_connection_protocol: valid values are %(enabled)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2403
+#, python-format
+msgid "I/O group %(iogrp)d is not valid; available I/O groups are %(avail)s"
+msgstr ""
+"NV-9E31DDB fr_FR: I/O group %(iogrp)d is not valid; available I/O groups "
+"are %(avail)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2417
+#, python-format
+msgid "enter: _execute_command_and_parse_attributes:  command %s"
+msgstr "fr_FR: enter: _execute_command_and_parse_attributes:  command %s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2429
+#, python-format
+msgid ""
+"CLI Exception output:\n"
+" command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"NV-A3B1CA4 fr_FR: CLI Exception output:\n"
+" command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2446
+#, python-format
+msgid ""
+"leave: _execute_command_and_parse_attributes:\n"
+"command: %(cmd)s\n"
+"attributes: %(attr)s"
+msgstr ""
+"fr_FR: leave: _execute_command_and_parse_attributes:\n"
+"command: %(cmd)s\n"
+"attributes: %(attr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2465
+#, python-format
+msgid ""
+"_get_hdr_dic: attribute headers and values do not match.\n"
+" Headers: %(header)s\n"
+" Values: %(row)s"
+msgstr ""
+"fr_FR: _get_hdr_dic: attribute headers and values do not match.\n"
+" Headers: %(header)s\n"
+" Values: %(row)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2473
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+"stdout: %(out)s\n"
+"stderr: %(err)s\n"
+msgstr ""
+"NV-39015B6 fr_FR: %(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+"stdout: %(out)s\n"
+"stderr: %(err)s\n"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2487
+#, python-format
+msgid ""
+"%(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+msgstr ""
+"fr_FR: %(fun)s: Failed with unexpected CLI output.\n"
+" Command: %(cmd)s\n"
+" stdout: %(out)s\n"
+" stderr: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_driver_id.py:2495
+#, python-format
+msgid "Did not find expected column in %(fun)s: %(hdr)s"
+msgstr "NV-BEC3CF8 fr_FR: Did not find expected column in %(fun)s: %(hdr)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:101
+#, python-format
+msgid ""
+"StorwizeSVCProductDriver: start flashcopy mapping polling timer, polling "
+"interval: %(intval)s seconds"
+msgstr ""
+"NV-796256C fr_FR: StorwizeSVCProductDriver: start flashcopy mapping "
+"polling timer, polling interval: %(intval)s seconds"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:572
+#, python-format
+msgid ""
+"The connector %(connector)s does not contain the required keys, which are"
+" %(expected_fc_keys)s.or %(expected_iscsi_keys)s"
+msgstr ""
+"fr_FR: The connector %(connector)s does not contain the required keys, "
+"which are %(expected_fc_keys)s.or %(expected_iscsi_keys)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:628
+#, python-format
+msgid "Incorporating WWPNS for Node %(node_id)s: %(wwpns)s"
+msgstr "NV-365ED6F fr_FR: Incorporating WWPNS for Node %(node_id)s: %(wwpns)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:640
+#, python-format
+msgid ""
+"Attachment for host '%(host)s' to %(storage)s for volume %(volume)s "
+"expects zoning between initiator WWPNs %(initiators)s and target WWPNs "
+"%(targets)s"
+msgstr ""
+"NV-0F22247 fr_FR: Attachment for host '%(host)s' to %(storage)s for "
+"volume %(volume)s expects zoning between initiator WWPNs %(initiators)s "
+"and target WWPNs %(targets)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:704
+#, python-format
+msgid "Mapping initiator %(phy)s to node %(node)s"
+msgstr "NV-5DC7B55 fr_FR: Mapping initiator %(phy)s to node %(node)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:749
+#, python-format
+msgid ""
+"Fabric %(fabric)s does not have visibility to any WWPNs in node %(node)s,"
+" part of iogrp %(iogrp)s of storage controller %(name)s. WWPNs visible on"
+" the fabric are %(visible)s. WWPNs on the controller are %(available)s."
+msgstr ""
+"fr_FR: Fabric %(fabric)s does not have visibility to any WWPNs in node "
+"%(node)s, part of iogrp %(iogrp)s of storage controller %(name)s. WWPNs "
+"visible on the fabric are %(visible)s. WWPNs on the controller are "
+"%(available)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:794
+msgid "Zoning for single fabric, one initiator."
+msgstr "NV-6E5D37F fr_FR: Zoning for single fabric, one initiator."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:804
+msgid "Zoning for single fabric, two initiators."
+msgstr "NV-2E0EF21 fr_FR: Zoning for single fabric, two initiators."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:818
+#, python-format
+msgid ""
+"Zoning for single fabric, general case due to %(count)s initiators on "
+"fabric."
+msgstr ""
+"NV-D9A5CD2 fr_FR: Zoning for single fabric, general case due to %(count)s"
+" initiators on fabric."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:828
+msgid "Zoning for dual fabric, one initiator per fabric."
+msgstr "NV-EE35C79 fr_FR: Zoning for dual fabric, one initiator per fabric."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:847
+msgid "Zoning for dual fabric, two initiators per fabric."
+msgstr "NV-C638EFA fr_FR: Zoning for dual fabric, two initiators per fabric."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:867
+#, python-format
+msgid ""
+"Zoning for dual fabric, general case due to %(count1)s initiators on "
+"first fabric and %(count2)s initiators on second fabric."
+msgstr ""
+"NV-4351BA7 fr_FR: Zoning for dual fabric, general case due to %(count1)s "
+"initiators on first fabric and %(count2)s initiators on second fabric."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:877
+#, python-format
+msgid "Zoning for general case due to %(count)s fabrics."
+msgstr "NV-0733A1E fr_FR: Zoning for general case due to %(count)s fabrics."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:894
+#, python-format
+msgid "Creating zones: %r"
+msgstr "NV-70BDC4D fr_FR: Creating zones: %r"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:906
+#, python-format
+msgid "Requested mapping for initiators  %(initiators)s and targets %(targets)s"
+msgstr ""
+"NV-35F3CC8 fr_FR: Requested mapping for initiators  %(initiators)s and "
+"targets %(targets)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:924
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:933
+#, python-format
+msgid "Returned mapping is %(mapping)s"
+msgstr "NV-10E28B0 fr_FR: Returned mapping is %(mapping)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:959
+#, python-format
+msgid "Terminating connection with parameters %(connector)sconnector"
+msgstr ""
+"NV-4EFE246 fr_FR: Terminating connection with parameters "
+"%(connector)sconnector"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:969
+#, python-format
+msgid "Removing zones for initiators: %(initiator_list)s"
+msgstr "NV-CC588B5 fr_FR: Removing zones for initiators: %(initiator_list)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1058
+#, python-format
+msgid "SSH Pool: %d free, %d waiting, in-flight commands:"
+msgstr "NV-F9DD698 fr_FR: SSH Pool: %d free, %d waiting, in-flight commands:"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1062
+#, python-format
+msgid " %(duration).2f %(commands)s"
+msgstr "NV-98D8DC3 fr_FR:  %(duration).2f %(commands)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1116
+#, python-format
+msgid ""
+"vdisk %(vdsk)s has been added to the flashcopy mapping delete queue with "
+"priority %(pri)s."
+msgstr ""
+"NV-38E83B6 fr_FR: vdisk %(vdsk)s has been added to the flashcopy mapping "
+"delete queue with priority %(pri)s."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1124
+#, python-format
+msgid ""
+"Successfully returned from flashcopy mapping waiter for vdisk %(vdsk)s, "
+"returned value: %(ret)s, total wait time: %(wt)s seconds."
+msgstr ""
+"NV-62F28E6 fr_FR: Successfully returned from flashcopy mapping waiter for"
+" vdisk %(vdsk)s, returned value: %(ret)s, total wait time: %(wt)s "
+"seconds."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1141
+#, python-format
+msgid ""
+"Exception happened when waiting for flashcopy mapping handling for vdisk "
+"%(vdsk)s, total wait time: %(wt)s seconds."
+msgstr ""
+"NV-71EC636 fr_FR: Exception happened when waiting for flashcopy mapping "
+"handling for vdisk %(vdsk)s, total wait time: %(wt)s seconds."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1147
+#, python-format
+msgid ""
+"Removed flashcopy mappings waiter from waiting queue for vdisk %(vdsk)s "
+"deletion."
+msgstr ""
+"NV-46703B0 fr_FR: Removed flashcopy mappings waiter from waiting queue "
+"for vdisk %(vdsk)s deletion."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1158
+#, python-format
+msgid "Flashcopy mapping delete queue: %(vdsks)s"
+msgstr "NV-CA4A211 fr_FR: Flashcopy mapping delete queue: %(vdsks)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1168
+#, python-format
+msgid ""
+"Flashcopy mapping delete queue: %(cnt)s vdisks pending delete, average "
+"wait time: %(avg)s seconds"
+msgstr ""
+"NV-91BB641 fr_FR: Flashcopy mapping delete queue: %(cnt)s vdisks pending "
+"delete, average wait time: %(avg)s seconds"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1217
+#, python-format
+msgid "fcmapping_handler: %(err)s"
+msgstr "fr_FR: fcmapping_handler: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1220
+#, python-format
+msgid ""
+"fcmapping_handler: to delete vdisk %(vdisk_id)s, increasing copyrate of "
+"flashcopy mapping %(map)s from 0 to %(copyrate)s and waiting for "
+"completion."
+msgstr ""
+"NV-EE5BEB1 fr_FR: fcmapping_handler: to delete vdisk %(vdisk_id)s, "
+"increasing copyrate of flashcopy mapping %(map)s from 0 to %(copyrate)s "
+"and waiting for completion."
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1332
+#, python-format
+msgid ""
+"Exception happened during processing flashcopy mapping per vdisk %(vdsk)s"
+" deletion: %(err)s"
+msgstr ""
+"NV-71C30D1 fr_FR: Exception happened during processing flashcopy mapping "
+"per vdisk %(vdsk)s deletion: %(err)s"
+
+#: paxes_cinder/volume/drivers/svc/storwize_svc_product.py:1362
+#, python-format
+msgid ""
+"Duration of fcmapping_handler timer: %(runtime)s seconds, %(pct)s%% of "
+"fixed polling interval."
+msgstr ""
+"NV-80870AC fr_FR: Duration of fcmapping_handler timer: %(runtime)s "
+"seconds, %(pct)s%% of fixed polling interval."
+

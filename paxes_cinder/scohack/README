@@ -1,0 +1,13 @@
+paxes_cinder.scohack
+----------------
+
+Several modules in this package were adapted from glance.store modules
+
+Strategically, image import (probably) belongs in glance not in cinder
+
+However, tactically, for PowerVC R2FP1, image import lives here in
+paxes_cinder.scohack.
+
+Modules borrowed from glance, while modified, have been left close to
+their original form to support the possibility that the image import
+function will be moved to glance in future releases
